@@ -14,7 +14,8 @@ const TemplateWrapper = ({ children }) => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
-
+        <meta name="keywords" content= 'african, bhm, black history, cultural events' />
+        <meta name="author" content= 'Alfi Yusrina' />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
