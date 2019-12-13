@@ -16,7 +16,7 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <div
+  {/*  <div
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
@@ -63,7 +63,7 @@ export const IndexPageTemplate = ({
           {subheading}
         </h3>
       </div>
-    </div>
+    </div>*/}
     <section className="section section--gradient">
       <div className="container">
         <div className="section">
