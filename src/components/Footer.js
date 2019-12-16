@@ -5,7 +5,6 @@ import logo from '../img/bhm-logo.svg'
 import facebook from '../img/social/facebook.svg'
 import instagram from '../img/social/instagram.svg'
 import twitter from '../img/social/twitter.svg'
-import vimeo from '../img/social/vimeo.svg'
 
 const Footer = class extends React.Component {
   render() {
@@ -14,7 +13,7 @@ const Footer = class extends React.Component {
 
           <img className="content"
             src={logo}
-            alt="Kaldi"
+            alt="BHM"
             style={{ width: '14em', height: '10em' }}
           />
           <div className="social">
