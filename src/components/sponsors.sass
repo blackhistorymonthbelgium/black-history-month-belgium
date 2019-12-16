@@ -1,2 +1,46 @@
 .sponsors
-  display: flex;
+  .sponsors-wrapper
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+
+  li
+    padding: 1em;
+
+  .bePartner
+    width: 40%;
+    margin-bottom: 20px;
+
+    h1
+      font-family: GT-Eesti-Pro-Text-Bold;
+      color: white;
+      font-size: 2.2em;
+      text-transform: uppercase;
+
+    h2
+      font-family: GT-Eesti-Pro-Text-Medium;
+      color: $black;
+      font-size: 1.2em;
+    p
+      font-family: GT-Eesti-Pro-Text-Regular;
+      color: $black;
+      font-size: 1.2em;
+      line-height: normal;
+      margin-bottom: 10px;
+    a
+      background-color: white;
+      color: $black;
+      font-family: Dolce-Vita-Heavy-Bold;
+      text-transform: uppercase;
+      padding: 10px;
+      display: inline-block;
+    a:hover
+      color: $yellow;
+  .partners
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    a:hover
+      opacity: 0.7;
