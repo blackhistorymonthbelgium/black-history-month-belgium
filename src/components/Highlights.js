@@ -1,22 +1,38 @@
 import React from "react"
 import { Link } from 'gatsby'
+import poster from '../img/poster.jpg'
+import event from '../img/event.jpg'
 const Highlights = () => (
   <section className="highlights">
-    <h1>Highlights</h1>
     <div className="poster">
-        <h2>Poster</h2>
+        <img
+        src={poster}
+        title="Black History Month 2020"
+        alt="Poster BHM 2020"
+        />
         <Link to="/poster">
           Read more
         </Link>
     </div>
     <div className="special-event">
-    <h2>Special Event</h2>
-    <Link to="/special-event">
-      Detail
-    </Link>
-    </div>
+      <span>#music #debate</span>
+      <p>
+        <time>
+          <span className="date-event">1-20</span>
 
-    <p>Event</p>
+          <span className="month-event">Mar</span>
+        </time>
+      </p>
+      <img
+      src={event}
+      title="Black History Month 2020"
+      alt="Highlight event BHM 2020"
+      />
+      <h1>Africa is/in the future 2019</h1>
+      <Link to="/special-event">
+        Detail
+      </Link>
+    </div>
   </section>
 )
 export default Highlights
