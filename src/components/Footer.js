@@ -1,46 +1,34 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import logo from '../img/bhm-logo.svg'
-import facebook from '../img/social/facebook.svg'
-import instagram from '../img/social/instagram.svg'
-import twitter from '../img/social/twitter.svg'
 
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="footer has-background-black has-text-white-ter">
+      <footer>
+        <div className="wrapper">
+        <div>
+          <img src={logo} alt="Black History Month Belgium" style={{ width: '100px' }} />
+          <br/>
+          <span>©2020</span>
+        </div>
+        <div>
+          <h1 className="footerTitle">Contact</h1>
+          <a href="mailto:blackhistorymonth.belgium@gmail.com?subject=Hello&body=Hello BHM!...">
+            blackhistorymonth.belgium@gmail.com
+          </a>
+        </div>
 
-          <img className="content"
-            src={logo}
-            alt="BHM"
-            style={{ width: '14em', height: '10em' }}
-          />
-          <div className="social">
-            <a title="facebook" href="https://www.facebook.com/blackhistorymonthbelgium/">
-              <img
-                src={facebook}
-                alt="Facebook"
-                style={{ width: '1em', height: '1em' }}
-              />
-            </a>
-            <a title="twitter" href="https://twitter.com/bhmantwerp">
-              <img
-                className="fas fa-lg"
-                src={twitter}
-                alt="Twitter"
-                style={{ width: '1em', height: '1em' }}
-              />
-            </a>
-            <a title="instagram" href="https://www.instagram.com/bhmbelgium/">
-              <img
-                src={instagram}
-                alt="Instagram"
-                style={{ width: '1em', height: '1em' }}
-              />
-            </a>
-          </div>
+        <div className="followUsFooter">
+        <h1 className="footerTitle">Follow Us</h1>
+        <div className="social-list">
+          <a className="social-item" title="facebook" href="https://www.facebook.com/blackhistorymonthbelgium/"><i className="iconSocial fal fa-thumbs-up"/></a>
+          <a className="social-item" title="instagram" href="https://www.instagram.com/bhmbelgium/"><i className="iconSocial fab fa-instagram"/></a>
+          <a className="social-item" title="twitter" href="https://twitter.com/bhmantwerp"><i className="iconSocial fab fa-twitter"/></a>
+        </div>
+        </div>
 
+        </div>
       </footer>
     )
   }

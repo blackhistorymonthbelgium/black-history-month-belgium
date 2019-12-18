@@ -11,7 +11,7 @@ const Highlights = () => (
         alt="Poster BHM 2020"
         />
         <Link to="/poster">
-          Read more
+          Read more <i className="far fa-chevron-right"></i>
         </Link>
     </div>
     <div className="special-event">
@@ -30,7 +30,7 @@ const Highlights = () => (
       />
       <h1>Africa is/in the future 2019</h1>
       <Link to="/special-event">
-        Detail
+        Detail <i className="far fa-chevron-right"></i>
       </Link>
     </div>
   </section>

@@ -14,8 +14,8 @@ const Sponsors = () => (
           <a href="mailto:blackhistorymonth.belgium@gmail.com?subject=Become BHM Partner&body=Hello BHM! We'd like to be your partner...">
             Be our partner
           </a>
-        </div>
-        <ul className="partners">
+      </div>
+      <ul className="column partners">
         {partners.map((partner, key)=>
           <li key={key}>
             <a href="https://www.facebook.com/blackhistorymonthbelgium/">

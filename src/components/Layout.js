@@ -5,6 +5,12 @@ import Navbar from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
+import { library, dom } from '@fortawesome/fontawesome-svg-core'
+import { faChevronRight } from '@fortawesome/pro-regular-svg-icons'
+import { faThumbsUp } from '@fortawesome/pro-light-svg-icons'
+import { faInstagram, faTwitter} from '@fortawesome/free-brands-svg-icons'
+library.add(faChevronRight, faThumbsUp, faInstagram, faTwitter);
+dom.watch();
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
