@@ -3,8 +3,8 @@ import { Link } from 'gatsby'
 import poster from '../img/poster.jpg'
 import event from '../img/event.jpg'
 const Highlights = () => (
-  <section className="highlights">
-    <div className="poster">
+  <section className="columns is-half-desktop is-full-mobile highlights">
+    <div className="column poster">
         <img
         src={poster}
         title="Black History Month 2020"
@@ -14,7 +14,7 @@ const Highlights = () => (
           Read more <i className="far fa-chevron-right"></i>
         </Link>
     </div>
-    <div className="special-event">
+    <div className="column special-event">
       <span>#music #debate</span>
       <p>
         <time>

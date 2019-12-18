@@ -3,7 +3,8 @@ import { Link } from 'gatsby'
 import eventImg from '../img/event.jpg'
 const News = () => (
   <section className="news">
-    <div className="blog">
+    <div className="columns is-half-desktop is-full-tablet is-full-mobile news-wrapper">
+    <div className="column blog">
       <h1 className="titleNewsSection">Blogs</h1>
       <article className="wrapper">
         <header>
@@ -23,8 +24,7 @@ const News = () => (
       </article>
       <Link className="goToBlog" to="/blogs">More news <i class="far fa-chevron-right"/> </Link>
     </div>
-
-    <div className="social-med">
+    <div className="column social-med">
       <h1 className="titleNewsSection">Social Media</h1>
       <div className="wrapper">
         <h2>Stay up-to-date with our latest events!</h2>
@@ -50,6 +50,7 @@ const News = () => (
         </form>
 
       </div>
+    </div>
     </div>
   </section>
 )

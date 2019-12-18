@@ -5,7 +5,8 @@ const partners = [0,0,0,0,0,0,0,0, 0, 0];
 const Sponsors = () => (
   <section className="sponsors">
     <div className="sponsors-wrapper">
-      <div className="bePartner">
+    <div className="columns is-half-desktop is-full-tablet is-full-mobile ">
+      <div className="column bePartner">
         <h1>Our Partners</h1>
         <h2>LOREM IPSUM GENERATOR</h2>
         <p>
@@ -28,6 +29,7 @@ const Sponsors = () => (
           </li>
         )}
       </ul>
+    </div>
     </div>
   </section>
 )
