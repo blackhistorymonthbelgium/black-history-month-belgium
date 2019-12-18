@@ -3,7 +3,8 @@ import { Link } from 'gatsby'
 import poster from '../img/poster.jpg'
 import event from '../img/event.jpg'
 const Highlights = () => (
-  <section className="columns is-half-desktop is-full-mobile highlights">
+  <section className="highlights">
+    <div className="columns is-half-desktop is-full-mobile">
     <div className="column poster">
         <img
         src={poster}
@@ -32,6 +33,7 @@ const Highlights = () => (
       <Link to="/special-event">
         Detail <i className="far fa-chevron-right"></i>
       </Link>
+    </div>
     </div>
   </section>
 )
