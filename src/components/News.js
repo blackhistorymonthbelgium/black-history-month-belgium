@@ -22,7 +22,7 @@ const News = () => (
         </main>
 
       </article>
-      <Link className="goToBlog" to="/blogs">More news <i class="far fa-chevron-right"/> </Link>
+      <Link className="goToBlog" to="/blogs">More news <i className="far fa-chevron-right"/> </Link>
     </div>
     <div className="column social-med">
       <h1 className="titleNewsSection">Social Media</h1>
@@ -44,7 +44,7 @@ const News = () => (
           </a>
         </div>
         <form>
-          <label for="email">Register to our newsletter:</label>
+          <label htmlFor="email">Register to our newsletter:</label>
           <input className="emailSubscribe" type="email" placeholder="name@address.com" />
           <input className="subscribe" type="submit" value="Subscribe" />
         </form>

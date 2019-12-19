@@ -3,11 +3,22 @@
 .highlights
   padding: 15px
 
+  .column
+    display: flex
 
+  .column-event
+    flex-grow: 55
+  .column-poster
+    flex-grow: 45
   div
     margin-left: 5px
     margin-right: 5px
   .poster
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
     img
       border: 5px solid $blue
 
@@ -17,11 +28,33 @@
       font-family: Dolce-Vita-Heavy-Bold
       padding: 10px
       display: inline-block
+      text-align: center
+      width: 8em;
+      position: relative;
+      top: -24px;
+      transition: color 0.5s ease;
+
 
     a:hover
       color: $black
 
   .special-event
+    position: relative
+
+    img
+      position: relative
+
+    time
+      position: relative
+      left: 216px
+      top: 8px
+      z-index: 12
+      width: 3em
+      display: flex
+      flex-direction: column
+      justify-items: center
+      justify-content: center
+
     h1
       font-family: GT-Eesti-Pro-Text-Bold
       font-weight: bold
@@ -31,11 +64,23 @@
       color: $black
       background: rgba(255, 255, 255, 0.75)
       border: 5px solid $pink
+      position: relative
+      bottom: 60px
+      display: block
+      right: 10px
+
 
     span
       font-family: GT-Eesti-Pro-Text-Regular
       font-size: 1em
-      display: flex
+
+    .genre
+      background-color: $pink
+      position: relative
+      left: -6px
+      padding-bottom: 100px
+      top: 50px
+
 
     .date-event
       font-family: GT-Eesti-Pro-Text-Medium
@@ -51,11 +96,11 @@
       font-size: 1em
 
     a
-      background-color: $pink
       color: $black
       font-family: Dolce-Vita-Heavy-Bold
       padding: 10px
-      display: inline-block
+      transition: color 0.5s ease
+      position: relative
 
     a:hover
-      color: white
+      color: $pink

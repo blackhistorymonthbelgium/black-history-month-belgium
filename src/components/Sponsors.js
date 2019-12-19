@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from 'gatsby'
+
 import logo from '../img/bhm-logo.svg'
 const partners = [0,0,0,0,0,0,0,0, 0, 0];
 const Sponsors = () => (
