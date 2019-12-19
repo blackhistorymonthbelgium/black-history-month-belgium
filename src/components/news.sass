@@ -5,6 +5,21 @@
   width: 90%
   margin: 0 auto
   flex-wrap: wrap
+  padding: 10px
+
+  .outside-wrapper
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+    .wrapper
+      margin-top: 10px
+      margin-bottom: 10px
+      padding: 20px
+
+      header
+        padding-bottom: 10px
+        margin-bottom: 10px
 
   .titleNewsSection
     font-family: GT-Eesti-Pro-Text-Bold
@@ -14,12 +29,19 @@
 
 
   .blog
+    .wrapper
+        margin-top: 10px
+        margin-bottom: 10px
+        padding: 20px
     .goToBlog
         font-family: Dolce-Vita-Heavy-Bold
         padding: 10px
-        display: inline-block
+
         color: $black
         background-color: $yellow
+        position: relative
+        top: -23px
+        text-align: center
     .goToBlog:hover
       color: white
     h1
@@ -57,12 +79,17 @@
 
     .wrapper
       border: 5px solid $blue
+      margin-top: 10px
+      margin-bottom: 10px
+      padding: 20px
+
       label
+        font-size: 1.5em
         color: $black
         font-family: GT-Eesti-Pro-Text-Medium
 
       .emailSubscribe
-        border: 2px solid $blue
+        border: 1px solid $blue
       .emailSubscribe::placeholder
         color: $pink
         opacity: 0.5
@@ -73,16 +100,19 @@
         text-transform: uppercase
         font-family: Dolce-Vita-Heavy-Bold
         border: none
-
+        margin-left: 10px
       .subscribe:hover
         color: white
       .channel
         border-bottom: 2px solid $blue
+        padding: 10px 0
+        font-size: 1.5em
       a
         color: $black
         text-transform: uppercase
         font-family: Dolce-Vita-Heavy-Bold
         background-color: $pink
+        transition: color 0.5s ease
 
       .iconSocial
         color: $blue
@@ -91,6 +121,14 @@
         color: $blue
 
       h2
+        font-size: 1.5em
         color: $black
         font-family: GT-Eesti-Pro-Text-Medium
         border-bottom: 3px solid $blue
+input
+  font-size: 1em
+  padding-top: 10px
+  padding-bottom: 10px
+
+.inputs
+  display: flex
