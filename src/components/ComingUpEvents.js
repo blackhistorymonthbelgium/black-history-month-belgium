@@ -29,10 +29,15 @@ const ComingUpEvents = () => (
                 <span className="location"><i className="fal fa-map-marker-alt"/> Antwerp</span>
                 <span className="time"> <i className="fal fa-clock"/> 18:00</span>
               </div>
-              <Link to="/special-event">
-                Detail <i className="far fa-chevron-right"></i>
-              </Link>
             </div>
+          </div>
+        </div>
+        <div className='detail-wrapper'>
+          <div class='detail-spacer' />
+          <div class='detail-link'>
+            <Link to="/special-event">
+              Detail <i className="far fa-chevron-right"></i>
+            </Link>
           </div>
         </div>
       </li>
