@@ -25,35 +25,8 @@ const News = () => (
         <Link className="goToBlog" to="/blogs">More news <i className="far fa-chevron-right"/> </Link>
       </div>
     </div>
-    <div className="column social-med">
-      <h1 className="titleNewsSection">Social Media</h1>
-      <div className="wrapper">
-        <h2>Stay up-to-date with our latest events!</h2>
-        <div className="channel">
-          <i className="iconSocial fal fa-thumbs-up"/> <a title="facebook" href="https://www.facebook.com/blackhistorymonthbelgium/">
-            Like us on FB page <i className="far fa-chevron-right"/>
-           </a>
-        </div>
-        <div className="channel">
-          <i className="iconSocial fab fa-instagram"/> <a title="instagram" href="https://www.instagram.com/bhmbelgium/">
-            Follow us on Instagram <i className="far fa-chevron-right"/>
-          </a>
-        </div>
-        <div className="channel">
-          <i className="iconSocial fab fa-twitter"/>  <a title="twitter" href="https://twitter.com/bhmantwerp">
-            Follow us on Twitter <i className="far fa-chevron-right"/>
-          </a>
-        </div>
-        <form>
-          <label htmlFor="email">Register to our newsletter:</label>
-          <div className="inputs">
-            <input className="emailSubscribe" type="email" placeholder="name@address.com" />
-            <input className="subscribe" type="submit" value="Subscribe" />
-          </div>
-        </form>
 
-      </div>
-    </div>
+
     </div>
   </section>
 )
