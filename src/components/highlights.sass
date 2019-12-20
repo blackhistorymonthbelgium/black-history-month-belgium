@@ -34,26 +34,37 @@
       top: -24px;
       transition: color 0.5s ease;
 
-
     a:hover
       color: $black
 
   .special-event
     position: relative
-
+    display: flex
+    flex-direction: column
+    align-items: flex-end
     img
       position: relative
 
     time
-      position: relative
-      left: 216px
-      top: 8px
-      z-index: 12
-      width: 3em
+      font-family: GT-Eesti-Pro-Text-Bold
+      text-transform: uppercase
       display: flex
       flex-direction: column
-      justify-items: center
-      justify-content: center
+      width: 100px
+      border: 6px solid $pink
+      text-align: center
+      position: relative
+      bottom: -36px
+      z-index: 12
+      margin-right: 10px
+
+      .date-event
+        height: 40px
+        background-color: rgba(255, 255, 255, 0.2)
+        font-size: 26px
+      .month-event
+        background-color: $pink
+        font-size: 20px
 
     h1
       font-family: GT-Eesti-Pro-Text-Bold
@@ -104,3 +115,33 @@
 
     a:hover
       color: $pink
+
+.title-wrapper
+  .tag-event
+    background-color: $pink
+    position: relative
+    bottom: -75px
+    padding-bottom: 100px
+    right: 15px
+    padding-left: 15px
+    padding-top: 15px
+    padding-right: 10px
+    color: white
+    font-family: GT-Eesti-Pro-Text-Regular
+    font-size: 1em
+  h1
+    font-family: GT-Eesti-Pro-Text-Bold
+    font-weight: bold
+    font-size: 1.5em
+    line-height: 35px
+    text-transform: uppercase
+    color: $black
+    background: rgba(255, 255, 255, 0.75)
+    border: 5px solid $pink
+    position: relative
+    top: -40px
+    transition: background-color 0.5s ease
+    margin: 15px
+    padding: 5px
+  h1:hover
+    background-color: $pink

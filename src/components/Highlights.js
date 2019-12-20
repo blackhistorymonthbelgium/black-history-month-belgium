@@ -18,21 +18,20 @@ const Highlights = () => (
         </div>
       </div>
       <div className="column column-event">
-        <div className="special-event">
-          <span className="genre">#music #debate</span>
-          <time>
-            <span className="date-event">1-20</span>
-            <span className="month-event">Mar</span>
-          </time>
-
-            <div className="img-wrapper">
-              <img
-              src={event}
-              title="Black History Month 2020"
-              alt="Highlight event BHM 2020"
-              />
-              <h1><Link to="/special-event">Africa is/in the future 2019 shdxwehafgqwagxuqwg sjdsjhadj <i className="far fa-chevron-right"></i>  </Link></h1>
+        <div className="title-wrapper">
+          <span className="tag-event"> <i className="fal fa-hashtag" />  music debate </span>
+          <div className="special-event">
+            <time>
+              <span className="date-event">1-20</span>
+              <span className="month-event">Mar</span>
+            </time>
+            <img
+            src={event}
+            title="Black History Month 2020"
+            alt="Highlight event BHM 2020"
+            />
           </div>
+          <h1><Link to="/special-event">Africa is/in the future 2019 Long Title here  <i className="far fa-chevron-right"></i> </Link></h1>
         </div>
       </div>
     </div>

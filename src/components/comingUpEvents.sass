@@ -6,6 +6,14 @@
   flex-direction: column
   align-items: center
 
+  .goToAgenda
+    font-family: Dolce-Vita-Heavy-Bold
+    padding: 10px
+    color: $black
+    background-color: white
+    transition: color 0.5s ease
+  .goToAgenda:hover
+    color: $orange
   h1
     font-family: GT-Eesti-Pro-Text-Bold
     font-size: 1.5em
@@ -49,12 +57,12 @@
       a
         font-family: Dolce-Vita-Heavy-Bold
         padding: 10px
-        color: black
+        color: $black
         height: 100%
       a:hover
-        color: gray
+        color: $yellow
       ::before
-        background-color: yellow
+        background-color: $orange
         content: ' '
         display: block
         position: absolute
@@ -63,7 +71,7 @@
         left: 0
         right: 0
         z-index: -1
-    
+
   .event-wrapper
     margin-top: 60px
     background-color: white
@@ -99,12 +107,12 @@
 
     img
       width: 200px
-    
+
     .detail-btn-event
       display: flex
       justify-content: space-between
       align-items: flex-end
-    
+
     .detail
       display: flex
       flex-direction: column

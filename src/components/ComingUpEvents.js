@@ -43,7 +43,7 @@ const ComingUpEvents = () => (
       </li>
     )}
     </ul>
-    <Link to="/agenda">See more events <i className="far fa-chevron-right"></i></Link>
+    <Link className="goToAgenda" to="/agenda">See more events <i className="far fa-chevron-right"></i></Link>
   </section>
 )
 export default ComingUpEvents
