@@ -113,10 +113,10 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-    <News />*/}
+    */}
     <Highlights />
     <ComingUpEvents />
-
+    <News />
     <Sponsors />
   </>
 )
