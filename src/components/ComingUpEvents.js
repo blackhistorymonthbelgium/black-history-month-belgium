@@ -33,8 +33,8 @@ const ComingUpEvents = () => (
           </div>
         </div>
         <div className='detail-wrapper'>
-          <div class='detail-spacer' />
-          <div class='detail-link'>
+          <div className='detail-spacer' />
+          <div className='detail-link'>
             <Link to="/special-event">
               Detail <i className="far fa-chevron-right"></i>
             </Link>

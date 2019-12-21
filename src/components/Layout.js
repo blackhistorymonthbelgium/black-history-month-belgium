@@ -7,9 +7,9 @@ import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 import { library, dom } from '@fortawesome/fontawesome-svg-core'
 import { faChevronRight } from '@fortawesome/pro-regular-svg-icons'
-import { faThumbsUp, faMapMarkerAlt, faHashtag, faClock} from '@fortawesome/pro-light-svg-icons'
+import { faThumbsUp, faMapMarkerAlt, faHashtag, faClock, faChevronDown} from '@fortawesome/pro-light-svg-icons'
 import { faInstagram, faTwitter} from '@fortawesome/free-brands-svg-icons'
-library.add(faChevronRight, faThumbsUp, faInstagram, faTwitter, faMapMarkerAlt, faHashtag, faClock);
+library.add(faChevronRight, faThumbsUp, faInstagram, faTwitter, faMapMarkerAlt, faHashtag, faClock, faChevronDown);
 dom.watch();
 
 const TemplateWrapper = ({ children }) => {
