@@ -86,7 +86,41 @@
       border: 5px solid $blue
       margin-top: 10px
       margin-bottom: 10px
-      padding: 20px
+      padding: 3em 1em
+
+      .channel
+        border-bottom: 2px solid $blue
+        padding: 1.5em  0
+        font-size: 1.5em
+        display: flex
+        align-items: center
+        .iconSocial
+          color: $blue
+          font-size: 2em
+
+        .detail-link
+          position: relative
+          margin-left: 10px
+
+          a
+            color: $black
+            text-transform: uppercase
+            font-family: Dolce-Vita-Heavy-Bold
+            transition: color 0.5s ease
+            padding: 10px
+            height: 100%
+          a:hover
+            color: $blue
+          ::before
+            background-color: $pink
+            content: ' '
+            display: block
+            position: absolute
+            top: 0.8em
+            bottom: 0
+            left: 0
+            right: 0
+            z-index: -1
 
       label
         font-size: 1.5em
@@ -108,22 +142,7 @@
         margin-left: 10px
       .subscribe:hover
         color: white
-      .channel
-        border-bottom: 2px solid $blue
-        padding: 10px 0
-        font-size: 1.5em
-      a
-        color: $black
-        text-transform: uppercase
-        font-family: Dolce-Vita-Heavy-Bold
-        background-color: $pink
-        transition: color 0.5s ease
 
-      .iconSocial
-        color: $blue
-
-      a:hover
-        color: $blue
 
       h2
         font-size: 1.5em
@@ -137,3 +156,4 @@ input
 
 .inputs
   display: flex
+  flex-wrap: wrap
