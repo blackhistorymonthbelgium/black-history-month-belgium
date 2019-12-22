@@ -1,0 +1,38 @@
+@import "colors.sass"
+.blogs
+  .blogs-title
+    text-align: center;
+    color: $black;
+    font-family: Dolce-Vita-Heavy-Bold;
+    font-size: 2em;
+  // blog roll
+  .container
+    .content
+      .blogRoll
+        flex-direction: column
+        .column
+          border: 3px solid $yellow
+          .blogRoll-article
+            display: flex
+            flex-direction: column
+            a
+              font-family: GT-Eesti-Pro-Text-Bold
+              text-transform: uppercase
+              font-size: 0.8em
+              color: $orange
+            a:hover
+              color: $yellow
+          .subtitle
+            font-family: GT-Eesti-Pro-Text-Regular
+            font-size: 1em
+            color: $black
+
+
+  .blog-list-item.is-featured
+
+  .blog-list-item header
+    display: flex;
+
+  .blog-list-item .featured-thumbnail
+    flex-basis: 35%;
+    margin: 0 1.5em 0 0;
