@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import AgendaFilter from '../components/AgendaFilter'
+import AgendaResults from '../components/AgendaResults'
 import Content, { HTMLContent } from '../components/Content'
 
 export const AgendaPageTemplate = ({ title, content, contentComponent }) => {
@@ -12,6 +13,7 @@ export const AgendaPageTemplate = ({ title, content, contentComponent }) => {
     <section className="agenda">
       <h1>{title}</h1>
       <AgendaFilter />
+      <AgendaResults />
       <PageContent className="content" content={content} />
     </section>
   )

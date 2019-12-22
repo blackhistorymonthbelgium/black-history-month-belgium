@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from 'gatsby'
 import poster from '../img/poster.jpg'
 import event from '../img/event.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const AgendaFilter = () => (
   <form className="agenda-filter">
   <h2>

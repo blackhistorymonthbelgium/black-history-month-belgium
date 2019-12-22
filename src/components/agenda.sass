@@ -93,3 +93,111 @@
 
       .selectArrow
         height: unset
+  .agenda-results
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+
+    .performancer
+      position: relative
+      padding-top: 5px
+
+      h1
+        font-family: GT-Eesti-Pro-Text-Bold
+        font-weight: bold
+        font-size: 30px
+        line-height: 35px
+        text-transform: uppercase
+        color: $black
+        text-decoration: underline
+      p
+        font-family: GT-Eesti-Pro-Text-Medium
+        font-size: 20px
+        line-height: 35px
+        text-transform: uppercase
+        color: $orange
+
+    .detail-wrapper
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+      justify-content: flex-end
+      padding-left: 15px
+      padding-right: 5px
+      .detail-spacer
+        width: 210px
+        height: 50px
+      .detail-link
+        position: relative
+        z-index: 1
+        height: 2em
+        a
+          font-family: Dolce-Vita-Heavy-Bold
+          padding: 10px
+          color: $black
+          height: 100%
+        a:hover
+          color: $yellow
+        ::before
+          background-color: $orange
+          content: ' '
+          display: block
+          position: absolute
+          top: 0.8em
+          bottom: 0
+          left: 0
+          right: 0
+          z-index: -1
+
+    .event-wrapper
+      margin-top: 60px
+      background-color: white
+      border: 5px solid $orange
+      padding: 10px
+
+      time
+        margin-top: -60px
+        font-family: GT-Eesti-Pro-Text-Bold
+        text-transform: uppercase
+        display: flex
+        flex-direction: column
+        width: 100px
+        border: 6px solid $orange;
+        text-align: center;
+
+        .date-event
+          height: 40px
+          background-color: rgba(255, 255, 255, 0.2)
+          font-size: 26px
+        .month-event
+          background-color: $orange
+          font-size: 20px
+
+    .event-detail
+      display: flex
+      flex-direction: row
+      position: relative
+      justify-content: flex-start
+      padding-bottom: 10px
+      flex-wrap: wrap-reverse
+      margin-bottom: -64px
+
+      img
+        width: 200px
+        height: inherit
+        align-self: center
+
+
+      .detail
+        display: flex
+        flex-direction: column
+        font-size: 16px
+        padding-left: 10px
+        padding-right: 10px
+        .tag-event
+          color: $orange
+          text-decoration: underline
+          font-size: 16px
+        span
+          font-family: GT-Eesti-Pro-Text-Regular
