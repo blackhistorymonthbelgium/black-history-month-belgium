@@ -22,7 +22,7 @@ const News = () => (
               </p>
             </main>
           </article>
-          <Link className="goToBlog" to="/blogs">More news <i className="far fa-chevron-right"/> </Link>
+          <Link className="goToBlog" to="/blog">More news <i className="far fa-chevron-right"/> </Link>
         </div>
       </div>
       <div className="column social-med">

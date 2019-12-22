@@ -9,46 +9,51 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns is-multiline">
+      <div className="columns blogRoll">
         {posts &&
           posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
+            <div className="column" key={post.id}>
               <article
-                className={`blog-list-item tile is-child box notification ${
+                className={`tile blogRoll-article ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
+
+                <div className="post-meta">
+                {post.frontmatter.featuredimage ? (
+                  <div className="featured-thumbnail">
+                    <PreviewCompatibleImage
+                      imageInfo={{
+                        image: post.frontmatter.featuredimage,
+                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                      }}
+                    />
+                  </div>
+                ) : null}
+
+
+                </div >
                 <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                  <p className="post-meta">
+                  <h1>
                     <Link
-                      className="title has-text-primary is-size-4"
+                      className="title"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
+                  </h1>
+                  <span> &bull; </span>
+                  <span className="subtitle">
+                    {post.frontmatter.date}
+                  </span>
                 </header>
                 <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.fields.slug}>
-                    Keep Reading →
-                  </Link>
+                {post.excerpt}
+                <br />
+                <br />
+                <Link className="keepReading" to={post.fields.slug}>
+                  Keep Reading <i className="far fa-chevron-right"/>
+                </Link>
                 </p>
               </article>
             </div>
