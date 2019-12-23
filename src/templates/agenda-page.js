@@ -14,7 +14,6 @@ export const AgendaPageTemplate = ({ title, content, contentComponent }) => {
       <h1>{title}</h1>
       <AgendaFilter />
       <AgendaResults />
-      <PageContent className="content" content={content} />
     </section>
   )
 }
