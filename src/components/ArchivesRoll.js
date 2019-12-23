@@ -18,7 +18,6 @@ class ArchivesRoll extends React.Component {
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
-
                 <div className="post-meta">
                 {post.frontmatter.featuredimage ? (
                   <div className="featured-thumbnail">
@@ -31,29 +30,27 @@ class ArchivesRoll extends React.Component {
                   </div>
                 ) : null}
 
-
+                  <header>
+                    <h1>
+                      <Link
+                        className="title"
+                        to={post.fields.slug}
+                      >
+                        {post.frontmatter.title}
+                      </Link>
+                    </h1>
+                  </header>
                 </div >
-                <header>
-                  <h1>
-                    <Link
-                      className="title"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                  </h1>
-                  <span> &bull; </span>
+                <p>
                   <span className="subtitle">
                     {post.frontmatter.date}
                   </span>
-                </header>
-                <p>
-                {post.excerpt}
-                <br />
-                <br />
-                <Link className="keepReading" to={post.fields.slug}>
-                  Keep Reading <i className="far fa-chevron-right"/>
-                </Link>
+                  <br />
+                  {post.excerpt}
+                  <br />
+                  <Link className="keepReading" to={post.fields.slug}>
+                    Keep Reading <i className="far fa-chevron-right"/>
+                  </Link>
                 </p>
               </article>
             </div>

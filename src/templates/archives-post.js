@@ -17,7 +17,7 @@ export const ArchivesPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <section className="section archives-post">
       {helmet || ''}
       <div className="container content">
         <div className="columns">

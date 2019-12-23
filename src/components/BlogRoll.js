@@ -30,30 +30,29 @@ class BlogRoll extends React.Component {
                     />
                   </div>
                 ) : null}
+                  <header>
+                    <h1>
+                      <Link
+                        className="title"
+                        to={post.fields.slug}
+                      >
+                        {post.frontmatter.title}
+                      </Link>
+                    </h1>
 
-
+                  </header>
                 </div >
-                <header>
-                  <h1>
-                    <Link
-                      className="title"
-                      to={post.fields.slug}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                  </h1>
-                  <span> &bull; </span>
+                <p>
                   <span className="subtitle">
                     {post.frontmatter.date}
                   </span>
-                </header>
-                <p>
-                {post.excerpt}
-                <br />
-                <br />
-                <Link className="keepReading" to={post.fields.slug}>
-                  Keep Reading <i className="far fa-chevron-right"/>
-                </Link>
+
+                  <br />
+                  {post.excerpt}
+                  <br />
+                  <Link className="keepReading" to={post.fields.slug}>
+                     Keep Reading <i className="far fa-chevron-right"/>
+                  </Link>
                 </p>
               </article>
             </div>
@@ -81,7 +80,7 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 250)
               id
               fields {
                 slug
