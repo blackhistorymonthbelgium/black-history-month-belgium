@@ -13,6 +13,7 @@ export const ArchivesPostTemplate = ({
   tags,
   title,
   helmet,
+  yearBHM,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -26,6 +27,7 @@ export const ArchivesPostTemplate = ({
               {title}
             </h1>
             <p>{description}</p>
+            <p>{yearBHM}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -52,6 +54,7 @@ ArchivesPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  yearBHM: PropTypes.string,
 }
 
 const ArchivesPost = ({ data }) => {
@@ -74,6 +77,7 @@ const ArchivesPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        yearBHM={post.frontmatter.yearBHM}
       />
     </Layout>
   )
@@ -97,6 +101,7 @@ export const pageQuery = graphql`
         title
         description
         tags
+
       }
     }
   }
