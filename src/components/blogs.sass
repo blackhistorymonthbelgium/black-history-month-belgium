@@ -1,5 +1,7 @@
 @import "colors.sass"
 .blogs
+  margin: 2em auto
+  width: 80%
   .blogs-title
     text-align: center;
     color: $black;
@@ -12,16 +14,30 @@
         flex-direction: column
         .column
           border: 3px solid $yellow
+          margin: 15px 0
           .blogRoll-article
             display: flex
             flex-direction: column
+
+            .post-meta
+              display: flex
+              flex-wrap: wrap
+              align-items: center
+              margin-bottom: 20px
+              .featured-thumbnail
+                width: 10em
+                margin-right: 20px
             a
-              font-family: GT-Eesti-Pro-Text-Bold
+              font-family: GT-Eesti-Pro-Text-Medium
               text-transform: uppercase
               font-size: 0.8em
               color: $orange
             a:hover
               color: $yellow
+            p
+              font-family: GT-Eesti-Pro-Text-Regular
+              font-size: 0.8em
+              color: $black
           .subtitle
             font-family: GT-Eesti-Pro-Text-Regular
             font-size: 1em
