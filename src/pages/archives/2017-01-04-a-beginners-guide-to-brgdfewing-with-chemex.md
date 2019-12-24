@@ -8,6 +8,7 @@ description: Brewing with a Chemex probably seems like a complicated, time-consu
 tags:
   - brewing
   - chemex
+year: '2018'
 ---
 ![chemex](/img/chemex.jpg)
 
