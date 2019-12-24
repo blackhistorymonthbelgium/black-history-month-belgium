@@ -13,7 +13,7 @@ export const ArchivesPostTemplate = ({
   tags,
   title,
   helmet,
-  yearBHM,
+  year,
 }) => {
   const PostContent = contentComponent || Content
 
@@ -26,8 +26,8 @@ export const ArchivesPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p>{description}</p>
-            <p>{yearBHM}</p>
+            <p><b>Thema :</b> {description}</p>
+            <p><b>Year:</b> {year}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -54,7 +54,7 @@ ArchivesPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  yearBHM: PropTypes.string,
+  year: PropTypes.string,
 }
 
 const ArchivesPost = ({ data }) => {
@@ -77,7 +77,7 @@ const ArchivesPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
-        yearBHM={post.frontmatter.yearBHM}
+        year={post.frontmatter.year}
       />
     </Layout>
   )
@@ -96,12 +96,13 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
         description
         tags
-
+        year
       }
     }
   }

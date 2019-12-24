@@ -9,49 +9,40 @@ class ArchivesRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns blogRoll">
+      <div className="columns archivesRoll">
         {posts &&
           posts.map(({ node: post }) => (
             <div className="column" key={post.id}>
               <article
-                className={`tile blogRoll-article ${
+                className={`tile archivesRoll-article ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
                 <div className="post-meta">
-                {post.frontmatter.featuredimage ? (
-                  <div className="featured-thumbnail">
-                    <PreviewCompatibleImage
-                      imageInfo={{
-                        image: post.frontmatter.featuredimage,
-                        alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                      }}
-                    />
-                  </div>
-                ) : null}
-
-                  <header>
-                    <h1>
-                      <Link
-                        className="title"
-                        to={post.fields.slug}
-                      >
-                        {post.frontmatter.title}
-                      </Link>
-                    </h1>
-                  </header>
-                </div >
-                <p>
-                  <span className="subtitle">
-                    {post.frontmatter.date}
-                  </span>
-                  <br />
-                  {post.excerpt}
-                  <br />
-                  <Link className="keepReading" to={post.fields.slug}>
-                    Keep Reading <i className="far fa-chevron-right"/>
+                  <Link
+                    className="title"
+                    to={post.fields.slug}
+                  >
+                    <header>
+                      <h1>
+                          {post.frontmatter.title} <i className="far fa-chevron-right"/>
+                      </h1>
+                      <span className="subtitle">
+                        {post.frontmatter.year}
+                      </span>
+                    </header>
+                    {post.frontmatter.featuredimage ? (
+                      <div className="featured-thumbnail">
+                        <PreviewCompatibleImage
+                          imageInfo={{
+                            image: post.frontmatter.featuredimage,
+                            alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                          }}
+                        />
+                      </div>
+                    ) : null}
                   </Link>
-                </p>
+                </div >
               </article>
             </div>
           ))}
@@ -87,6 +78,7 @@ export default () => (
                 title
                 templateKey
                 date(formatString: "MMMM DD, YYYY")
+                year
                 featuredpost
                 featuredimage {
                   childImageSharp {
