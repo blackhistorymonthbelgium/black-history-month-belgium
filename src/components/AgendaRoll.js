@@ -3,18 +3,18 @@ import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 
-class ArchivesRoll extends React.Component {
+class AgendaRoll extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
 
     return (
-      <div className="columns archivesRoll">
+      <div className="columns agendaRoll">
         {posts &&
           posts.map(({ node: post }) => (
             <div className="column" key={post.id}>
               <article
-                className={`archivesRoll-article ${
+                className={`agendaRoll-article ${
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
@@ -51,7 +51,7 @@ class ArchivesRoll extends React.Component {
   }
 }
 
-ArchivesRoll.propTypes = {
+AgendaRoll.propTypes = {
   data: PropTypes.shape({
     allMarkdownRemark: PropTypes.shape({
       edges: PropTypes.array,
@@ -62,10 +62,10 @@ ArchivesRoll.propTypes = {
 export default () => (
   <StaticQuery
     query={graphql`
-      query ArchivesRollQuery {
+      query AgendaRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "archives-post" } } }
+          filter: { frontmatter: { templateKey: { eq: "agenda-post" } } }
         ) {
           edges {
             node {
@@ -93,6 +93,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <ArchivesRoll data={data} count={count} />}
+    render={(data, count) => <AgendaRoll data={data} count={count} />}
   />
 )

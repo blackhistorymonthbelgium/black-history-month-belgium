@@ -7,6 +7,7 @@ import Highlights from '../components/Highlights'
 import ComingUpEvents from '../components/ComingUpEvents'
 import News from '../components/News'
 import Sponsors from '../components/Sponsors'
+import BlogRoll from '../components/ArchivesRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -118,6 +119,7 @@ export const IndexPageTemplate = ({
     <ComingUpEvents />
     <News />
     <Sponsors />
+    <BlogRoll />
   </>
 )
 
