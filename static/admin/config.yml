@@ -58,6 +58,8 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Year", name: "year", widget: "string"}
+      - {label: "Artists", name: "artists", widget: "list"}
+      - {label: "Location", name: "location", widget: "string"}
 
   - name: "pages"
     label: "Pages"

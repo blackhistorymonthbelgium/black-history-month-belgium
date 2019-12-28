@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from 'gatsby'
-import poster from '../img/poster.jpg'
 import eventImg from '../img/event.jpg'
 const events = [0,0,0, 0, 0, 0];
 const AgendaResults = () => (
