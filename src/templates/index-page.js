@@ -1,13 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import {graphql } from 'gatsby'
-
 import Layout from '../components/Layout'
 import Highlights from '../components/Highlights'
 import ComingUpEvents from '../components/ComingUpEvents'
 import News from '../components/News'
 import Sponsors from '../components/Sponsors'
-import BlogRoll from '../components/ArchivesRoll'
 
 export const IndexPageTemplate = ({
   image,

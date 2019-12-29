@@ -22,8 +22,7 @@ export default class AgendaRoll extends React.Component {
                   </time>
                   <div className="performancer">
                     <h1><Link to={post.fields.slug}>{post.frontmatter.title}</Link></h1>
-                    <p>{post.frontmatter.artists.map(artist => (
-                      <Link key={artist} to={`/artists/${kebabCase(artist)}/`}>{artist} </Link>))}
+                    <p>{post.frontmatter.artists.join(", ")}
                     </p>
                   </div>
                   <div className="event-detail">

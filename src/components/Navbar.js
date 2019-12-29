@@ -71,7 +71,15 @@ const Navbar = class extends React.Component {
               <Link className="navbar-item" to="/blog">
                 Blog
               </Link>
+              <span className="languages">
+                <Link to="/"> en </Link>
+                <span> / </span>
+                <Link to="/"> nl </Link>
+                <span> / </span>
+                <Link to="/"> fr </Link>
+              </span>
             </div>
+
           </div>
         </div>
       </nav>
