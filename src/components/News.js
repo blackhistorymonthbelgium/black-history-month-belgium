@@ -18,7 +18,7 @@ const News = () => (
             <main>
               <time>30 Jan 2019</time>
               <p>Zwarte kunst is geen monoliet. Het is divers, expressief en biedt weerstand tegen eenvoudige categorisering. Het bestaat overal. In musea en galerijen, op gebouwen en in de straten, op blogs en digitale platforms en op de canvassen van onze lichamen
-                <Link> <span className="readMore">read  more...</span></Link>
+                <Link to="/"> <span className="readMore">read  more...</span></Link>
               </p>
             </main>
           </article>
