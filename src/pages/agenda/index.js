@@ -12,9 +12,9 @@ class AgendaIndexPage extends React.Component {
     super(props);
 
     this.state = {
-      filterDate: undefined,
-      filterType: undefined,
-      filterLocation: undefined
+      filterDate: 'any',
+      filterType: 'any',
+      filterLocation: 'any'
     };
   }
 
@@ -34,7 +34,11 @@ class AgendaIndexPage extends React.Component {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
     const { filterDate, filterType, filterLocation } = this.state;
-    const filteredPosts = posts;
+    const filteredPosts = posts.filter(post => {
+      return (filterType === 'any' || post.node.frontmatter.tags.includes(filterType))
+        && (filterDate === 'any' || moment(post.node.frontmatter.datestart).format('DD/MM') === filterDate)
+        && (filterLocation === 'any' || post.node.frontmatter.location === filterLocation);
+    });
     const dates = [...new Set(posts.map(post => moment(post.node.frontmatter.datestart).format('DD/MM')))];
     dates.sort();
     /*const types = [...posts.reduce((result, post) => {

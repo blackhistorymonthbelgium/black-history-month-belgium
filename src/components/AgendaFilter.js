@@ -21,22 +21,22 @@ const AgendaFilter = (props) => {
       </h2>
       <label className="dropdown-wrapper">
         <div className="select selectArrow">
-          <select value={filterDate || 'date'} onChange={onFilterDateChanged}>
-            <option value="date" disabled>Date
+          <select value={filterDate} onChange={onFilterDateChanged}>
+            <option value="any">Date
             </option>
             {dates.map(date => <option key={date} value={date}>{date}</option>)}
           </select>
         </div>
         <div className="select selectArrow">
-          <select value={filterType || 'type'} onChange={onFilterTypeChanged}>
-            <option value="type" disabled>Type
+          <select value={filterType} onChange={onFilterTypeChanged}>
+            <option value="any">Type
             </option>
             {types.map(type => <option key={type} value={type}>{type}</option>)}
           </select>
         </div>
         <div className="select selectArrow">
-          <select value={filterLocation || 'location'} onChange={onFilterLocationChanged}>
-            <option  value="location" disabled>Location</option>
+          <select value={filterLocation} onChange={onFilterLocationChanged}>
+            <option  value="any">Location</option>
             {locations.map(location => <option key={location} value={location}>{location}</option>)}
           </select>
         </div>
