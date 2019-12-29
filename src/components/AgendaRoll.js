@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import moment from 'moment'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import { Link} from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import { kebabCase } from 'lodash'
 

@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import Layout from '../../components/Layout'
 import AgendaFilter from '../../components/AgendaFilter'
 import AgendaRoll from '../../components/AgendaRoll'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import {graphql, StaticQuery } from 'gatsby'
 
 
 class AgendaIndexPage extends React.Component {
@@ -34,10 +34,20 @@ class AgendaIndexPage extends React.Component {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
     const { filterDate, filterType, filterLocation } = this.state;
-    console.log(posts);
     const dates = [...new Set(posts.map(post => moment(post.node.frontmatter.datestart).format('DD/MM')))];
     dates.sort();
-
+    /*const types = [...posts.reduce((result, post) => {
+      post.node.frontmatter.tags.forEach(tag => result.add(tag));
+      return result;
+    }, new Set())];*/
+    const tagArray = [];
+    posts.forEach(post => {
+      post.node.frontmatter.tags.forEach(tag => tagArray.push(tag));
+    });
+    const types = [...new Set(tagArray)];
+    types.sort();
+    const locations = [...new Set(posts.map(post => post.node.frontmatter.location))];
+    locations.sort();
     return (
       <Layout>
         <section className="agenda">
@@ -48,6 +58,8 @@ class AgendaIndexPage extends React.Component {
             <div className="content">
               <AgendaFilter
                 dates={dates}
+                types={types}
+                locations={locations}
                 filterDate={filterDate}
                 filterType={filterType}
                 filterLocation={filterLocation}
