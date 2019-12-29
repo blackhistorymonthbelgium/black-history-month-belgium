@@ -34,6 +34,7 @@ class AgendaIndexPage extends React.Component {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
     const { filterDate, filterType, filterLocation } = this.state;
+    const filteredPosts = posts;
     const dates = [...new Set(posts.map(post => moment(post.node.frontmatter.datestart).format('DD/MM')))];
     dates.sort();
     /*const types = [...posts.reduce((result, post) => {
@@ -68,7 +69,7 @@ class AgendaIndexPage extends React.Component {
                 onFilterLocationChanged={this.handleFilterLocationChanged}
               />
               <AgendaRoll
-                posts={posts}
+                posts={filteredPosts}
               />
             </div>
           </div>

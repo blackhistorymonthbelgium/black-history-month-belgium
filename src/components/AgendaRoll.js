@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import moment from 'moment'
-import { Link} from 'gatsby'
+import {Link} from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import { kebabCase } from 'lodash'
 
@@ -14,7 +14,6 @@ export default class AgendaRoll extends React.Component {
         {posts &&
           posts.map(({ node: post }) => (
             <li key={post.id} className={`column ${post.frontmatter.featuredpost ? 'is-featured' : ''}`}>
-
               <div className="event-wrapper">
                 <div className="event-wrapper-insider">
                   <time>
@@ -22,16 +21,14 @@ export default class AgendaRoll extends React.Component {
                     <span className="month-event">{moment(post.frontmatter.datestart).format("MMM")}</span>
                   </time>
                   <div className="performancer">
-                    <h1>{post.frontmatter.title}</h1>
+                    <h1><Link to={post.fields.slug}>{post.frontmatter.title}</Link></h1>
                     <p>{post.frontmatter.artists.map(artist => (
                       <Link key={artist} to={`/artists/${kebabCase(artist)}/`}>{artist} </Link>))}
                     </p>
                   </div>
                   <div className="event-detail">
                   {post.frontmatter.featuredimage ? (
-
                     <div className="featured-thumbnail" style={{width: 180}}>
-
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
