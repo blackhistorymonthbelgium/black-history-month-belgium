@@ -119,7 +119,6 @@ export const IndexPageTemplate = ({
     <ComingUpEvents />
     <News />
     <Sponsors />
-    <BlogRoll />
   </>
 )
 

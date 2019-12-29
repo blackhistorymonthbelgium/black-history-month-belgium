@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import moment from 'moment'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
@@ -13,9 +14,11 @@ export const AgendaPostTemplate = ({
   tags,
   title,
   helmet,
-  year,
   artists,
-  location
+  location,
+  datestart,
+  dateend,
+  fblink,
  }) => {
   const PostContent = contentComponent || Content
 
@@ -27,12 +30,12 @@ export const AgendaPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
-              {title}
-            </h1>
-            <p><b>Thema :</b> {description}</p>
-            <p><b>Year:</b> {year}</p>
+            <p><b>Description :</b> {description}</p>
             <p><b>Location:</b> {location}</p>
+            <p><b>Attend this event</b> {fblink}</p>
+            <p><b>Date Start:</b>{moment(datestart).format("MM-DD-YYYY")}</p>
+            <p><b>Date End:</b>{moment(datestart).format("MM-DD-YYYY")}</p>
+            <p><b>Time:</b>{moment(datestart).format("HH:mm")}</p>
             <p><b>Artists:</b>{artists.map(artist => (
               <Link key={artist} to={`/artists/${kebabCase(artist)}/`}>{artist} </Link>))}</p>
             <PostContent content={content} />
@@ -61,9 +64,9 @@ AgendaPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
-  year: PropTypes.string,
   artists: PropTypes.array,
   location: PropTypes.string,
+  fblink: PropTypes.string,
 }
 
 const AgendaPost = ({ data }) => {
@@ -86,9 +89,11 @@ const AgendaPost = ({ data }) => {
       }
       tags={post.frontmatter.tags}
       title={post.frontmatter.title}
-      year={post.frontmatter.year}
       artists={post.frontmatter.artists}
       location={post.frontmatter.location}
+      datestart={post.frontmatter.datestart}
+      dateend={post.frontmatter.dateend}
+      fblink={post.frontmatter.fblink}
       />
     </Layout>
   )
@@ -113,9 +118,11 @@ export const pageQuery = graphql`
         title
         description
         tags
-        year
         artists
         location
+        datestart
+        dateend
+        fblink
       }
     }
   }

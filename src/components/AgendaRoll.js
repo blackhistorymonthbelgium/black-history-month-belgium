@@ -1,15 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import moment from 'moment'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import { kebabCase } from 'lodash'
 
-class AgendaRoll extends React.Component {
+export default class AgendaRoll extends React.Component {
 
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
-    console.log(posts)
+    const { posts } = this.props
     return (
         <ul className=" columns agendaRoll agenda-results">
         {posts &&
@@ -19,8 +18,8 @@ class AgendaRoll extends React.Component {
               <div className="event-wrapper">
                 <div className="event-wrapper-insider">
                   <time>
-                    <span className="date-event">{post.frontmatter.year}</span>
-                    <span className="month-event">{post.frontmatter.year}</span>
+                    <span className="date-event">{moment(post.frontmatter.datestart).format("DD")}</span>
+                    <span className="month-event">{moment(post.frontmatter.datestart).format("MMM")}</span>
                   </time>
                   <div className="performancer">
                     <h1>{post.frontmatter.title}</h1>
@@ -45,7 +44,7 @@ class AgendaRoll extends React.Component {
                     <div className="detail">
                       <span className="tag-event"> <i className="fal fa-hashtag" />{post.frontmatter.tags.map(tag => (<Link key={tag} to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>))}</span>
                       <span className="location"><i className="fal fa-map-marker-alt"/> {post.frontmatter.location}</span>
-                      <span className="time"> <i className="fal fa-clock"/> 18:00</span>
+                      <span className="time"> <i className="fal fa-clock"/> {moment(post.frontmatter.datestart).format("HH:mm")}</span>
                     </div>
                   </div>
                 </div>
@@ -66,50 +65,5 @@ class AgendaRoll extends React.Component {
 }
 
 AgendaRoll.propTypes = {
-  data: PropTypes.shape({
-    allMarkdownRemark: PropTypes.shape({
-      edges: PropTypes.array,
-    }),
-  }),
+  posts: PropTypes.array,
 }
-
-export default () => (
-  <StaticQuery
-    query={graphql`
-      query AgendaRollQuery {
-        allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "agenda-post" } } }
-        ) {
-          edges {
-            node {
-              excerpt(pruneLength: 400)
-              id
-              fields {
-                slug
-              }
-              frontmatter {
-                title
-                templateKey
-                artists
-                date(formatString: "MMMM DD, YYYY")
-                year
-                location
-                tags
-                featuredpost
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    `}
-    render={(data, count) => <AgendaRoll data={data} count={count} />}
-  />
-)

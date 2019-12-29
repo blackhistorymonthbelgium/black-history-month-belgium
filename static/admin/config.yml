@@ -60,7 +60,9 @@ collections:
       - {label: "Year", name: "year", widget: "string"}
       - {label: "Artists", name: "artists", widget: "list"}
       - {label: "Location", name: "location", widget: "string"}
-
+      - {label: "Date Start", name: "datestart", widget: "datetime"}
+      - {label: "Date End", name: "dateend", default: "", widget: "datetime"}
+      - {label: "Facebook Link", name: "fblink", default: "", widget: "string"}
   - name: "pages"
     label: "Pages"
     files:
