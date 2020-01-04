@@ -8,7 +8,7 @@ const ComingUpEvents = (props) => {
   const{
     events
   } = props;
-  console.log(events);
+
   return(
     <section className="comingUpEvents">
       <h1>Upcoming Events</h1>

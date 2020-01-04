@@ -16,11 +16,13 @@ export const IndexPageTemplate = ({
   description,
   intro,
   events,
+  archives,
+  blogs,
 }) => (
   <>
-    <Highlights />
+    <Highlights archives={archives} events={events}/>
     <ComingUpEvents events={events} />
-    <News />
+    <News blogs={blogs}/>
     <Sponsors />
   </>
 )
@@ -52,7 +54,6 @@ const IndexPage = ({ data }) => {
     .allMarkdownRemark
     .edges
     .filter(post => post.node.frontmatter.templateKey === 'blog-post');
-  console.log(events, archives, blogs);
 
   return (
     <Layout>
@@ -65,6 +66,8 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
         events={events}
+        archives={archives}
+        blogs={blogs}
       />
     </Layout>
   )
@@ -97,6 +100,7 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            date
             templateKey
             location
             datestart
