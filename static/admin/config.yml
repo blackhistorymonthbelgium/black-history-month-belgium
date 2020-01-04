@@ -43,6 +43,17 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Year", name: "year", widget: "string"}
 
+  - name: "partners"
+    label: "Partners"
+    folder: "src/pages/partners"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partners-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Link", name: "link", widget: "string"}
+
   - name: "agenda"
     label: "Agenda"
     folder: "src/pages/agenda"
