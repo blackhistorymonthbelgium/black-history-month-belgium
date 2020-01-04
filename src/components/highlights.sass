@@ -18,21 +18,32 @@
     flex-direction: column
     justify-content: center
     align-items: center
+    flex-grow: 1
+    flex-shrink: 1
+    .event-detail
+      width: 100%
+      display: flex
+      flex-direction: column
+      justify-content: center
+      .img-inside
+        width: 100%
 
-    img
-      border: 5px solid $blue
+      img
+        border: 5px solid $blue
+        padding: 10px
 
-    a
-      background-color: $blue
-      color: white
-      font-family: Dolce-Vita-Heavy-Bold
-      padding: 10px
-      display: inline-block
-      text-align: center
-      width: 8em;
-      position: relative;
-      top: -24px;
-      transition: color 0.5s ease;
+      a
+        background-color: $blue
+        color: white
+        font-family: Dolce-Vita-Heavy-Bold
+        padding: 10px
+        display: inline-block
+        text-align: center
+        width: 8em;
+        position: relative;
+        top: -24px;
+        transition: color 0.5s ease;
+        margin: 0 auto;
 
     a:hover
       color: $black

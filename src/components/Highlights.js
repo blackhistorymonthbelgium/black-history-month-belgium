@@ -1,40 +1,66 @@
 import React from "react"
 import { Link } from 'gatsby'
-import poster from '../img/poster.jpg'
-import event from '../img/event.jpg'
-const Highlights = () => (
-  <section className="highlights">
-    <div className="columns is-half-desktop is-full-mobile">
-      <div className="column column-poster">
-        <div className="poster">
-        <img
-        src={poster}
-        title="Black History Month 2020"
-        alt="Poster BHM 2020"
-        />
-        <Link to="/poster">
-          Read more <i className="far fa-chevron-right"></i>
-        </Link>
-        </div>
-      </div>
-      <div className="column column-event">
-        <div className="title-wrapper">
-          <span className="tag-event"> <i className="fal fa-hashtag" />  music debate </span>
-          <div className="special-event">
-            <time>
-              <span className="date-event">1-20</span>
-              <span className="month-event">Mar</span>
-            </time>
-            <img
-            src={event}
-            title="Black History Month 2020"
-            alt="Highlight event BHM 2020"
-            />
+import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { kebabCase } from 'lodash'
+import moment from 'moment'
+
+const Highlights = (props) => {
+  const{
+    archives,
+    events
+  } = props;
+
+  return(
+    <section className="highlights">
+      <div className="columns is-half-desktop is-full-mobile">
+        <div className="column column-poster">
+          <div className="poster">
+            {archives.map((archive, key)=> (
+              <div key={key} className="event-detail">
+              {archive.node.frontmatter.featuredimage ? (
+                <div className="featured-thumbnail img-inside">
+                  <PreviewCompatibleImage
+                    imageInfo={{
+                      image: archive.node.frontmatter.featuredimage,
+                      alt: `featured image thumbnail for post ${archive.node.frontmatter.title}`,
+                    }}
+                  />
+                </div>
+              ) : null}
+                  <Link to={archive.node.fields.slug}>
+                  Read more <i className="far fa-chevron-right"></i>
+                  </Link>
+              </div>
+
+          ))}
           </div>
-          <h1><Link to="/special-event">Africa is/in the future 2019 Long Title here  <i className="far fa-chevron-right"></i> </Link></h1>
+        </div>
+        <div className="column column-event">
+        {events.slice(0,1).map((event, key)=> (
+          <div className="title-wrapper">
+            <span className="tag-event"> <i className="fal fa-hashtag" />{event.node.frontmatter.tags.map(tag => (<Link key={tag} to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>))}</span>
+            <div className="special-event">
+              <time>
+                <span className="date-event">{moment(event.node.frontmatter.datestart).format("DD")}</span>
+                <span className="month-event">{moment(event.node.frontmatter.datestart).format("MMM")}</span>
+              </time>
+            </div>
+            {event.node.frontmatter.featuredimage ? (
+              <div className="featured-thumbnail">
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: event.node.frontmatter.featuredimage,
+                    alt: `featured image thumbnail for post ${event.node.frontmatter.title}`,
+                  }}
+                />
+              </div>
+            ) : null}
+            <h1><Link to={event.node.fields.slug}>{event.node.frontmatter.title} <i className="far fa-chevron-right"></i></Link> </h1>
+          </div>
+        ))}
         </div>
       </div>
-    </div>
-  </section>
-)
+    </section>
+  );
+}
 export default Highlights
