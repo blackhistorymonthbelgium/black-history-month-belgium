@@ -16,10 +16,11 @@ collections:
     label: "Blog"
     folder: "src/pages/blog"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}.{{language}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.slug}}-{{fields.language}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Language", name: "language", widget: "select", options: ["nl", "fr", "en"]}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
@@ -32,10 +33,11 @@ collections:
     label: "Archives"
     folder: "src/pages/archives"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}.{{language}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.slug}}-{{fields.language}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "archives-post"}
       - {label: "Language", name: "language", widget: "select", options: ["nl", "fr", "en"]}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
@@ -60,11 +62,12 @@ collections:
     label: "Agenda"
     folder: "src/pages/agenda"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}.{{language}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.slug}}-{{fields.language}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "agenda-post"}
       - {label: "Language", name: "language", widget: "select", options: ["nl", "fr", "en"]}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}

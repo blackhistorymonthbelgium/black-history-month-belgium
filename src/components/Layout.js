@@ -9,15 +9,20 @@ import { library, dom } from '@fortawesome/fontawesome-svg-core'
 import { faChevronRight } from '@fortawesome/pro-regular-svg-icons'
 import { faThumbsUp, faMapMarkerAlt, faHashtag, faClock, faChevronDown} from '@fortawesome/pro-light-svg-icons'
 import { faInstagram, faTwitter} from '@fortawesome/free-brands-svg-icons'
+import { setCurrentLanguage } from '../internationalization';
+
 library.add(faChevronRight, faThumbsUp, faInstagram, faTwitter, faMapMarkerAlt, faHashtag, faClock, faChevronDown );
 dom.watch();
 
-const TemplateWrapper = ({ children }) => {
-  const { title, description } = useSiteMetadata()
+const TemplateWrapper = (props) => {
+  const { children, language } = props;
+  setCurrentLanguage(language);
+
+  const { title, description } = useSiteMetadata();
   return (
     <>
       <Helmet>
-        <html lang="en" />
+        <html lang={language} />
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta name="keywords" content= 'african, bhm, black history, cultural events' />

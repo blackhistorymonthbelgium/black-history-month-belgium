@@ -1,8 +1,8 @@
 import React from "react"
-import { Link } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import { kebabCase } from 'lodash'
 import moment from 'moment'
+import { T } from '../internationalization';
+import { PostLink, TagLink } from './Links';
 
 const Highlights = (props) => {
   const{
@@ -27,9 +27,9 @@ const Highlights = (props) => {
                   />
                 </div>
               ) : null}
-                  <Link to={archive.node.fields.slug}>
-                  Read more <i className="far fa-chevron-right"></i>
-                  </Link>
+                  <PostLink post={(archive.node)}>
+                    {T('readMore')} <i className="far fa-chevron-right"></i>
+                  </PostLink>
               </div>
 
           ))}
@@ -38,7 +38,7 @@ const Highlights = (props) => {
         <div className="column column-event">
         {events.slice(0,1).map((event, key)=> (
           <div className="title-wrapper">
-            <span className="tag-event"> <i className="fal fa-hashtag" />{event.node.frontmatter.tags.map(tag => (<Link key={tag} to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>))}</span>
+            <span className="tag-event"> <i className="fal fa-hashtag" />{event.node.frontmatter.tags.map(tag => (<TagLink key={tag} tag={tag}> {tag} </TagLink>))}</span>
             <div className="special-event">
               <time>
                 <span className="date-event">{moment(event.node.frontmatter.datestart).format("DD")}</span>
@@ -55,7 +55,7 @@ const Highlights = (props) => {
                 />
               </div>
             ) : null}
-            <h1><Link to={event.node.fields.slug}>{event.node.frontmatter.title} <i className="far fa-chevron-right"></i></Link> </h1>
+            <h1><PostLink post={event.node}>{event.node.frontmatter.title} <i className="far fa-chevron-right"></i></PostLink> </h1>
           </div>
         ))}
         </div>

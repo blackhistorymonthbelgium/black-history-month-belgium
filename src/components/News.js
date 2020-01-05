@@ -1,8 +1,7 @@
 import React from "react"
-import { Link } from 'gatsby'
 import moment from 'moment'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import { kebabCase } from 'lodash'
+import { PostLink, LocalizedLink } from './Links'
 
 const News = (props) =>{
   const{
@@ -28,20 +27,19 @@ const News = (props) =>{
                   </div>
                 ) : null}
                   <h1 className="blogTitle">
-                    <Link to={blog.node.fields.slug}>{blog.node.frontmatter.title}</Link>
+                    <PostLink post={blog.node}>{blog.node.frontmatter.title}</PostLink>
                   </h1>
                 </header>
                 <main>
                   <time>{moment(blog.node.frontmatter.date).format("DD-MMM-YYYY")}</time>
                   <p>
                     {blog.node.excerpt}
-                    <Link to={blog.node.fields.slug}> <span className="readMore">read  more...</span></Link>
+                    <PostLink post={blog.node}> <span className="readMore">read  more...</span></PostLink>
                   </p>
                 </main>
               </article>
               ))}
-              <Link className="goToBlog" to="/blog">More news <i className="far fa-chevron-right"/> </Link>
-
+              <LocalizedLink className="goToBlog" to="/blog">More news <i className="far fa-chevron-right"/> </LocalizedLink>
           </div>
         </div>
         <div className="column social-med">

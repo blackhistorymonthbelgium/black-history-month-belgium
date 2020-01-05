@@ -1,7 +1,41 @@
 const _ = require('lodash')
 const path = require('path')
+const locales = require('./src/locales');
+const { createPagePath, defaultLanguage } = require('./src/helpers');
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+
+function expandPagesForLanguages(posts) {
+  const results = [];
+  const primaryNodes = {};
+  const defined = new Set();
+  // add all ports to their results, make a set of all defined paths, and
+  // collect all nodes in their primary language
+  posts.forEach(edge => {
+    const { node } = edge;
+    const language = node.frontmatter.language || defaultLanguage;
+    const path = createPagePath(edge.node, language);
+
+    results.push({ language, node, path });
+    defined.add(path);
+    
+    if (language === defaultLanguage)
+      primaryNodes[path] = node;
+  });
+  // for each node in the primary language, check if the translation already
+  // exists, and if not, register the primary language as the translation
+  Object.keys(primaryNodes).forEach(path => {
+    Object.keys(locales).forEach(language => {
+      const node = primaryNodes[path];
+      const translatedPath = createPagePath(node, language);
+      if (defined.has(translatedPath))
+        return;
+      
+      results.push({ language, node, path: translatedPath });
+    });
+  });
+  return results;
+}
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
@@ -18,6 +52,8 @@ exports.createPages = ({ actions, graphql }) => {
             frontmatter {
               tags
               templateKey
+              language
+              slug
             }
           }
         }
@@ -29,12 +65,18 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    const posts = result.data.allMarkdownRemark.edges
+    const posts = expandPagesForLanguages(result.data.allMarkdownRemark.edges);
 
     posts.forEach(edge => {
-      const id = edge.node.id
+      const {
+        node,
+        language,
+        path: pagePath
+      } = edge;
+
+      const id = node.id;
       createPage({
-        path: edge.node.fields.slug,
+        path: pagePath,
         tags: edge.node.frontmatter.tags,
         component: path.resolve(
           `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
@@ -42,6 +84,7 @@ exports.createPages = ({ actions, graphql }) => {
         // additional data can be passed via context
         context: {
           id,
+          language
         },
       })
     })
@@ -59,17 +102,41 @@ exports.createPages = ({ actions, graphql }) => {
 
     // Make tag pages
     tags.forEach(tag => {
-      const tagPath = `/tags/${_.kebabCase(tag)}/`
+      Object.keys(locales).forEach(language => {
+        let tagPath = `/tags/${_.kebabCase(tag)}/`
+        if (language !== defaultLanguage)
+          tagPath = '/' + language + tagPath;
 
-      createPage({
-        path: tagPath,
-        component: path.resolve(`src/templates/tags.js`),
-        context: {
-          tag,
-        },
-      })
+        createPage({
+          path: tagPath,
+          component: path.resolve(`src/templates/tags.js`),
+          context: {
+            tag,
+            language
+          },
+        })
+      });
     })
   })
+}
+
+exports.onCreatePage = ({ page, actions }) => {
+  const { createPage, deletePage } = actions;
+
+  return new Promise(resolve => {
+    deletePage(page);
+
+    Object.keys(locales).map(language => {
+      const localizedPath = locales[language].default ? page.path : '/' + locales[language].path + page.path;
+      return createPage({
+        ...page,
+        path: localizedPath,
+        context: { language }
+      });
+    });
+
+    resolve();
+  });
 }
 
 exports.onCreateNode = ({ node, actions, getNode }) => {

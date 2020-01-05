@@ -1,6 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/bhm-logo.svg'
+import { T, getCurrentLanguage } from '../internationalization'
+import { getLocalizedUrl, getRelocalizedUrl } from '../helpers'
+import { Location } from '@reach/router'
+import { LocalizedLink } from './Links'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -32,6 +36,8 @@ const Navbar = class extends React.Component {
   }
 
   render() {
+    const language = getCurrentLanguage();
+    const { pathname } = this.props.location;
     return (
       <nav
         className="navbar is-black"
@@ -40,9 +46,9 @@ const Navbar = class extends React.Component {
       >
         <div className="container">
           <div className="navbar-brand">
-            <Link to="/" title="Logo">
+            <LocalizedLink to='/' title="Logo">
               <img src={logo} alt="Black History Month Belgium" style={{ width: '100px' }} />
-            </Link>
+            </LocalizedLink>
             {/* Hamburger menu */}
             <div
               className={`navbar-burger burger ${this.state.navBarActiveClass}`}
@@ -59,27 +65,26 @@ const Navbar = class extends React.Component {
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
             <div className="navbar-end has-text-centered">
-              <Link className="navbar-item" to="/about">
+              <LocalizedLink className="navbar-item" to="/about">
                 About
-              </Link>
-              <Link className="navbar-item" to="/agenda">
+              </LocalizedLink>
+              <LocalizedLink className="navbar-item" to="/agenda">
                 Agenda
-              </Link>
-              <Link className="navbar-item" to="/archives">
+              </LocalizedLink>
+              <LocalizedLink className="navbar-item" to="/archives">
                 Archives
-              </Link>
-              <Link className="navbar-item" to="/blog">
+              </LocalizedLink>
+              <LocalizedLink className="navbar-item" to="/blog">
                 Blog
-              </Link>
+              </LocalizedLink>
               <span className="languages">
-                <Link to="/"> en </Link>
+                <Link to={getRelocalizedUrl(pathname, language, "en")}> en </Link>
                 <span> / </span>
-                <Link to="/"> nl </Link>
+                <Link to={getRelocalizedUrl(pathname, language, 'nl')}> nl </Link>
                 <span> / </span>
-                <Link to="/"> fr </Link>
+                <Link to={getRelocalizedUrl(pathname, language, 'fr')}> fr </Link>
               </span>
             </div>
-
           </div>
         </div>
       </nav>
@@ -87,4 +92,10 @@ const Navbar = class extends React.Component {
   }
 }
 
-export default Navbar
+const NavbarLocation = props => (
+  <Location>
+    {locationProps => <Navbar {...locationProps} {...props} />}
+  </Location>
+);
+
+export default NavbarLocation;

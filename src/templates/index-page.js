@@ -8,6 +8,7 @@ import News from '../components/News'
 import Sponsors from '../components/Sponsors'
 
 export const IndexPageTemplate = ({
+  language,
   image,
   title,
   heading,
@@ -21,7 +22,7 @@ export const IndexPageTemplate = ({
 }) => (
   <>
     <Highlights archives={archives} events={events}/>
-    <ComingUpEvents events={events} />
+    <ComingUpEvents events={events} language={language} />
     <News blogs={blogs}/>
     <Sponsors />
   </>
@@ -39,9 +40,8 @@ IndexPageTemplate.propTypes = {
   }),
 }
 
-const IndexPage = ({ data }) => {
+const IndexPage = ({ data, pageContext }) => {
   const { frontmatter } = data.markdownRemark
-  console.log(data);
   const events = data
     .allMarkdownRemark
     .edges
@@ -56,7 +56,7 @@ const IndexPage = ({ data }) => {
     .filter(post => post.node.frontmatter.templateKey === 'blog-post');
 
   return (
-    <Layout>
+    <Layout language={pageContext.language}>
       <IndexPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
@@ -68,6 +68,7 @@ const IndexPage = ({ data }) => {
         events={events}
         archives={archives}
         blogs={blogs}
+        language={pageContext.language}
       />
     </Layout>
   )
@@ -100,6 +101,8 @@ export const pageQuery = graphql`
           }
           frontmatter {
             title
+            language
+            slug
             date
             templateKey
             location
@@ -120,8 +123,13 @@ export const pageQuery = graphql`
       }
     },
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
+      fields {
+        slug
+      }
       frontmatter {
         title
+        language
+        slug
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {

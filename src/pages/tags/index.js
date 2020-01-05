@@ -1,8 +1,8 @@
 import React from 'react'
-import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../../components/Layout'
+import { TagLink } from '../../components/Links'
 
 const TagsPage = ({
   data: {
@@ -11,8 +11,9 @@ const TagsPage = ({
       siteMetadata: { title },
     },
   },
+  pageContext
 }) => (
-  <Layout>
+  <Layout language={pageContext.language}>
     <section className="section">
       <Helmet title={`Tags | ${title}`} />
       <div className="container content">
@@ -25,9 +26,9 @@ const TagsPage = ({
             <ul className="taglist">
               {group.map(tag => (
                 <li key={tag.fieldValue}>
-                  <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
+                  <TagLink tag={tag.fieldValue}>
                     {tag.fieldValue} ({tag.totalCount})
-                  </Link>
+                  </TagLink>
                 </li>
               ))}
             </ul>

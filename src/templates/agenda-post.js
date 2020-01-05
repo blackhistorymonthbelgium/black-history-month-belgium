@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 import moment from 'moment'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import { LocalizedLink, TagLink } from '../components/Links'
 
 export const AgendaPostTemplate = ({
   content,
@@ -37,7 +38,7 @@ export const AgendaPostTemplate = ({
             <p><b>Date End:</b>{moment(datestart).format("MM-DD-YYYY")}</p>
             <p><b>Time:</b>{moment(datestart).format("HH:mm")}</p>
             <p><b>Artists:</b>{artists.map(artist => (
-              <Link key={artist} to={`/artists/${kebabCase(artist)}/`}>{artist} </Link>))}</p>
+              <LocalizedLink key={artist} to={`/artists/${kebabCase(artist)}/`}>{artist} </LocalizedLink>))}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -45,7 +46,7 @@ export const AgendaPostTemplate = ({
                 <ul className="taglist">
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      <TagLink tag={tag}>{tag}</TagLink>
                     </li>
                   ))}
                 </ul>
@@ -69,11 +70,12 @@ AgendaPostTemplate.propTypes = {
   fblink: PropTypes.string,
 }
 
-const AgendaPost = ({ data }) => {
+const AgendaPost = (props) => {
+  const { data } = props;
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout language={props.pageContext.language}>
       <AgendaPostTemplate
       content={post.html}
       contentComponent={HTMLContent}

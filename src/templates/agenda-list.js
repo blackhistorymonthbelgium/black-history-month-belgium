@@ -1,11 +1,11 @@
 import React from 'react'
 import moment from 'moment'
 import PropTypes from 'prop-types'
-import Layout from '../../components/Layout'
-import AgendaFilter from '../../components/AgendaFilter'
-import AgendaRoll from '../../components/AgendaRoll'
+import Layout from '../components/Layout'
+import AgendaFilter from '../components/AgendaFilter'
+import AgendaRoll from '../components/AgendaRoll'
 import {graphql, StaticQuery } from 'gatsby'
-
+import { getPostsInLanguage } from '../helpers'
 
 class AgendaIndexPage extends React.Component {
   constructor(props) {
@@ -31,9 +31,11 @@ class AgendaIndexPage extends React.Component {
   }
 
   render() {
-    const { data } = this.props;
-    const { edges: posts } = data.allMarkdownRemark;
+    const { data, pageContext } = this.props;
+    const { language } = pageContext;
+    const { edges: allPosts } = data.allMarkdownRemark;
     const { filterDate, filterType, filterLocation } = this.state;
+    const posts = getPostsInLanguage(allPosts, language);
     const filteredPosts = posts.filter(post => {
       return (filterType === 'any' || post.node.frontmatter.tags.includes(filterType))
         && (filterDate === 'any' || moment(post.node.frontmatter.datestart).format('DD/MM') === filterDate)
@@ -41,10 +43,6 @@ class AgendaIndexPage extends React.Component {
     });
     const dates = [...new Set(posts.map(post => moment(post.node.frontmatter.datestart).format('DD/MM')))];
     dates.sort();
-    /*const types = [...posts.reduce((result, post) => {
-      post.node.frontmatter.tags.forEach(tag => result.add(tag));
-      return result;
-    }, new Set())];*/
     const tagArray = [];
     posts.forEach(post => {
       post.node.frontmatter.tags.forEach(tag => tagArray.push(tag));
@@ -54,7 +52,7 @@ class AgendaIndexPage extends React.Component {
     const locations = [...new Set(posts.map(post => post.node.frontmatter.location))];
     locations.sort();
     return (
-      <Layout>
+      <Layout language={language}>
         <section className="agenda">
           <h1 className="blogs-title">
             Agenda
@@ -91,7 +89,7 @@ AgendaIndexPage.propTypes = {
   }),
 }
 
-export default () => (
+export default ({ pageContext }) => (
   <StaticQuery
     query={graphql`
       query AgendaRollQuery {
@@ -109,6 +107,8 @@ export default () => (
               frontmatter {
                 title
                 templateKey
+                language
+                slug
                 artists
                 location
                 tags
@@ -128,6 +128,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <AgendaIndexPage data={data} count={count} />}
+    render={(data, count) => <AgendaIndexPage data={data} count={count} pageContext={pageContext} />}
   />
 )

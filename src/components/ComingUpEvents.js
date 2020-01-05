@@ -1,17 +1,15 @@
 import React from "react"
-import { Link } from 'gatsby'
 import moment from 'moment'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import { kebabCase } from 'lodash'
+import { T } from '../internationalization';
+import { PostLink, TagLink, LocalizedLink } from './Links'
 
 const ComingUpEvents = (props) => {
-  const{
-    events
-  } = props;
+  const { events } = props;
 
   return(
     <section className="comingUpEvents">
-      <h1>Upcoming Events</h1>
+      <h1>{T('upcomingEvents')}</h1>
       <ul className="columns is-one-third-widescreen">
         {events.map((event, key)=>
         <li key={key} className="column">
@@ -22,7 +20,7 @@ const ComingUpEvents = (props) => {
                 <span className="month-event">{moment(event.node.frontmatter.datestart).format("MMM")}</span>
               </time>
               <div className="performancer">
-                <h1><Link to={event.node.fields.slug}>{event.node.frontmatter.title}</Link></h1>
+                <h1><PostLink post={event.node}>{event.node.frontmatter.title}</PostLink></h1>
                 <p>{event.node.frontmatter.artists.join(", ")}</p>
               </div>
               <div className="event-detail">
@@ -37,7 +35,7 @@ const ComingUpEvents = (props) => {
                 </div>
               ) : null}
                 <div className="detail">
-                  <span className="tag-event"> <i className="fal fa-hashtag" />{event.node.frontmatter.tags.map(tag => (<Link key={tag} to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>))}</span>
+                  <span className="tag-event"> <i className="fal fa-hashtag" />{event.node.frontmatter.tags.map(tag => (<TagLink key={tag} tag={tag}> {tag} </TagLink>))}</span>
                   <span className="location"><i className="fal fa-map-marker-alt"/> {event.node.frontmatter.location}</span>
                   <span className="time"> <i className="fal fa-clock"/> {moment(event.node.frontmatter.datestart).format("HH:mm")}</span>
                 </div>
@@ -47,15 +45,15 @@ const ComingUpEvents = (props) => {
           <div className='detail-wrapper'>
             <div className='detail-spacer' />
             <div className='detail-link'>
-              <Link to={event.node.fields.slug}>
+              <PostLink post={event.node}>
                 Detail <i className="far fa-chevron-right"></i>
-              </Link>
+              </PostLink>
             </div>
           </div>
         </li>
       )}
       </ul>
-      <Link className="goToAgenda" to="/agenda">See more events <i className="far fa-chevron-right"></i></Link>
+      <LocalizedLink className="goToAgenda" to="/agenda">See more events <i className="far fa-chevron-right"></i></LocalizedLink>
     </section>
   );
 

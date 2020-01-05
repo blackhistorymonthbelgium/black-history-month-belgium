@@ -1,9 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import moment from 'moment'
-import {Link} from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import { kebabCase } from 'lodash'
+import { PostLink, TagLink } from './Links'
 
 export default class AgendaRoll extends React.Component {
 
@@ -21,7 +20,7 @@ export default class AgendaRoll extends React.Component {
                     <span className="month-event">{moment(post.frontmatter.datestart).format("MMM")}</span>
                   </time>
                   <div className="performancer">
-                    <h1><Link to={post.fields.slug}>{post.frontmatter.title}</Link></h1>
+                    <h1><PostLink post={post}>{post.frontmatter.title}</PostLink></h1>
                     <p>{post.frontmatter.artists.join(", ")}
                     </p>
                   </div>
@@ -38,7 +37,7 @@ export default class AgendaRoll extends React.Component {
                   ) : null}
 
                     <div className="detail">
-                      <span className="tag-event"> <i className="fal fa-hashtag" />{post.frontmatter.tags.map(tag => (<Link key={tag} to={`/tags/${kebabCase(tag)}/`}> {tag} </Link>))}</span>
+                      <span className="tag-event"> <i className="fal fa-hashtag" />{post.frontmatter.tags.map(tag => (<TagLink key={tag} tag={tag}> {tag} </TagLink>))}</span>
                       <span className="location"><i className="fal fa-map-marker-alt"/> {post.frontmatter.location}</span>
                       <span className="time"> <i className="fal fa-clock"/> {moment(post.frontmatter.datestart).format("HH:mm")}</span>
                     </div>
@@ -48,9 +47,9 @@ export default class AgendaRoll extends React.Component {
               <div className='detail-wrapper'>
                 <div className='detail-spacer' />
                 <div className='detail-link'>
-                  <Link to={post.fields.slug}>
+                  <PostLink post={post}>
                     Detail <i className="far fa-chevron-right"></i>
-                  </Link>
+                  </PostLink>
                 </div>
               </div>
             </li>

@@ -2,11 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { getPostsInLanguage, createPagePath } from '../helpers'
+import { PostLink } from './Links'
 
 class ArchivesRoll extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { data, language } = this.props
+    const { edges: allPosts } = data.allMarkdownRemark
+    const posts = getPostsInLanguage(allPosts, language);
 
     return (
       <div className="columns archivesRoll">
@@ -19,10 +22,7 @@ class ArchivesRoll extends React.Component {
                 }`}
               >
                 <div className="post-meta">
-                  <Link
-                    className="title"
-                    to={post.fields.slug}
-                  >
+                  <PostLink className="title" post={post}>
                     <header>
                       <h1>
                           {post.frontmatter.title} <i className="far fa-chevron-right"/>
@@ -41,7 +41,7 @@ class ArchivesRoll extends React.Component {
                         />
                       </div>
                     ) : null}
-                  </Link>
+                  </PostLink>
                 </div >
               </article>
             </div>
@@ -59,7 +59,7 @@ ArchivesRoll.propTypes = {
   }),
 }
 
-export default () => (
+export default ({ language }) => (
   <StaticQuery
     query={graphql`
       query ArchivesRollQuery {
@@ -77,6 +77,8 @@ export default () => (
               frontmatter {
                 title
                 templateKey
+                language
+                slug
                 date(formatString: "MMMM DD, YYYY")
                 year
                 featuredpost
@@ -93,6 +95,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <ArchivesRoll data={data} count={count} />}
+    render={(data, count) => <ArchivesRoll language={language} data={data} count={count} />}
   />
 )

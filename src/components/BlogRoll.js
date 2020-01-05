@@ -1,12 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import { graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
+import { getPostsInLanguage } from '../helpers'
+import { PostLink } from './Links'
 
 class BlogRoll extends React.Component {
   render() {
-    const { data } = this.props
-    const { edges: posts } = data.allMarkdownRemark
+    const { data, language } = this.props
+    const { edges: allPosts } = data.allMarkdownRemark
+    const posts = getPostsInLanguage(allPosts, language);
 
     return (
       <div className="columns blogRoll">
@@ -32,12 +35,9 @@ class BlogRoll extends React.Component {
                 ) : null}
                   <header>
                     <h1>
-                      <Link
-                        className="title"
-                        to={post.fields.slug}
-                      >
+                      <PostLink className="title" post={post}>
                         {post.frontmatter.title}
-                      </Link>
+                      </PostLink>
                     </h1>
 
                   </header>
@@ -50,9 +50,9 @@ class BlogRoll extends React.Component {
                   <br />
                   {post.excerpt}
                   <br />
-                  <Link className="keepReading" to={post.fields.slug}>
+                  <PostLink className="keepReading" post={post}>
                      Keep Reading <i className="far fa-chevron-right"/>
-                  </Link>
+                  </PostLink>
                 </p>
               </article>
             </div>
@@ -70,7 +70,7 @@ BlogRoll.propTypes = {
   }),
 }
 
-export default () => (
+export default ({ language }) => (
   <StaticQuery
     query={graphql`
       query BlogRollQuery {
@@ -88,6 +88,8 @@ export default () => (
               frontmatter {
                 title
                 templateKey
+                language
+                slug
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
                 featuredimage {
@@ -103,6 +105,6 @@ export default () => (
         }
       }
     `}
-    render={(data, count) => <BlogRoll data={data} count={count} />}
+    render={(data, count) => <BlogRoll language={language} data={data} count={count} />}
   />
 )

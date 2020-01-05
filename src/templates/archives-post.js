@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import { TagLink } from '../components/Links'
 
 export const ArchivesPostTemplate = ({
   content,
@@ -35,7 +35,7 @@ export const ArchivesPostTemplate = ({
                 <ul className="taglist">
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      <TagLink tag={tag}>{tag}</TagLink>
                     </li>
                   ))}
                 </ul>
@@ -57,11 +57,12 @@ ArchivesPostTemplate.propTypes = {
   year: PropTypes.string,
 }
 
-const ArchivesPost = ({ data }) => {
-  const { markdownRemark: post } = data
+const ArchivesPost = ({ data, pageContext }) => {
+  const { markdownRemark: post } = data;
+  const { language } = pageContext;
 
   return (
-    <Layout>
+    <Layout language={language}>
       <ArchivesPostTemplate
         content={post.html}
         contentComponent={HTMLContent}

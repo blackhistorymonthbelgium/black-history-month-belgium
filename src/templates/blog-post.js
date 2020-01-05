@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import { TagLink } from '../components/Links'
 
 export const BlogPostTemplate = ({
   content,
@@ -33,7 +34,7 @@ export const BlogPostTemplate = ({
                 <ul className="taglist">
                   {tags.map(tag => (
                     <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      <TagLink tag={tag}>{tag}</TagLink>
                     </li>
                   ))}
                 </ul>
@@ -54,11 +55,12 @@ BlogPostTemplate.propTypes = {
   helmet: PropTypes.object,
 }
 
-const BlogPost = ({ data }) => {
+const BlogPost = ({ data, pageContext }) => {
   const { markdownRemark: post } = data
+  const { language } = pageContext;
 
   return (
-    <Layout>
+    <Layout language={language}>
       <BlogPostTemplate
         content={post.html}
         contentComponent={HTMLContent}
