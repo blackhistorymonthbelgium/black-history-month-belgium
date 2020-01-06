@@ -66,7 +66,7 @@ const Navbar = class extends React.Component {
           >
             <div className="navbar-end has-text-centered">
               <LocalizedLink className="navbar-item" to="/about">
-                About
+                {T('about')}
               </LocalizedLink>
               <LocalizedLink className="navbar-item" to="/agenda">
                 Agenda
