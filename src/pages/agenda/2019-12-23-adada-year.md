@@ -6,7 +6,7 @@ description: hghfhh
 featuredpost: true
 featuredimage: /img/apple-touch-icon.png
 tags:
-  - da`fsd`as
+  - debate
 
 artists:
   - Wilgozali
