@@ -13,10 +13,11 @@ const PartnersIndexPage = ({
     allMarkdownRemark: {
       edges
     }
-  }
+  },
+  pageContext
 }) => {
   console.log(edges);
-  return <Layout>
+  return <Layout language={pageContext.language}>
     <section className="Partners">
       <Helmet title={`Partners | ${title}`} />
       <h1 className="title">

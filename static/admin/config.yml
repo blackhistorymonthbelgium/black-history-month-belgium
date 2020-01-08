@@ -55,7 +55,8 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "partners-post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Logo", name: "featuredimage", widget: image}
+      - {label: "Width of the logo", name: "width", widget: "number"}
       - {label: "Link", name: "link", widget: "string"}
 
   - name: "agenda"
