@@ -26,11 +26,11 @@ PartnersPostTemplate.propTypes = {
   link: PropTypes.string,
 }
 
-const PartnersPost = ({ data }) => {
+const PartnersPost = ({ data, pageContext }) => {
   const { markdownRemark: post } = data
 
   return (
-    <Layout>
+    <Layout language={pageContext.language}>
       <PartnersPostTemplate
         contentComponent={HTMLContent}
         title={post.frontmatter.title}
