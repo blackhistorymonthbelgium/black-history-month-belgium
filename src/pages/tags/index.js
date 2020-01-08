@@ -16,7 +16,7 @@ const TagsPage = ({
   <Layout language={pageContext.language}>
     <section className="section">
       <Helmet title={`Tags | ${title}`} />
-      <div className="container content">
+      <div className="container content tagContent">
         <div className="columns">
           <div
             className="column is-10 is-offset-1"

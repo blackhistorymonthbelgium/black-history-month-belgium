@@ -26,7 +26,7 @@ class TagRoute extends React.Component {
 
     return (
       <Layout language={language}>
-        <section className="section">
+        <section className="section tag-post">
           <Helmet title={`${tag} | ${title}`} />
           <div className="container content">
             <div className="columns">
