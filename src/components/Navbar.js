@@ -40,14 +40,14 @@ const Navbar = class extends React.Component {
     const { pathname } = this.props.location;
     return (
       <nav
-        className="navbar is-black"
+        className="nav"
         role="navigation"
         aria-label="main-navigation"
       >
         <div className="container">
           <div className="navbar-brand">
             <LocalizedLink to='/' title="Logo">
-              <img src={logo} alt="Black History Month Belgium" style={{ width: '100px' }} />
+              <img className="logo" src={logo} alt="Black History Month Belgium" />
             </LocalizedLink>
             {/* Hamburger menu */}
             <div
@@ -64,7 +64,7 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-end has-text-centered">
+            <div className="navbar-end">
               <LocalizedLink className="navbar-item" to="/about">
                 {T('about')}
               </LocalizedLink>

@@ -13,12 +13,16 @@
 @import "archives.sass"
 @import "footer.sass"
 
-
+.logo
+  width: 100px
 .sponsors
   background-color: $yellow
 
 .comingUpEvents
   background-color: $pink
+
+nav
+  background: $black
 .navbar .navbar-brand
   padding: 2em 0
 .navbar .navbar-menu
@@ -26,6 +30,8 @@
 
   .navbar-item
     font-family: Dolce-Vita-Heavy-Bold
+  .navbar-item:hover
+    color: $yellow
 .tag-post
   margin-bottom: 100px
 .content .taglist
@@ -88,8 +94,6 @@
 .margin-top-0
   margin-top: 0 !important
 
-.navbar-item .icon
-  color: $primary
 // Override for use of svg's from https://simpleicons.org/
 .icon svg
   width: 1.5rem
@@ -98,37 +102,12 @@
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
 
-
-//Menu overrides
-$menu-item-color: $pink
-$menu-item-hover-color: $black !important
-$menu-item-hover-background-color: $black
-$menu-item-active-color: $yellow
-$menu-item-active-background-color: $yellow
-$menu-list-border-left: 1px solid $black
-$menu-label-color: $white-ter
-
-
 .menu-label
   font-size: 1em !important
   text-align: left
 .menu-list
   list-style: none !important
   text-align: left
-.social
-  padding: 2em
-.social a
-    padding: .5em .5em .3em .5em
-    border-radius: 1em
-    background-color: $white-ter
-    margin: .5em
-    width: 1em
-    height: 1em
-    vertical-align: middle
-    display: inline
-
-
-
 
 @import "~bulma"
 
