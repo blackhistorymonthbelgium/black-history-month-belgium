@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/bhm-logo.svg'
+import logo from '../img/logo.svg'
 import { T, getCurrentLanguage } from '../internationalization'
 import { getLocalizedUrl, getRelocalizedUrl } from '../helpers'
 import { Location } from '@reach/router'

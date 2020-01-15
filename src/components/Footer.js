@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../img/bhm-logo.svg'
+import logo from '../img/logo.svg'
 
 const Footer = class extends React.Component {
   render() {
