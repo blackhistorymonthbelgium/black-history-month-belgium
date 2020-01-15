@@ -23,6 +23,35 @@
 
 nav
   background: $black
+  padding: 10px
+  .container
+    display: flex
+    justify-content: space-between
+
+.navbarend
+  display: flex
+  flex-direction: column
+  align-items: flex-end
+  div
+    display: flex
+    a
+      font-family: Dolce-Vita-Heavy-Bold
+      color: $white
+    a:hover
+      color: $yellow
+      background-color: transparent
+    a[aria-current=page]
+      color: $purple
+  span
+    a
+      color: white
+      font-family: GT-Eesti-Pro-Text-Regular
+    a:hover
+      color: $yellow
+    a[aria-current=page]
+      color: $purple
+
+
 .navbar .navbar-brand
   padding: 2em 0
 .navbar .navbar-menu
@@ -30,8 +59,7 @@ nav
 
   .navbar-item
     font-family: Dolce-Vita-Heavy-Bold
-  .navbar-item:hover
-    color: $yellow
+
 .tag-post
   margin-bottom: 100px
 .content .taglist
@@ -135,6 +163,3 @@ body
       flex-direction: column
 main
   flex-grow: 1
-
-.navbar-item[aria-current=page]
-  background-color: white;

@@ -49,34 +49,23 @@ const Navbar = class extends React.Component {
             <LocalizedLink to='/' title="Logo">
               <img className="logo" src={logo} alt="Black History Month Belgium" />
             </LocalizedLink>
-            {/* Hamburger menu */}
-            <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-              data-target="navMenu"
-              onClick={() => this.toggleHamburger()}
-            >
-              <span />
-              <span />
-              <span />
-            </div>
+          </div>
+          <div>
+          {/* Hamburger menu */}
+          <div
+            className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+            data-target="navMenu"
+            onClick={() => this.toggleHamburger()}
+          >
+            <span />
+            <span />
+            <span />
           </div>
           <div
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-end">
-              <LocalizedLink className="navbar-item" to="/about">
-                {T('about')}
-              </LocalizedLink>
-              <LocalizedLink className="navbar-item" to="/agenda">
-                Agenda
-              </LocalizedLink>
-              <LocalizedLink className="navbar-item" to="/archives">
-                Archives
-              </LocalizedLink>
-              <LocalizedLink className="navbar-item" to="/blog">
-                Blog
-              </LocalizedLink>
+            <div className="navbarend">
               <span className="languages">
                 <Link to={getRelocalizedUrl(pathname, language, "en")}> en </Link>
                 <span> / </span>
@@ -84,7 +73,22 @@ const Navbar = class extends React.Component {
                 <span> / </span>
                 <Link to={getRelocalizedUrl(pathname, language, 'fr')}> fr </Link>
               </span>
+              <div>
+                <LocalizedLink className="navbar-item" to="/about">
+                  {T('about')}
+                </LocalizedLink>
+                <LocalizedLink className="navbar-item" to="/agenda">
+                  Agenda
+                </LocalizedLink>
+                <LocalizedLink className="navbar-item" to="/archives">
+                  Archives
+                </LocalizedLink>
+                <LocalizedLink className="navbar-item" to="/blog">
+                  Blog
+                </LocalizedLink>
+              </div>
             </div>
+          </div>
           </div>
         </div>
       </nav>
