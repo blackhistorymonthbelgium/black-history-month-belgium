@@ -13,6 +13,12 @@
 @import "archives.sass"
 @import "footer.sass"
 
+$navbar-background-color: $black
+$navbar-item-hover-background-color: $black
+$navbar-item-color: white
+$navbar-item-hover-color: $yellow
+$navbar-burger-color: white
+$navbar-item-active-color: $yellow
 .logo
   width: 100px
 .sponsors
@@ -28,12 +34,12 @@ nav
     display: flex
     justify-content: space-between
 
-.navbarend
-  display: flex
-  flex-direction: column
-  align-items: flex-end
+.barend
+  .languages
+    display: flex
   div
     display: flex
+    flex-wrap: wrap
     a
       font-family: Dolce-Vita-Heavy-Bold
       color: $white
@@ -56,10 +62,10 @@ nav
   padding: 2em 0
 .navbar .navbar-menu
   box-shadow:none !important
-
   .navbar-item
     font-family: Dolce-Vita-Heavy-Bold
-
+.is-active
+  background-color: black;
 .tag-post
   margin-bottom: 100px
 .content .taglist

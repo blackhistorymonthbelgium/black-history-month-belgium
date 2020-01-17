@@ -65,15 +65,15 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbarend">
-              <span className="languages">
-                <Link to={getRelocalizedUrl(pathname, language, "en")}> en </Link>
+            <div className="barend">
+              <span className="languages navbar-end">
+                <Link className="navbar-item" to={getRelocalizedUrl(pathname, language, "en")}> en </Link>
                 <span> / </span>
-                <Link to={getRelocalizedUrl(pathname, language, 'nl')}> nl </Link>
+                <Link className="navbar-item" to={getRelocalizedUrl(pathname, language, 'nl')}> nl </Link>
                 <span> / </span>
-                <Link to={getRelocalizedUrl(pathname, language, 'fr')}> fr </Link>
+                <Link className="navbar-item" to={getRelocalizedUrl(pathname, language, 'fr')}> fr </Link>
               </span>
-              <div>
+              <div className="navbar-end">
                 <LocalizedLink className="navbar-item" to="/about">
                   {T('about')}
                 </LocalizedLink>
@@ -86,7 +86,9 @@ const Navbar = class extends React.Component {
                 <LocalizedLink className="navbar-item" to="/blog">
                   Blog
                 </LocalizedLink>
+
               </div>
+
             </div>
           </div>
           </div>
