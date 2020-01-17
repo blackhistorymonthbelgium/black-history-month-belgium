@@ -21,7 +21,6 @@ class BlogRoll extends React.Component {
                   post.frontmatter.featuredpost ? 'is-featured' : ''
                 }`}
               >
-
                 <div className="post-meta">
                 {post.frontmatter.featuredimage ? (
                   <div className="featured-thumbnail">
@@ -42,12 +41,13 @@ class BlogRoll extends React.Component {
 
                   </header>
                 </div >
+                <span className="extra-info">
+                  {post.frontmatter.date}
+                </span>
+                <span className="extra-info">
+                  Written by: {post.frontmatter.author}
+                </span>
                 <p>
-                  <span className="subtitle">
-                    {post.frontmatter.date}
-                  </span>
-
-                  <br />
                   {post.excerpt}
                   <br />
                   <PostLink className="keepReading" post={post}>
@@ -89,6 +89,7 @@ export default ({ language }) => (
                 title
                 templateKey
                 language
+                author
                 slug
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
