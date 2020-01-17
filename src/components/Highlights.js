@@ -11,7 +11,7 @@ const Highlights = (props) => {
   } = props;
 
   return(
-    <section className="highlights">
+    <section className="highlights container">
       <div className="columns is-half-desktop is-full-mobile">
         <div className="column column-poster">
           <div className="poster">

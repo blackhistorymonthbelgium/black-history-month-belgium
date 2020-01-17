@@ -10,7 +10,7 @@ const ComingUpEvents = (props) => {
   return(
     <section className="comingUpEvents">
       <h1>{T('upcomingEvents')}</h1>
-      <ul className="columns is-one-third-widescreen">
+      <ul className="columns container is-one-third-widescreen">
         {events.map((event, key)=>
         <li key={key} className="column">
           <div className="event-wrapper">
