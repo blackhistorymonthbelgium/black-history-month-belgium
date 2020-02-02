@@ -45,8 +45,8 @@ const News = (props) =>{
         <div className="column social-med">
           <h1 className="titleNewsSection">Social Media</h1>
           <div className="wrapper">
-            <h2>Stay up-to-date with our latest events!</h2>
-
+            <h2>Stay informed!</h2>
+            <p>The best way to keep up to date with the events of Black History Month and with what Black History Month Belgium is planning, is to follow us on our social media platforms. We are on Twitter, Instagram and Facebook.</p>
             <div className="channel">
               <i className="iconSocial fal fa-thumbs-up"/>
               <div className="detail-link">
@@ -72,7 +72,10 @@ const News = (props) =>{
               </div>
             </div>
             <form>
-              <label htmlFor="email">Register to our newsletter:</label>
+              <p>
+              Our monthly newsletter gives you the best information of what we are doing but also what else is happening concerning black people in Belgium.
+              </p>
+              <label htmlFor="email">To join our mailing list please enter your email</label>
               <div className="inputs">
                 <input className="emailSubscribe" type="email" placeholder="name@address.com" />
                 <input className="subscribe" type="submit" value="Subscribe" />
