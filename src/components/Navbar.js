@@ -74,6 +74,9 @@ const Navbar = class extends React.Component {
                 <Link className="navbar-item" to={getRelocalizedUrl(pathname, language, 'fr')}> fr </Link>
               </span>
               <div className="navbar-end">
+                <LocalizedLink className="navbar-item" to="/">
+                  {T('home')}
+                </LocalizedLink>
                 <LocalizedLink className="navbar-item" to="/about">
                   {T('about')}
                 </LocalizedLink>
