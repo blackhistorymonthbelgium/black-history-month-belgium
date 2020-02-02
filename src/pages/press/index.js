@@ -13,7 +13,7 @@ export default class PressIndexPage extends React.Component {
           </h1>
           <div className="container press">
             <div className="content">
-            <PressRoll />
+              <PressRoll />
             </div>
           </div>
         </section>

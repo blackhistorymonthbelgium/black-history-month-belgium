@@ -14,8 +14,8 @@ class PressRoll extends React.Component {
       <ul className="columns">
         {posts &&
           posts.map(({ node: post }) => (
-            <li>
-              <a target="_blank" href={post.frontmatter.link}><i className="fal fa-link"></i>{post.frontmatter.title}</a>
+            <li key={post.frontmatter.link}>
+              <a target="_blank" href={post.frontmatter.link}> <i className="fal fa-link"></i> {post.frontmatter.title}</a>
             </li>
           ))}
       </ul>
