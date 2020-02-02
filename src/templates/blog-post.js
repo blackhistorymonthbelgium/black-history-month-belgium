@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import { TagLink } from '../components/Links'
+import { createPagePath } from '../helpers'
 
 export const BlogPostTemplate = ({
   content,
@@ -12,11 +13,14 @@ export const BlogPostTemplate = ({
   description,
   tags,
   title,
+  date,
   author,
+  path,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
-
+  const url = `https://blackhistorymonth.be${path}`;
+  const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
   return (
     <section className="section blog-post">
       {helmet || ''}
@@ -27,7 +31,8 @@ export const BlogPostTemplate = ({
               {title}
             </h1>
             <p>Written by: {author}</p>
-            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share on FB</a></div>
+            <p>{date}</p>
+            <div class="fb-share-button" data-href={url} data-layout="button_count" data-size="small"><a target="_blank" href={shareUrl} class="fb-xfbml-parse-ignore">Share on FB</a></div>
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
@@ -54,13 +59,16 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
+  date: PropTypes.string,
   author: PropTypes.string,
   helmet: PropTypes.object,
+  path: PropTypes.string
 }
 
 const BlogPost = ({ data, pageContext }) => {
   const { markdownRemark: post } = data
   const { language } = pageContext;
+  const path = createPagePath(post, language);
 
   return (
     <Layout language={language}>
@@ -80,6 +88,8 @@ const BlogPost = ({ data, pageContext }) => {
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
         author={post.frontmatter.author}
+        date={post.frontmatter.date}
+        path={path}
       />
     </Layout>
   )
@@ -98,8 +108,12 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       id
       html
+      fields {
+        slug
+      }
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
+        slug
         title
         author
         description
