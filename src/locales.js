@@ -2,12 +2,12 @@ module.exports = {
   nl: {
     path: 'nl',
     locale: 'Dutch',
-    default: true
+    default: false
   },
   en: {
     path: 'en',
     locale: 'English',
-    default: false
+    default: true
   },
   fr: {
     path: 'fr',
