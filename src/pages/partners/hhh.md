@@ -1,8 +1,8 @@
 ---
 templateKey: partners-post
-title: hhh
-name: kkkk
-featuredimage: /img/apple-touch-icon.png
-link: kkjkj
-width: 80
+title: Arenberg
+featuredimage: /img/arenberg.svg
+width: 200
+link: 'https://www.arenbergschouwburg.be/'
 ---
+
