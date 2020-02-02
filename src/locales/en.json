@@ -32,5 +32,9 @@
   "dateStart": "Date start",
   "dateEnd": "Date end",
   "artist": "Artist",
-  "admission": "Admission"
+  "admission": "Admission",
+  "purposeBHM": "Purpose",
+  "whatIsBHMtitle": "What is BHM",
+  "team": "Team",
+  "whatIsBHMtext": "Black History Month (BHM) is an annual celebration (during the month of March) of the resilience of the black community in the present and the past. It is an attempt to transform the way in which we represent the past and the present through conversations, exchange moments, lectures, film, debate, performances, exhibitions, ... Through a people's history/history from below (the past told from the perspective of everyday people instead of leaders) we strive to make history more honest/truthful and inclusive, so more about all of us, regardless of our socio-economic, ethnic or cultural backgrounds. The ultimate motivation is to demonstrate the importance of conserving and promoting cultural diversity and the right to culture for everyone in our society."
 }
