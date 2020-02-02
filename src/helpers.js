@@ -1,5 +1,14 @@
 
-const defaultLanguage = 'nl';
+const locales = require('./locales');
+
+function getDefaultLanguage() {
+  for (let key in locales) {
+    if (locales[key].default)
+      return key;
+  }
+  return 'en';
+}
+const defaultLanguage = getDefaultLanguage();
 
 function createPagePath(node, lang) {
   if (!node.fields)

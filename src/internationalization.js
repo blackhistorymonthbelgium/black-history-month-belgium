@@ -1,7 +1,16 @@
-import { defaultLanguage } from './locales';
+import locales from './locales';
 import NL from './locales/nl.json';
 import EN from './locales/en.json';
 import FR from './locales/fr.json';
+
+function getDefaultLanguage() {
+  for (let key in locales) {
+    if (locales[key].default)
+      return key;
+  }
+  return 'en';
+}
+export const defaultLanguage = getDefaultLanguage();
 
 let currentLanguage = defaultLanguage;
 const languages = {

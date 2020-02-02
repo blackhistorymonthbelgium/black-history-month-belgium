@@ -49,7 +49,7 @@ const IndexPage = ({ data, pageContext }) => {
   const archives = data
     .allMarkdownRemark
     .edges
-    .filter(post => post.node.frontmatter.templateKey === 'archives-post');
+    .filter(post => post.node.frontmatter.templateKey === 'archives-post' && post.node.frontmatter.language === pageContext.language);
   const blogs = data
     .allMarkdownRemark
     .edges
@@ -130,13 +130,6 @@ export const pageQuery = graphql`
         title
         language
         slug
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         heading
         subheading
         mainpitch {
@@ -146,13 +139,6 @@ export const pageQuery = graphql`
         description
         intro {
           blurbs {
-            image {
-              childImageSharp {
-                fluid(maxWidth: 240, quality: 64) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
             text
           }
           heading
