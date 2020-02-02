@@ -86,6 +86,9 @@ const Navbar = class extends React.Component {
                 <LocalizedLink className="navbar-item" to="/archives">
                   Archives
                 </LocalizedLink>
+                <LocalizedLink className="navbar-item" to="/press">
+                  Press
+                </LocalizedLink>
                 <LocalizedLink className="navbar-item" to="/blog">
                   Blog
                 </LocalizedLink>
