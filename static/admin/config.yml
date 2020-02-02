@@ -60,6 +60,16 @@ collections:
       - {label: "Width of the logo", name: "width", widget: "number"}
       - {label: "Link", name: "link", widget: "string"}
 
+  - name: "press"
+    label: "Press"
+    folder: "src/pages/press"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "press-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Link", name: "link", widget: "string"}
+
   - name: "agenda"
     label: "Agenda"
     folder: "src/pages/agenda"
