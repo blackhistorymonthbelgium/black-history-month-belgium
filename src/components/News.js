@@ -66,7 +66,7 @@ const News = (props) =>{
             <div className="channel">
               <i className="iconSocial fab fa-twitter"/>
               <div className="detail-link">
-                <a title="twitter" href="https://twitter.com/bhmantwerp">
+                <a title="twitter" href="https://twitter.com/BHMBelgium">
                 Twitter <i className="far fa-chevron-right"/>
                 </a>
               </div>

@@ -24,7 +24,7 @@ const Footer = class extends React.Component {
         <div className="social-list">
           <a className="social-item" title="facebook" href="https://www.facebook.com/blackhistorymonthbelgium/"><i className="iconSocial fal fa-thumbs-up"/></a>
           <a className="social-item" title="instagram" href="https://www.instagram.com/bhmbelgium/"><i className="iconSocial fab fa-instagram"/></a>
-          <a className="social-item" title="twitter" href="https://twitter.com/bhmantwerp"><i className="iconSocial fab fa-twitter"/></a>
+          <a className="social-item" title="twitter" href="https://twitter.com/BHMBelgium"><i className="iconSocial fab fa-twitter"/></a>
         </div>
         </div>
 
