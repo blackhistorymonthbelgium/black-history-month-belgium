@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 language: nl
-slug: scaa-new-flavor-wheel
+slug: zwarte-kunst-als-verzet-en-als-weg-naar-bevrijding
 title: Zwarte kunst als verzet en als weg naar bevrijding
 date: 2019-01-31T15:04:10.000Z
 description: >-
