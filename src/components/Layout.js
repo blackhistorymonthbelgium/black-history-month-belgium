@@ -57,7 +57,7 @@ const TemplateWrapper = (props) => {
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
+          content={`${withPrefix('/')}img/logo.svg`}
         />
       </Helmet>
         <div id="fb-root"></div>
