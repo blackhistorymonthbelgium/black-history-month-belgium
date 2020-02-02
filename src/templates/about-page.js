@@ -50,6 +50,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           Momenteels bestaat het Black History Month Belgium team uit een nationale kerngroep versterkt met lokale teams in Antwerpen, Brussel en Gent. Onze ambitie is om te groeien naar een horizontale bottom up werkingen met linken in zoveel mogelijk steden in België.
           </p>
           <br/>
+
           <h2>Onze nationale kerngroep bestaat uit:</h2>
           <p>Algemene coördinatie: <span>Aminata Ndow & Mohamed Barrie</span></p>
           <p>PR & Communicatie: <span>Jonelle Luzolele</span></p>
@@ -59,6 +60,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           <p>Project leider Brussel: <span>Laura Ganza</span></p>
           <p>Project leider Antwerpen: <span>Eyram Amavi</span></p>
           <p>Project leider Limburg: <span>Rachel Hansoul & Stella Nyanchama</span></p>
+          <br/>
           <p>Verder doen we beroep op het werk en de inzet van talloze vrijwilligers en gemeenschapsorganisaties die Black History Month Belgium mee mogelijk maken.</p>
         </div>
       </div>
