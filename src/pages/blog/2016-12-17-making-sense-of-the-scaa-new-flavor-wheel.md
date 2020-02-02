@@ -5,14 +5,17 @@ slug: scaa-new-flavor-wheel
 title: Zwarte kunst als verzet en als weg naar bevrijding
 date: 2019-01-31T15:04:10.000Z
 description: >-
-  Zwarte kunst is geen monoliet. Het is divers, expressief en biedt weerstand tegen eenvoudige categorisering. Het bestaat overal. In musea en galerijen, op gebouwen en in de straten, op blogs en digitale platforms en op de canvassen van onze lichamen.
+  Zwarte kunst is geen monoliet. Het is divers, expressief en biedt weerstand
+  tegen eenvoudige categorisering. Het bestaat overal. In musea en galerijen, op
+  gebouwen en in de straten, op blogs en digitale platforms en op de canvassen
+  van onze lichamen.
 featuredpost: true
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/2019.jpg
+author: Aminata
 tags:
   - blog
-author: Aminata
 ---
-![flavor wheel](/img/flavor_wheel.jpg)
+![poster2019](/img/2019.jpg "Poster 2019")
 
 Zwarte kunst is krachtig, persoonlijk en is meer dan ooit aanwezig. Het daagt zwarte activisten en kunstenaars uit het moeilijke werk te doen om de subtiele vooroordelen, diepe overtuigingen en kernwaarden die onze wereld vormen, in vraag te stellen en te veranderen. Het uiteindelijke doel? Vrijheid.
 
