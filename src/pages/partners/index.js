@@ -37,7 +37,10 @@ export const partnerPageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(limit: 1000) {
+    allMarkdownRemark(
+      limit: 1000
+      sort: { order: DESC, fields: [frontmatter___title]}
+    ) {
       edges {
         node {
           frontmatter {
