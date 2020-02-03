@@ -1,7 +1,8 @@
 ---
 templateKey: partners-post
-title: Schouwburg Arenberg
+title: SchouwburgArenberg
 featuredimage: /img/arenberg.png
 width: 90
 link: 'https://www.arenbergschouwburg.be/'
 ---
+
