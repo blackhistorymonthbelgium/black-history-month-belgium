@@ -70,6 +70,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Logo", name: "featuredimage", widget: image}
       - {label: "Link", name: "link", widget: "string"}
+
   - name: "press"
     label: "Press"
     folder: "src/pages/press"
@@ -79,6 +80,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "press-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Link", name: "link", widget: "string"}
+      - {label: "Year", name: "yearPress", widget: "number"}
 
   - name: "agenda"
     label: "Agenda"

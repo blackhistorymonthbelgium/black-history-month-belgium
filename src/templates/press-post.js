@@ -8,6 +8,7 @@ import Content, { HTMLContent } from '../components/Content'
 export const PressPostTemplate = ({
   title,
   link,
+
   contentComponent
 }) => {
   const PostContent = contentComponent || Content
@@ -24,6 +25,7 @@ PressPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   title: PropTypes.string,
   link: PropTypes.string,
+
 }
 
 const PressPost = ({ data, pageContext }) => {
@@ -45,6 +47,7 @@ const PressPost = ({ data, pageContext }) => {
         }
         name={post.frontmatter.title}
         link={post.frontmatter.link}
+
       />
     </Layout>
   )

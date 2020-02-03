@@ -9,16 +9,32 @@ class PressRoll extends React.Component {
     const { data, language } = this.props
     const { edges: allPosts } = data.allMarkdownRemark
     const posts = getPostsInLanguage(allPosts, language);
+    const yearSet = new Set();
+    posts.forEach(({ node: post }) => yearSet.add(post.frontmatter.yearPress));
+    const years = [...yearSet];
+    years.sort().reverse();
 
     return (
-      <ul className="columns">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <li key={post.frontmatter.link}>
-              <a target="_blank" href={post.frontmatter.link}> <i className="fal fa-link"></i> {post.frontmatter.title}</a>
-            </li>
-          ))}
-      </ul>
+      <div>
+        <ul>
+        {years.map(year =>
+          <li key={year}>
+            <p>{year}</p>
+            <ul className="columns">
+            {posts &&
+              posts
+                .filter(({ node: post }) => post.frontmatter.yearPress === year)
+                .map(({ node: post }) => (
+                  <li key={post.frontmatter.link}>
+                    <a target="_blank" href={post.frontmatter.link}> <i className="fal fa-link"></i> {post.frontmatter.title}</a>
+                  </li>
+                ))
+              }
+            </ul>
+          </li>
+        )}
+        </ul>
+      </div>
     )
   }
 }
@@ -36,8 +52,10 @@ export default ({ language }) => (
     query={graphql`
       query PressRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
-          filter: { frontmatter: { templateKey: { eq: "press-post" } } }
+          sort: { order: DESC, fields: [frontmatter___yearPress] }
+          filter: { frontmatter: {
+            templateKey: { eq: "press-post" }
+          } }
         ) {
           edges {
             node {
@@ -50,6 +68,7 @@ export default ({ language }) => (
                 title
                 templateKey
                 link
+                yearPress
                 slug
               }
             }
