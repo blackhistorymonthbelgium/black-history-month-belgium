@@ -72,17 +72,24 @@ const News = (props) =>{
                 </a>
               </div>
             </div>
-            <form>
-              <p>
-              {T("newsletterText")}
-              </p>
-              <br/>
-              <label htmlFor="email">{T("newsletterInput")}</label>
-              <div className="inputs">
-                <input className="emailSubscribe" type="email" placeholder="name@address.com" />
-                <input className="subscribe" type="submit" value="Subscribe" />
-              </div>
-            </form>
+            <p>
+            {T("newsletterText")}
+            </p>
+            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css" />
+            <div id="mc_embed_signup">
+              <form action="https://blackhistorymonth.us4.list-manage.com/subscribe/post?u=c1d7bead0df2b5f05cd385477&amp;id=999730b5cc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" novalidate>
+                <label htmlFor="email">{T("newsletterInput")}</label>
+                  <div id="mc_embed_signup_scroll">
+                    <input type="email" name="EMAIL" className="emailSubscribe" id="mce-EMAIL" placeholder="name@address.com" required />
+                    <div style={{position: "absolute", left: -5000}} aria-hidden="true">
+                      <input type="text" name="b_c1d7bead0df2b5f05cd385477_999730b5cc" tabIndex="-1" value="" />
+                    </div>
+                    <div className="clear">
+                      <input className="subscribe buttonForm" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
+                    </div>
+                  </div>
+              </form>
+            </div>
           </div>
         </div>
       </div>

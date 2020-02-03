@@ -1,4 +1,15 @@
 @import "colors.sass"
+#mc_embed_signup
+  background:#fff
+  clear:left
+  width: 100%
+  input::placeholder
+    color: $pink
+  .buttonForm
+    background-color: $pink
+    color: $black
+    text-transform: uppercase
+    font-family: Dolce-Vita-Heavy-Bold
 
 .news
   display: flex
@@ -31,7 +42,6 @@
     font-size: 1.5em
     text-align: center
 
-
   .blog
     .wrapper
         margin-top: 10px
@@ -40,7 +50,6 @@
     .goToBlog
         font-family: Dolce-Vita-Heavy-Bold
         padding: 10px
-
         color: $black
         background-color: $yellow
         position: relative
@@ -77,8 +86,6 @@
         text-transform: uppercase
         font-size: 1.2em
         padding-top: 10px
-
-
 
   .social-med
     h1
@@ -136,6 +143,13 @@
 
       .emailSubscribe
         border: 2px solid $blue
+        box-sizing: border-box;
+        height: 37px;
+        padding: 0px 0.4em;
+        display: inline-block;
+        margin: 0;
+        width: 350px;
+        vertical-align: top;
       .emailSubscribe::placeholder
         color: $pink
         opacity: 0.5
