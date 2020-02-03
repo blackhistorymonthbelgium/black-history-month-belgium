@@ -54,7 +54,7 @@ export default ({ language }) => (
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___yearPress] }
           filter: { frontmatter: {
-            templateKey: { eq: "press-post" }
+            templateKey: { eq: "extraPartners-post" }
           } }
         ) {
           edges {
@@ -68,7 +68,7 @@ export default ({ language }) => (
                 title
                 templateKey
                 link
-                yearPress
+                year
                 slug
               }
             }
