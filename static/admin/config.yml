@@ -60,16 +60,16 @@ collections:
       - {label: "Width of the logo", name: "width", widget: "number"}
       - {label: "Link", name: "link", widget: "string"}
 
-  - name: "extraPartners2020"
-    label: "Extra Partners 2020"
-    folder: "src/pages/extraPartners2020"
+  - name: "extraPartners"
+    label: "Extra Partners"
+    folder: "src/pages/extraPartners"
     create: true
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "extraPartners2020-post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Logo", name: "featuredimage", widget: image}
       - {label: "Link", name: "link", widget: "string"}
+      - {label: "Year", name: "year", widget: "number"}
 
   - name: "press"
     label: "Press"

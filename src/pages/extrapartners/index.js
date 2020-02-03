@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../../components/Layout'
 import {T} from '../../internationalization'
+import ExtraPartnersRoll from '../../components/ExtraPartnersRoll'
 
 export default class ExtraPartnersIndexPage extends React.Component {
   render() {
@@ -18,6 +19,7 @@ export default class ExtraPartnersIndexPage extends React.Component {
               </a>
               <br/>
               <br/>
+              <ExtraPartnersRoll />
               <div className="partnersList">
                 <h1 className="blogs-title">2020</h1>
                 <div>
