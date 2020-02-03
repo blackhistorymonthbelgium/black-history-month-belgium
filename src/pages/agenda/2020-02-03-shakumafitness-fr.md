@@ -12,7 +12,7 @@ tags:
 year: '2020'
 artists:
   - King Franky
-location: Antwerp
+location: Anvers
 datestart: 2020-03-03T17:00:00.000Z
 dateend: 2020-03-03T18:00:00.000Z
 fblink: 'https://www.facebook.com/Shakuma-Fitness-599099240130323/'
