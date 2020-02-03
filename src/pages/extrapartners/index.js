@@ -1,5 +1,6 @@
 import React from 'react'
 import Layout from '../../components/Layout'
+import {T} from '../../internationalization'
 
 export default class ExtraPartnersIndexPage extends React.Component {
   render() {
@@ -7,19 +8,10 @@ export default class ExtraPartnersIndexPage extends React.Component {
     return (
       <Layout language={language}>
         <section className="blogs">
-          <h1 className="blogs-title">
-            VOOR POTENTIËLE PARTNERS
-          </h1>
+          <h1 className="blogs-title">{T("extraPartnersTitle")}</h1>
           <div className="container">
             <div className="content extrapartners">
-              <p>
-                Black History Month Belgium streeft inclusie na door, vanuit een sterk gevormde en verankerde kern, samenwerkingen aan te gaan met partners in de culturele, educatieve en sociale sector voor het organiseren van onze evenementen. Via deze partnerschappen hebben we reeds bewezen samen te kunnen werken met partners uit het Vlaams gesubsidieerde cultuur, kunst en onderwijsveld (zie evenementen BHM) en een tal van organisaties uit het hele sociaal-demografische spectrum. Velden die nu nog steeds moeilijkheden ondervinden om onze doelgroep, via hun regulier aanbod, te bereiken.
-                <br/>
-                <br />
-                Samenwerken met organisaties die de streefdoelen van BHM ten harte nemen, speelt een belangrijke rol in het uitbouwen en voortzetten van onze werking. Deze pagina vertegenwoordigt een kleine fractie van de vele organisaties die betrokken zijn bij Black History Month Belgium.
-                <br/>
-                <br />
-                Als je interesse hebt om als organisatie Black History Month Belgium structureel te steunen of als je interesse hebt om als individu, collectief, zwarte organisatie of gemeenschapsorganisatie mee Black History Month inhoudelijk vorm te geven stuur dan een mail met onderstande knop.
+              <p dangerouslySetInnerHTML={{__html:T("extraPartnersText")}}>
               </p>
               <a className="emailPartner" href="mailto:blackhistorymonth.belgium@gmail.com?subject=Become BHM Partner&body=Hello BHM! We'd like to be your partner...">
                   Be our partner
