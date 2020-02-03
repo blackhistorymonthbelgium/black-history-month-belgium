@@ -19,7 +19,6 @@ export const AgendaPostTemplate = ({
   location,
   datestart,
   dateend,
-  fblink,
  }) => {
   const PostContent = contentComponent || Content
 
@@ -33,11 +32,10 @@ export const AgendaPostTemplate = ({
           <div className="column is-10 is-offset-1">
             <p><b>Description :</b> {description}</p>
             <p><b>Location:</b> {location}</p>
-            <p><b>Attend this event</b> {fblink}</p>
             <p><b>Date Start:</b>{moment(datestart).format("MM-DD-YYYY")}</p>
             <p><b>Date End:</b>{moment(datestart).format("MM-DD-YYYY")}</p>
             <p><b>Time:</b>{moment(datestart).format("HH:mm")}</p>
-            <p><b>Artists:</b>{artists.map(artist => (
+            <p><b>Organisator:</b>{artists.map(artist => (
               <LocalizedLink key={artist} to={`/artists/${kebabCase(artist)}/`}>{artist} </LocalizedLink>))}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
@@ -67,7 +65,6 @@ AgendaPostTemplate.propTypes = {
   helmet: PropTypes.object,
   artists: PropTypes.array,
   location: PropTypes.string,
-  fblink: PropTypes.string,
 }
 
 const AgendaPost = (props) => {
@@ -95,7 +92,6 @@ const AgendaPost = (props) => {
       location={post.frontmatter.location}
       datestart={post.frontmatter.datestart}
       dateend={post.frontmatter.dateend}
-      fblink={post.frontmatter.fblink}
       />
     </Layout>
   )
@@ -124,7 +120,6 @@ export const pageQuery = graphql`
         location
         datestart
         dateend
-        fblink
       }
     }
   }
