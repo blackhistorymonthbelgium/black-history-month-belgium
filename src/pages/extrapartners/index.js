@@ -34,7 +34,7 @@ export default class ExtraPartnersIndexPage extends React.Component {
                   &#8226; De Cinema
                   &#8226; De Roma
                   &#8226; FAQ(For All Queens)
-                  &#8226; FoMu?
+                  &#8226; FoMu
                   &#8226; Karibu
                   &#8226; Kolamela
                   &#8226; KULeuven
