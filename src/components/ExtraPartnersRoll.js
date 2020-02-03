@@ -50,7 +50,7 @@ PressRoll.propTypes = {
 export default ({ language }) => (
   <StaticQuery
     query={graphql`
-      query PressRollQuery {
+      query ExtraPartnersRollQuery {
         allMarkdownRemark(
           sort: { order: DESC, fields: [frontmatter___yearPress] }
           filter: { frontmatter: {
