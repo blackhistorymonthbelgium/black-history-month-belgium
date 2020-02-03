@@ -15,7 +15,7 @@ class Sponsors extends React.Component {
             <ul className="column partners">
                 {posts.map((post, key)=>
                   <li key={key}>
-                    <Link to={post.node.frontmatter.link}>
+                    <a href={post.node.frontmatter.link}>
                     {post.node.frontmatter.featuredimage ? (
                       <div className="featured-thumbnail" style={{width:`${post.node.frontmatter.width}px`}}>
                         <PreviewCompatibleImage
@@ -26,7 +26,7 @@ class Sponsors extends React.Component {
                         />
                       </div>
                     ) : null}
-                    </Link>
+                    </a>
                   </li>
                 )}
               </ul>
