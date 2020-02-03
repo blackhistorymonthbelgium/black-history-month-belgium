@@ -19,7 +19,7 @@ class PressRoll extends React.Component {
         <ul>
         {years.map(year =>
           <li key={year}>
-            <p>{year}</p>
+            <p className="year"><i class="fal fa-newspaper"></i> {year}</p>
             <ul className="columns">
             {posts &&
               posts
