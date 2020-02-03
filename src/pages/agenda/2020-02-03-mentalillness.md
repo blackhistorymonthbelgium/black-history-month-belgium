@@ -1,6 +1,6 @@
 ---
 templateKey: agenda-post
-language: nl
+language: en
 title: Mental Illness & Religion
 slug: mentalIllness
 date: 2020-02-03T16:38:07.941Z

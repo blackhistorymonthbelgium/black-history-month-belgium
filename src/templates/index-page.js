@@ -45,7 +45,7 @@ const IndexPage = ({ data, pageContext }) => {
   const events = data
     .allMarkdownRemark
     .edges
-    .filter(post => post.node.frontmatter.templateKey === 'agenda-post');
+    .filter(post => post.node.frontmatter.templateKey === 'agenda-post'&& post.node.frontmatter.language === pageContext.language);
   const archives = data
     .allMarkdownRemark
     .edges
@@ -53,7 +53,7 @@ const IndexPage = ({ data, pageContext }) => {
   const blogs = data
     .allMarkdownRemark
     .edges
-    .filter(post => post.node.frontmatter.templateKey === 'blog-post');
+    .filter(post => post.node.frontmatter.templateKey === 'blog-post' && post.node.frontmatter.language === pageContext.language);
 
   return (
     <Layout language={pageContext.language}>
