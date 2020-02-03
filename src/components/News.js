@@ -76,6 +76,7 @@ const News = (props) =>{
               <p>
               {T("newsletterText")}
               </p>
+              <br/>
               <label htmlFor="email">{T("newsletterInput")}</label>
               <div className="inputs">
                 <input className="emailSubscribe" type="email" placeholder="name@address.com" />
