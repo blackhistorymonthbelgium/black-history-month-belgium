@@ -2,7 +2,7 @@
 templateKey: agenda-post
 language: nl
 title: 'African game night '
-slug: 'africanGameNight '
+slug: africanGameNight
 date: 2020-02-03T16:26:51.191Z
 description: African game night & Jollof competition
 featuredpost: true
@@ -16,7 +16,6 @@ artists:
 location: Antwerpen
 datestart: 2020-05-03T16:00:00.000Z
 dateend: 2020-03-05T22:00:00.000Z
-fblink: /
 ---
 
 
