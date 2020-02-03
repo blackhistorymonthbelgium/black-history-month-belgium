@@ -14,8 +14,8 @@ const Footer = class extends React.Component {
         </div>
         <div className="columnBHM">
           <h1 className="footerTitle">Contact</h1>
-          <a href="mailto:blackhistorymonth.belgium@gmail.com?subject=Hello&body=Hello BHM!...">
-            blackhistorymonth.belgium@gmail.com
+          <a href="mailto:info@blackhistorymonth.be?subject=Hello&body=Hello BHM!...">
+            info@blackhistorymonth.be
           </a>
         </div>
 
