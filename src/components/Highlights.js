@@ -17,11 +17,11 @@ const Highlights = (props) => {
           <div className="poster">
             {archives.map((archive, key)=> (
               <div key={key} className="event-detail">
-              {archive.node.frontmatter.bannerimage ? (
+              {archive.node.frontmatter.featuredimage ? (
                 <div className="featured-thumbnail img-inside">
                   <PreviewCompatibleImage
                     imageInfo={{
-                      image: archive.node.frontmatter.bannerimage,
+                      image: archive.node.frontmatter.featuredimage,
                       alt: `featured image thumbnail for post ${archive.node.frontmatter.title}`,
                     }}
                   />
