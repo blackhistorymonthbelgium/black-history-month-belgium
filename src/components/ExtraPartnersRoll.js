@@ -10,23 +10,23 @@ class ExtraPartnersRoll extends React.Component {
     const { edges: allPosts } = data.allMarkdownRemark
     const posts = getPostsInLanguage(allPosts, language);
     const yearSet = new Set();
-    posts.forEach(({ node: post }) => yearSet.add(post.frontmatter.year));
+    posts.forEach(({ node: post }) => yearSet.add(post.frontmatter.yearPartner));
     const years = [...yearSet];
     years.sort().reverse();
 
     return (
-      <div>
+      <div className="partnersList">
         <ul>
         {years.map(year =>
           <li key={year}>
-            <p className="year"><i class="fal fa-newspaper"></i> {year}</p>
-            <ul className="columns">
+            <h1 className="blogs-title">{year}</h1>
+            <ul>
             {posts &&
               posts
-                .filter(({ node: post }) => post.frontmatter.year === year)
+                .filter(({ node: post }) => post.frontmatter.yearPartner === year)
                 .map(({ node: post }) => (
-                  <li key={post.frontmatter.link}>
-                    <a target="_blank" href={post.frontmatter.link}> <i className="fal fa-link"></i> {post.frontmatter.title}</a>
+                  <li key={post.id}>
+                    <a target="_blank" href={post.frontmatter.link}> &#8226; {post.frontmatter.title}</a>
                   </li>
                 ))
               }
@@ -52,7 +52,7 @@ export default ({ language }) => (
     query={graphql`
       query ExtraPartnersRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___year] }
+          sort: { order: ASC, fields: [frontmatter___title] }
           filter: { frontmatter: {
             templateKey: { eq: "extraPartners-post" }
           } }
@@ -68,7 +68,7 @@ export default ({ language }) => (
                 title
                 templateKey
                 link
-                year
+                yearPartner
                 slug
               }
             }

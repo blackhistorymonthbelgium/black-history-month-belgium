@@ -13,14 +13,14 @@
     font-family: GT-Eesti-Pro-Text-Regular;
     color: $black;
     font-size: 1em;
-  a
+  .emailPartner
     text-align: center
     text-transform: uppercase
     background-color: $purple
     font-family: Dolce-Vita-Heavy-Bold
     padding: 10px
     color: $black
-  a:hover
+  .emailPartner:hover
     color: $white
   div
     font-family: GT-Eesti-Pro-Text-Regular;
@@ -29,3 +29,19 @@
     line-height: normal;
     margin-bottom: 10px;
     text-align: center;
+  .partnersList
+    ul
+      list-style: none
+      li
+        ul
+          list-style: none
+          display: flex
+          flex-wrap: wrap
+          justify-content: center
+          align-items: baseline
+          li
+            padding-right: 2px
+            a
+              color: $black
+            a:hover
+              color: $pink
