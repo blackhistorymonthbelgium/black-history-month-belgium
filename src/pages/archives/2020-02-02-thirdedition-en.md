@@ -11,6 +11,7 @@ description: >-
   the present.
 featuredpost: true
 featuredimage: /img/1.jpg
+bannerimage: /img/1.jpg
 tags:
   - third edition
 year: '2020'
