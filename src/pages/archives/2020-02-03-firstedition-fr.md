@@ -7,6 +7,7 @@ date: 2020-02-03T16:01:09.731Z
 description: L'AFRIQUE VUE PAR LES AFRICAINS
 featuredpost: false
 featuredimage: /img/2018.jpg
+bannerimage: /img/Instatemplates-02.jpg
 tags:
   - first edition
 year: '2018'

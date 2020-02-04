@@ -6,9 +6,10 @@ title: The first edition
 date: 2020-02-03T16:03:30.692Z
 description: >-
   The first edition of Black History Month was dedicated to the decolonisation
-  of the point of view. 
+  of the point of view.
 featuredpost: false
 featuredimage: /img/2018.jpg
+bannerimage: /img/Instatemplates-02.jpg
 tags:
   - first edition
 year: '2018'

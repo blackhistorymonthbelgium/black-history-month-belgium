@@ -7,6 +7,7 @@ date: 2020-02-03T15:58:55.744Z
 description: L'ART NOIR AU SERVICE DE LA LIBÉRATION
 featuredpost: false
 featuredimage: /img/2019.jpg
+bannerimage: /img/Instatemplates-02.jpg
 tags:
   - second edition
 year: '2019'

@@ -7,6 +7,7 @@ date: 2020-02-02T16:45:42.648Z
 description: ZWARTE KUNST DE WEG NAAR DE BEVRIJDING
 featuredpost: false
 featuredimage: /img/2019.jpg
+bannerimage: /img/Instatemplates-02.jpg
 tags:
   - second edition
 year: '2019'
