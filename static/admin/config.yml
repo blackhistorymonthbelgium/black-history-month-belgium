@@ -43,8 +43,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
-      - {label: "Featured Image", name: "featuredimage", widget: image}
-      - {label: "Banner Image", name: "bannerimage", widget: image}
+      - {label: "Featured Image", name: "featuredimage", widget: "image"}
+      - {label: "Banner Image", name: "bannerimage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Year", name: "year", widget: "string"}
@@ -61,16 +61,16 @@ collections:
       - {label: "Width of the logo", name: "width", widget: "number"}
       - {label: "Link", name: "link", widget: "string"}
 
-  - name: "extraPartners"
+  - name: "extrapartners"
     label: "Extra Partners"
-    folder: "src/pages/extraPartners"
+    folder: "src/pages/extrapartners"
     create: true
     slug: "{{slug}}"
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "extraPartners-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Link", name: "link", widget: "string"}
-      - {label: "Year", name: "year", widget: "number"}
+      - {label: "Year", name: "yearPartner", widget: "number"}
 
   - name: "press"
     label: "Press"
