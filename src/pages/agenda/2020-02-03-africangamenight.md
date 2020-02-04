@@ -13,8 +13,8 @@ year: '2020'
 artists:
   - nn
 location: Antwerp
-datestart: 2020-05-03T16:00:00.000Z
-dateend: 2020-05-03T21:00:00.000Z
+datestart: 2020-03-05T16:00:00.000Z
+dateend: 2020-03-05T21:00:00.000Z
 fblink: /
 ---
 African game night & Jollof competition

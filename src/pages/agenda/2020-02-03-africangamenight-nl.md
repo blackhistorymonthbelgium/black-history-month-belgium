@@ -14,7 +14,7 @@ year: '2020'
 artists:
   - nn
 location: Antwerpen
-datestart: 2020-05-03T16:00:00.000Z
+datestart: 2020-03-05T16:00:00.000Z
 dateend: 2020-03-05T22:00:00.000Z
 ---
 
