@@ -17,11 +17,11 @@ const Highlights = (props) => {
           <div className="poster">
             {archives.map((archive, key)=> (
               <div key={key} className="event-detail">
-              {archive.node.frontmatter.featuredimage ? (
+              {archive.node.frontmatter.bannerimage ? (
                 <div className="featured-thumbnail img-inside">
                   <PreviewCompatibleImage
                     imageInfo={{
-                      image: archive.node.frontmatter.featuredimage,
+                      image: archive.node.frontmatter.bannerimage,
                       alt: `featured image thumbnail for post ${archive.node.frontmatter.title}`,
                     }}
                   />
@@ -34,30 +34,6 @@ const Highlights = (props) => {
 
           ))}
           </div>
-        </div>
-        <div className="column column-event">
-        {events.slice(0,1).map((event, key)=> (
-          <div className="title-wrapper">
-            <span className="tag-event"> <i className="fal fa-hashtag" />{event.node.frontmatter.tags.map(tag => (<TagLink key={tag} tag={tag}> {tag} </TagLink>))}</span>
-            <div className="special-event">
-              <time>
-                <span className="date-event">{moment(event.node.frontmatter.datestart).format("DD")}</span>
-                <span className="month-event">{moment(event.node.frontmatter.datestart).format("MMM")}</span>
-              </time>
-            </div>
-            {event.node.frontmatter.featuredimage ? (
-              <div className="featured-thumbnail">
-                <PreviewCompatibleImage
-                  imageInfo={{
-                    image: event.node.frontmatter.featuredimage,
-                    alt: `featured image thumbnail for post ${event.node.frontmatter.title}`,
-                  }}
-                />
-              </div>
-            ) : null}
-            <h1><PostLink post={event.node}>{event.node.frontmatter.title} <i className="far fa-chevron-right"></i></PostLink> </h1>
-          </div>
-        ))}
         </div>
       </div>
     </section>
