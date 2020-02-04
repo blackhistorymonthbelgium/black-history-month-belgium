@@ -26,7 +26,7 @@ export const ArchivesPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p><b>Thema :</b> {description}</p>
+            <p><b>Theme:</b> {description}</p>
             <p><b>Year:</b> {year}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
