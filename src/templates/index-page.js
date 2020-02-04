@@ -111,7 +111,13 @@ export const pageQuery = graphql`
             featuredpost
             artists
             tags
-
+            bannerimage {
+              childImageSharp {
+                fluid(maxWidth: 480, quality: 100) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             featuredimage {
               childImageSharp {
                 fluid(maxWidth: 240, quality: 100) {
