@@ -10,7 +10,9 @@
     color: $black
     text-transform: uppercase
     font-family: Dolce-Vita-Heavy-Bold
-
+#mc_embed_signup_scroll
+  display: flex
+  flex-wrap: wrap
 .news
   display: flex
   width: 90%
@@ -146,9 +148,9 @@
         box-sizing: border-box;
         height: 37px;
         padding: 0px 0.4em;
-        display: inline-block;
+        display: flex
+        flex-grow: 1
         margin: 0;
-        width: 350px;
         vertical-align: top;
       .emailSubscribe::placeholder
         color: $pink
@@ -180,3 +182,7 @@ input
 .inputs
   display: flex
   flex-wrap: wrap
+
+@media only screen and (max-width: 768px)
+  .buttonForm
+    margin-top: 5px
