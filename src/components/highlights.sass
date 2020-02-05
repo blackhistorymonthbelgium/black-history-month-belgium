@@ -159,3 +159,25 @@
     padding: 5px
   h1:hover
     background-color: $pink
+
+@media only screen and (min-width: 601px)
+  .highlights
+    .columns
+      .column
+        .poster
+          .event-detail
+            .landscapeBanner
+              display: block
+            .potraitBanner
+              display: none
+
+@media only screen and (max-width: 600px)
+  .highlights
+    .columns
+      .column
+        .poster
+          .event-detail
+            .landscapeBanner
+              display: none
+            .portraitBanner
+              display: block

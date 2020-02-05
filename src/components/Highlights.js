@@ -18,14 +18,25 @@ const Highlights = (props) => {
             {archives.map((archive, key)=> (
               <div key={key} className="event-detail">
               {archive.node.frontmatter.bannerimage ? (
-                <div className="featured-thumbnail img-inside">
-                  <PreviewCompatibleImage
-                    imageInfo={{
-                      image: archive.node.frontmatter.bannerimage,
-                      alt: `featured image thumbnail for post ${archive.node.frontmatter.title}`,
-                    }}
-                  />
-                </div>
+              <div>
+              <div className="featured-thumbnail img-inside landscapeBanner">
+
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: archive.node.frontmatter.bannerimage,
+                    alt: `featured image thumbnail for post ${archive.node.frontmatter.title}`,
+                  }}
+                />
+              </div>
+              <div className="featured-thumbnail img-inside potraitBanner">
+                <PreviewCompatibleImage
+                  imageInfo={{
+                    image: archive.node.frontmatter.featuredimage,
+                    alt: `featured image thumbnail for post ${archive.node.frontmatter.title}`,
+                  }}
+                />
+              </div>
+              </div>
               ) : null}
                   <PostLink post={(archive.node)}>
                     {T('readMore')} <i className="far fa-chevron-right"></i>
