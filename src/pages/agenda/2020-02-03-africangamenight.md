@@ -5,7 +5,7 @@ title: African game night
 slug: africanGameNight
 date: 2020-02-03T16:35:39.507Z
 description: African game night & Jollof competition
-featuredpost: false
+featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
   - game
