@@ -12,7 +12,7 @@ class ArchivesRoll extends React.Component {
     const posts = getPostsInLanguage(allPosts, language);
 
     return (
-      <div className="columns archivesRoll">
+      <div className="columns is-one-third-widescreen archivesRoll">
         {posts &&
           posts.map(({ node: post }) => (
             <div className="column" key={post.id}>

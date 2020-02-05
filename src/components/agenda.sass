@@ -100,6 +100,14 @@
     flex-wrap: wrap;
     width: 90%;
     margin: 0 auto;
+    align-items: stretch
+
+    .column
+      .event-wrapper-outside
+        height: 100%
+        width: 100%
+        display: flex
+        flex-direction: column
 
     .performancer
       position: relative
@@ -131,6 +139,8 @@
       justify-content: flex-end
       padding-left: 15px
       padding-right: 5px
+      flex: 0 0 auto
+
       .detail-spacer
         width: 210px
         height: 50px
@@ -161,6 +171,7 @@
       background-color: white
       border: 5px solid $orange
       padding: 10px
+      flex: 1 0 auto
 
       time
         margin-top: -60px
