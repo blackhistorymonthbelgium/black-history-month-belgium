@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import { PostLink, LocalizedLink } from '../components/Links'
-import { T, setCurrentLanguage } from '../internationalization'
+import { setCurrentLanguage } from '../internationalization'
 
 class TagRoute extends React.Component {
   render() {

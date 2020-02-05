@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
-import { getPostsInLanguage, createPagePath } from '../helpers'
+import { graphql, StaticQuery } from 'gatsby'
+import { getPostsInLanguage } from '../helpers'
 
 class PressRoll extends React.Component {
   render() {
@@ -19,7 +18,7 @@ class PressRoll extends React.Component {
         <ul>
         {years.map(year =>
           <li key={year}>
-            <p className="year"><i class="fal fa-newspaper"></i> {year}</p>
+            <p className="year"><i className="fal fa-newspaper"></i> {year}</p>
             <ul className="columns">
             {posts &&
               posts
