@@ -29,11 +29,11 @@ class Sponsors extends React.Component {
                     </a>
                   </li>
                 )}
-              </ul>
-              <a className="emailPartner" href="mailto:blackhistorymonth.belgium@gmail.com?subject=Become BHM Partner&body=Hello BHM! We'd like to be your partner...">
-                  Be our partner
-              </a>
-            </div>
+            </ul>
+            <a className="emailPartner" href="mailto:blackhistorymonth.belgium@gmail.com?subject=Become BHM Partner&body=Hello BHM! We'd like to be your partner...">
+              Be our partner
+            </a>
+          </div>
         </div>
       </section>
     )
