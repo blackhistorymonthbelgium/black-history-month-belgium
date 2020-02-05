@@ -1,6 +1,6 @@
 ---
 templateKey: extraPartners-post
-title: FOMU: Foto Museum
+title: FOMU Foto Museum
 link: 'https://fomu.be/'
 yearPartner: 2019
 ---
