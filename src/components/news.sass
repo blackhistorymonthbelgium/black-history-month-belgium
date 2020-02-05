@@ -13,22 +13,39 @@
 #mc_embed_signup_scroll
   display: flex
   flex-wrap: wrap
+
+.blogcontent
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  width: 100%;
+  flex: 1 0 auto
+
+.listwrapper
+  flex: 1 0 auto
+.goToBlog
+    font-family: Dolce-Vita-Heavy-Bold
+    padding: 4px
+    margin: 10px auto
+    color: $black
+    background-color: $yellow
+    display: flex
+    justify-content: center
+    width: 120px
+.goToBlog:hover
+  color: white
 .news
-  display: flex
   width: 90%
   margin: 0 auto
-  flex-wrap: wrap
-  padding: 10px
-
   .column
     display: flex
     flex-direction: column
-
     .outside-wrapper
       position: relative
       display: flex
       flex-direction: column
       align-items: center
+
       .wrapper
         margin-top: 10px
         margin-bottom: 10px
@@ -45,20 +62,11 @@
     text-align: center
 
   .blog
-    .wrapper
-        margin-top: 10px
-        margin-bottom: 10px
-        padding: 20px
-    .goToBlog
-        font-family: Dolce-Vita-Heavy-Bold
-        padding: 10px
-        color: $black
-        background-color: $yellow
-        position: relative
-        top: -28px
-        text-align: center
-    .goToBlog:hover
-      color: white
+    .blogcontent
+      .wrapper
+          margin-top: 10px
+          margin-bottom: 10px
+          padding: 20px
     h1
       color: $yellow
 
@@ -97,6 +105,9 @@
       margin-top: 10px
       margin-bottom: 10px
       padding: 3em 1em
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
 
       p
         font-size: 1em
@@ -183,6 +194,6 @@ input
   display: flex
   flex-wrap: wrap
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 826px)
   .buttonForm
     margin-top: 5px
