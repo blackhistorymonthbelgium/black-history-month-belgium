@@ -67,7 +67,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "extraPartners-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "extrapartners-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Link", name: "link", widget: "string"}
       - {label: "Year", name: "yearPartner", widget: "number"}
