@@ -30,12 +30,11 @@ export const AgendaPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <p><b>Description :</b> {description}</p>
-            <p><b>Location:</b> {location}</p>
-            <p><b>Date Start:</b>{moment(datestart).format("MM-DD-YYYY")}</p>
-            <p><b>Date End:</b>{moment(datestart).format("MM-DD-YYYY")}</p>
-            <p><b>Time:</b>{moment(datestart).format("HH:mm")}</p>
-            <p><b>Organisator:</b>{artists.map(artist => (
+            <p><b>Date: </b>{moment(datestart).format("MM-DD-YYYY")}</p>
+            <p><b>Time: </b>{moment(datestart).format("HH:mm")}</p>
+            <p><b>Location: </b> {location}</p>
+            <p><b>Description : </b> {description}</p>
+            <p><b>Guests: </b>{artists.map(artist => (
               <LocalizedLink key={artist} to={`/artists/${kebabCase(artist)}/`}>{artist} </LocalizedLink>))}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
@@ -43,9 +42,7 @@ export const AgendaPostTemplate = ({
                 <h4>Tags</h4>
                 <ul className="taglist">
                   {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <TagLink tag={tag}>{tag}</TagLink>
-                    </li>
+                    <li key={tag + `tag`}>{tag}</li>
                   ))}
                 </ul>
               </div>
