@@ -1,5 +1,5 @@
 ---
-templateKey: extraPartners-post
+templateKey: extrapartners-post
 title: AYO
 link: 'https://www.afroyouthorg.be/'
 yearPartner: 2020

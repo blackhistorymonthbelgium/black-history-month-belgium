@@ -1,5 +1,5 @@
 ---
-templateKey: extraPartners-post
+templateKey: extrapartners-post
 title: Middelheim Museum
 link: 'https://www.middelheimmuseum.be/nl'
 yearPartner: 2020
