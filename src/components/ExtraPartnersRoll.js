@@ -54,7 +54,7 @@ export default ({ language }) => (
         allMarkdownRemark(
           sort: { order: ASC, fields: [frontmatter___title] }
           filter: { frontmatter: {
-            templateKey: { eq: "extraPartners-post" }
+            templateKey: { eq: "extrapartners-post" }
           } }
         ) {
           edges {
