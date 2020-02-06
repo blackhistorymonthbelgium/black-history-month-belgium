@@ -1,6 +1,6 @@
 ---
 templateKey: extrapartners-post
 title: ASCOM
-link: ''
-yearPartner: 2020
+link: 'https://www.facebook.com/VUBAfricanStudentCommunity/'
+yearPartner: 2019
 ---

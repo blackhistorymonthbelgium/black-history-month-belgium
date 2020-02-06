@@ -1,6 +1,6 @@
 ---
 templateKey: extrapartners-post
 title: FAQ(For All Queens)
-link: 'http://www.greenqueens.be/documents/about/faq.xml?lang=nl&'
+link: 'https://www.facebook.com/FORALLQUEENS/'
 yearPartner: 2020
 ---
