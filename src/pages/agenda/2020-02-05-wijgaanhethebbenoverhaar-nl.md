@@ -6,7 +6,7 @@ slug: wijgaanhethebbenoverhaar
 date: 2020-02-05T21:50:27.946Z
 description: >-
   Het nieuwe theaterduo Blackman&Blokland geven uitleg aan de termen ‘goed haar’
-  en ‘slecht haar’. 
+  en ‘slecht haar’.
 featuredpost: true
 featuredimage: /img/rataplan.jpg
 tags:
@@ -18,8 +18,10 @@ location: Borgerhout
 datestart: 2020-03-27T19:00:00.000Z
 dateend: 2020-03-27T21:00:00.000Z
 ---
-![rataplan](/img/rataplan.jpg "Rataplan")
+[Attend this event on Facebook](https://www.facebook.com/events/1287258228152036/)
 
+[Get the ticket here](http://rataplanvzw.be/Detail/tabid/193/ArticleId/2845/WIJ-GAAN-HET-HEBBEN-OVER-HAAR.aspx?fbclid=IwAR0mt3HRtcxqznvOsKl21Z8bz7US0f40Sw7VArvbI07Zh8H_Jld-SkHIw-A)
+![rataplan](/img/rataplan.jpg "Rataplan")
 Wij gaan het hebben over haar.
 
 Wij gaan het hebben over jou en mij en iedereen.
@@ -30,7 +32,7 @@ Het nieuwe theaterduo Blackman&Blokland geven uitleg aan de termen ‘goed haar�
 
 Deze voorstelling kader in Black History Month, en is gecureerd door RataPlanmaker Nyira Hens. Aansluitend op de voorstelling nodigen de spelers Yahmani Blackman, Dorothy Blokman en host Nyira Hens je uit voor een nagesprek.
 
-★★★★ -  De Volkskrant: 
+★★★★ -  De Volkskrant:
 
 “... vanuit een simpel gegeven groeit de voorstelling uit tot een scherp, bevlogen en relevant discussiestuk over culturele toe-eigening, waarbij gelukkig ook genoeg te lachen valt.”
 
@@ -44,4 +46,4 @@ Een uniek decor met interactieve videoprojecties.
 
 Foto door Jeff Flu.
 
-Adres: Wijnegemstraat 27, 2140 Antwerpen ([zie maps](<zie maps>))
+Adres: Wijnegemstraat 27, 2140 Antwerpen ([ See Google maps](https://goo.gl/maps/AvFn3d34HB1iMcRh9))
