@@ -19,7 +19,9 @@ datestart: 2020-03-15T12:00:00.000Z
 dateend: 2020-03-15T18:00:00.000Z
 ---
 [Attend this event on Facebook](https://www.facebook.com/events/1916202505180705/?active_tab=about)
+<br/>
 [Address: see this map](https://goo.gl/maps/35ANAdevZTDjM3zE7)
+
 
 RZM is een jonge organisatie van geadopteerden die bouwt aan een netwerk van ervaringsdeskundigen om verhalen te delen, te verbinden en elkaar te versterken.
 Ons doel is mensen uit te nodigen om adoptie vanuit het standpunt van de geadopteerde te bekijken.

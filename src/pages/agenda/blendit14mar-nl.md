@@ -18,7 +18,9 @@ location: Antwerpen
 datestart: 2020-03-14T12:00:00.000Z
 dateend: 2020-03-14T18:00:00.000Z
 ---
+
 [Attend this event on Facebook](https://www.facebook.com/events/1916202505180705/?active_tab=about)
+<br/>
 [Address: see this map](https://goo.gl/maps/35ANAdevZTDjM3zE7)
 
 RZM is een jonge organisatie van geadopteerden die bouwt aan een netwerk van ervaringsdeskundigen om verhalen te delen, te verbinden en elkaar te versterken.
