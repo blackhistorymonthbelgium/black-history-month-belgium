@@ -1,10 +1,7 @@
 import React from 'react'
 import Layout from '../../components/Layout'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-import PropTypes from 'prop-types'
-import PreviewCompatibleImage from '../../components/PreviewCompatibleImage'
-
 const PartnersIndexPage = ({
   data: {
     site: {

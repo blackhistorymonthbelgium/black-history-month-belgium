@@ -6,7 +6,7 @@ import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import { LocalizedLink, TagLink } from '../components/Links'
+import { LocalizedLink} from '../components/Links'
 
 export const AgendaPostTemplate = ({
   content,

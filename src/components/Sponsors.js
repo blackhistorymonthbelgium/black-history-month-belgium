@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import { graphql, StaticQuery, Link } from 'gatsby'
+import { graphql, StaticQuery } from 'gatsby'
 
 class Sponsors extends React.Component {
   render(){

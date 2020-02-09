@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import { graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import { getPostsInLanguage, createPagePath } from '../helpers'
+import { getPostsInLanguage} from '../helpers'
 import { PostLink } from './Links'
 
 class ArchivesRoll extends React.Component {

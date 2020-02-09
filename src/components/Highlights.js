@@ -1,13 +1,11 @@
 import React from "react"
 import PreviewCompatibleImage from './PreviewCompatibleImage'
-import moment from 'moment'
 import { T } from '../internationalization';
-import { PostLink, TagLink } from './Links';
+import { PostLink} from './Links';
 
 const Highlights = (props) => {
   const{
     archives,
-    events
   } = props;
 
   return(
