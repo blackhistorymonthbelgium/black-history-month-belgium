@@ -32,7 +32,7 @@ export const BlogPostTemplate = ({
             </h1>
             <p>Written by: {author}</p>
             <p>{date}</p>
-            <div class="fb-share-button" data-href={url} data-layout="button_count" data-size="small"><a target="_blank" href={shareUrl} class="fb-xfbml-parse-ignore">Share on FB</a></div>
+            <div className="fb-share-button" data-href={url} data-layout="button_count" data-size="small"><a target="_blank" href={shareUrl} className="fb-xfbml-parse-ignore">Share on FB</a></div>
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
