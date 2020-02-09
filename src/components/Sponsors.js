@@ -12,7 +12,7 @@ class Sponsors extends React.Component {
         <div className="sponsors-wrapper">
           <div className="bePartner">
             <h1>Our Partners</h1>
-            <ul className="column partners">
+            <ul className="partners">
                 {posts.map((post, key)=>
                   <li key={key}>
                     <a href={post.node.frontmatter.link}>
