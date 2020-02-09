@@ -9,13 +9,6 @@ import Sponsors from '../components/Sponsors'
 
 export const IndexPageTemplate = ({
   language,
-  image,
-  title,
-  heading,
-  subheading,
-  mainpitch,
-  description,
-  intro,
   events,
   archives,
   blogs,
@@ -41,7 +34,6 @@ IndexPageTemplate.propTypes = {
 }
 
 const IndexPage = ({ data, pageContext }) => {
-  const { frontmatter } = data.markdownRemark
   const events = data
     .allMarkdownRemark
     .edges
@@ -58,13 +50,6 @@ const IndexPage = ({ data, pageContext }) => {
   return (
     <Layout language={pageContext.language}>
       <IndexPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        subheading={frontmatter.subheading}
-        mainpitch={frontmatter.mainpitch}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
         events={events}
         archives={archives}
         blogs={blogs}
@@ -126,30 +111,6 @@ export const pageQuery = graphql`
               }
             }
           }
-        }
-      }
-    },
-    markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
-      fields {
-        slug
-      }
-      frontmatter {
-        title
-        language
-        slug
-        heading
-        subheading
-        mainpitch {
-          title
-          description
-        }
-        description
-        intro {
-          blurbs {
-            text
-          }
-          heading
-          description
         }
       }
     }
