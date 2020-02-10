@@ -94,7 +94,7 @@ export default ({ pageContext }) => (
     query={graphql`
       query AgendaRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___datestart] }
+          sort: { order: ASC, fields: [frontmatter___datestart] }
           filter: { frontmatter: { templateKey: { eq: "agenda-post" } } }
         ) {
           edges {
