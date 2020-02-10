@@ -24,13 +24,17 @@ const ComingUpEvents = (props) => {
                   <h1><PostLink post={event.node}>{event.node.frontmatter.title}</PostLink></h1>
                   <p>{event.node.frontmatter.artists.join(", ")}</p>
                 </div>
+
                 <div className="event-detail">
                   <div className="detail">
                     <span className="tag-event"> <i className="fal fa-hashtag" />{event.node.frontmatter.tags.map(tag => (<TagLink key={tag} tag={tag}> {tag} </TagLink>))}</span>
-                    <span className="location"><i className="fal fa-map-marker-alt"/> {event.node.frontmatter.location}</span>
-                    <span className="time"> <i className="fal fa-clock"/> {moment(event.node.frontmatter.datestart).format("HH:mm")}</span>
+                    <div className="highlightloc">
+                      <span className="location"><i className="fal fa-map-marker-alt"/> {event.node.frontmatter.location}</span>
+                      <span className="time"> <i className="fal fa-clock"/> {moment(event.node.frontmatter.datestart).format("HH:mm")}</span>
+                    </div>
                   </div>
                 </div>
+
               </div>
             </div>
             <div className="detail-wrapper">
