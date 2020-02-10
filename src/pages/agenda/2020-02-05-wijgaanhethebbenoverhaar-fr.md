@@ -14,7 +14,7 @@ tags:
 year: '2020'
 artists:
   - Rataplan
-location: Borgerhout
+location: Anvers
 datestart: 2020-03-27T19:00:00.000Z
 dateend: 2020-03-27T21:00:00.000Z
 ---
