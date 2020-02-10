@@ -12,6 +12,7 @@ featuredpost: true
 featuredimage: /img/deimpactvanracisme.jpg
 tags:
   - debate
+  - talk
 year: '2020'
 artists:
   - DE ROMA
