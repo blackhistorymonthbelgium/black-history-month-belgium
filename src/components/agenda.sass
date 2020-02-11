@@ -112,24 +112,24 @@
         flex-direction: column
 
     .performancer
-      position: relative
-      padding-top: 5px
-      h1
+      .headerlines
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
         font-family: GT-Eesti-Pro-Text-Bold
         font-weight: bold
         font-size: 1.4em
         line-height: 35px
         text-transform: uppercase
+        height: 65px
+        text-align: center
+        padding-top: 5px
         a
           color: $black
         a:hover
           color: $orange
-      p
-        font-family: GT-Eesti-Pro-Text-Medium
-        font-size: 1.2em
-        line-height: 35px
-        text-transform: uppercase
-        color: $orange
 
     .detail-wrapper
       display: flex
@@ -205,20 +205,31 @@
       .detail
         display: flex
         flex-direction: column
-        font-size: 1.2em
+        span
+          font-family: GT-Eesti-Pro-Text-Medium
+          font-size: 1.2em
+          text-transform: uppercase
+          color: $orange
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          overflow: hidden;
+
         .highlightloc
           background-color: $orange
-          padding: 5px
+          padding-left: 23px
+          padding-top: 5px
+          padding-bottom: 5px
+          padding-right: 5px
           right: 25px
           position: relative
           margin-top: 5px
+          font-size: 1em
           span
             color: black
+            font-family: GT-Eesti-Pro-Text-Regular
           svg
             color: $black
         .tag-event
           color: $orange
           text-decoration: underline
-          font-size: 1em
-        span
-          font-family: GT-Eesti-Pro-Text-Regular
+          font-size: 0.8em

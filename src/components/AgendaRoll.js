@@ -21,16 +21,15 @@ export default class AgendaRoll extends React.Component {
                       <span className="month-event">{moment(post.frontmatter.datestart).format("MMM")}</span>
                     </time>
                     <div className="performancer">
-                      <h1><PostLink post={post}>{post.frontmatter.title}</PostLink></h1>
-                      <p>{post.frontmatter.artists.join(", ")}
-                      </p>
-                    </div>
-                    <div className="event-detail">
-                      <div className="detail">
-                        <span className="tag-event"> <i className="fal fa-hashtag" />{post.frontmatter.tags.map(tag => (<TagLink key={tag} tag={tag}> {tag} </TagLink>))}</span>
-                        <div className="highlightloc">
-                          <span className="location"><i className="fal fa-map-marker-alt"/> {post.frontmatter.location}</span>
-                          <span className="time"> <i className="fal fa-clock"/> {moment(post.frontmatter.datestart).format("HH:mm")}</span>
+                      <div className="headerlines"><PostLink post={post}>{post.frontmatter.title}</PostLink></div>
+                      <div className="event-detail">
+                        <div className="detail">
+                          <span>{post.frontmatter.artists.join(", ")}</span>
+                          <span className="tag-event"> <i className="fal fa-hashtag" />{post.frontmatter.tags.map(tag => (<TagLink key={tag} tag={tag}> {tag} </TagLink>))}</span>
+                          <div className="highlightloc">
+                            <span className="location"><i className="fal fa-map-marker-alt"/> {post.frontmatter.location}</span>
+                            <span className="time"> <i className="fal fa-clock"/> {moment(post.frontmatter.datestart).format("HH:mm")}</span>
+                          </div>
                         </div>
                       </div>
                     </div>
