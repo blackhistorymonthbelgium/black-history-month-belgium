@@ -24,7 +24,6 @@ const ComingUpEvents = (props) => {
                   <h1><PostLink post={event.node}>{event.node.frontmatter.title}</PostLink></h1>
                   <p>{event.node.frontmatter.artists.join(", ")}</p>
                 </div>
-
                 <div className="event-detail">
                   <div className="detail">
                     <span className="tag-event"> <i className="fal fa-hashtag" />{event.node.frontmatter.tags.map(tag => (<TagLink key={tag} tag={tag}> {tag} </TagLink>))}</span>
