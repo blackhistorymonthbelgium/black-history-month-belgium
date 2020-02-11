@@ -26,21 +26,12 @@ export default class AgendaRoll extends React.Component {
                       </p>
                     </div>
                     <div className="event-detail">
-                    {post.frontmatter.featuredimage ? (
-                      <div className="featured-thumbnail" style={{width: 180}}>
-                        <PreviewCompatibleImage
-                          imageInfo={{
-                            image: post.frontmatter.featuredimage,
-                            alt: `featured image thumbnail for post ${post.frontmatter.title}`,
-                          }}
-                        />
-                      </div>
-                    ) : null}
-
                       <div className="detail">
                         <span className="tag-event"> <i className="fal fa-hashtag" />{post.frontmatter.tags.map(tag => (<TagLink key={tag} tag={tag}> {tag} </TagLink>))}</span>
-                        <span className="location"><i className="fal fa-map-marker-alt"/> {post.frontmatter.location}</span>
-                        <span className="time"> <i className="fal fa-clock"/> {moment(post.frontmatter.datestart).format("HH:mm")}</span>
+                        <div className="highlightloc">
+                          <span className="location"><i className="fal fa-map-marker-alt"/> {post.frontmatter.location}</span>
+                          <span className="time"> <i className="fal fa-clock"/> {moment(post.frontmatter.datestart).format("HH:mm")}</span>
+                        </div>
                       </div>
                     </div>
                   </div>

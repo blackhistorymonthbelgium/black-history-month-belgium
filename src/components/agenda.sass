@@ -117,19 +117,16 @@
       h1
         font-family: GT-Eesti-Pro-Text-Bold
         font-weight: bold
-        font-size: 1.2em
+        font-size: 1.4em
         line-height: 35px
         text-transform: uppercase
-
         a
           color: $black
         a:hover
           color: $orange
-
-
       p
         font-family: GT-Eesti-Pro-Text-Medium
-        font-size: 1em
+        font-size: 1.2em
         line-height: 35px
         text-transform: uppercase
         color: $orange
@@ -145,7 +142,7 @@
 
       .detail-spacer
         width: 210px
-        height: 50px
+        height: 10px
       .detail-link
         position: relative
         z-index: 1
@@ -198,9 +195,7 @@
       flex-direction: row
       position: relative
       justify-content: flex-start
-      padding-bottom: 10px
       flex-wrap: wrap-reverse
-      margin-bottom: -64px
 
       img
         width: 200px
@@ -210,12 +205,20 @@
       .detail
         display: flex
         flex-direction: column
-        font-size: 16px
-        padding-left: 10px
-        padding-right: 10px
+        font-size: 1.2em
+        .highlightloc
+          background-color: $orange
+          padding: 5px
+          right: 25px
+          position: relative
+          margin-top: 5px
+          span
+            color: black
+          svg
+            color: $black
         .tag-event
           color: $orange
           text-decoration: underline
-          font-size: 16px
+          font-size: 1em
         span
           font-family: GT-Eesti-Pro-Text-Regular
