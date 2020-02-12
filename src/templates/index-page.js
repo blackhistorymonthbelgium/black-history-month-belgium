@@ -98,14 +98,14 @@ export const pageQuery = graphql`
             tags
             bannerimage {
               childImageSharp {
-                fluid(maxWidth: 480, quality: 100) {
+                fluid(maxWidth: 1680, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
             }
             featuredimage {
               childImageSharp {
-                fluid(maxWidth: 240, quality: 100) {
+                fluid(maxWidth: 960, quality: 100) {
                   ...GatsbyImageSharpFluid
                 }
               }
