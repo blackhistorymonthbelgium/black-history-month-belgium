@@ -1,9 +1,12 @@
 {
   "home": "Home",
-  "about": "About",
+  "about": "Over BHM",
   "agenda": "Agenda",
-  "archives": "Archives",
+  "archives": "Archief",
+  "partners": "Partners",
   "blog": "Blog",
+  "press": "Pers",
+  "followus": "Volg ons",
   "readMore": "Read more",
   "upcomingEvents": "Upcoming Events",
   "detail": "Detail",
@@ -63,6 +66,5 @@
   "memberName7": "Project leider Antwerpen",
   "memberName8": "Project leider Limburg",
   "memberText": "Verder doen we beroep op het werk en de inzet van talloze vrijwilligers en gemeenschapsorganisaties die Black History Month Belgium mee mogelijk maken.",
-
   "test": "Test NL"
 }

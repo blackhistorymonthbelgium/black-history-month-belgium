@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../img/logo.svg'
+import { T} from '../internationalization'
 
 const Footer = class extends React.Component {
   render() {
@@ -20,7 +21,7 @@ const Footer = class extends React.Component {
         </div>
 
         <div className="columnBHM followUsFooter">
-        <h1 className="footerTitle">Follow Us</h1>
+        <h1 className="footerTitle">  {T('followus')}</h1>
         <div className="social-list">
           <a className="social-item" title="facebook" href="https://www.facebook.com/blackhistorymonthbelgium/"><i className="iconSocial fal fa-thumbs-up"/></a>
           <a className="social-item" title="instagram" href="https://www.instagram.com/bhmbelgium/"><i className="iconSocial fab fa-instagram"/></a>

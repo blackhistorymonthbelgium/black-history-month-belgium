@@ -84,13 +84,13 @@ const Navbar = class extends React.Component {
                   Agenda
                 </LocalizedLink>
                 <LocalizedLink className="navbar-item" to="/archives">
-                  Archives
+                  {T('archives')}
                 </LocalizedLink>
                 <LocalizedLink className="navbar-item" to="/press">
-                  Press
+                  {T('press')}
                 </LocalizedLink>
                 <LocalizedLink className="navbar-item" to="/extrapartners">
-                  Partners
+                  {T('partners')}
                 </LocalizedLink>
                 <LocalizedLink className="navbar-item" to="/blog">
                   Blog

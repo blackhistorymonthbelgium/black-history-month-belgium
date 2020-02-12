@@ -2,13 +2,10 @@
 templateKey: blog-post
 language: fr
 slug: zwarte-kunst-als-verzet-en-als-weg-naar-bevrijding
-title: Zwarte kunst als verzet en als weg naar bevrijding
+title: Black art - resistance and liberation
 date: 2019-01-31T15:04:10.000Z
 description: >-
-  Zwarte kunst is geen monoliet. Het is divers, expressief en biedt weerstand
-  tegen eenvoudige categorisering. Het bestaat overal. In musea en galerijen, op
-  gebouwen en in de straten, op blogs en digitale platforms en op de canvassen
-  van onze lichamen.
+  We want to show that black art, like black people, is not a monolith, but is divers, expressive and offers resistance to simple categorisation. Black art exists everywhere and is not restricted to the walls of museums but can also be found in the streets, on blogs and other digital platforms and on the canvases of our bodies.
 featuredpost: true
 featuredimage: /img/2019.jpg
 author: Aminata
@@ -17,15 +14,12 @@ tags:
 ---
 ![poster2019](/img/2019.jpg "Poster 2019")
 
-Zwarte kunst is krachtig, persoonlijk en is meer dan ooit aanwezig. Het daagt zwarte activisten en kunstenaars uit het moeilijke werk te doen om de subtiele vooroordelen, diepe overtuigingen en kernwaarden die onze wereld vormen, in vraag te stellen en te veranderen. Het uiteindelijke doel? Vrijheid.
+Just like the movements with which it goes, black art is powerful, personal and feels more present than ever. It challenges black activists and artists to do the hard work to interrogate and change the subtle prejudices, deep beliefs and core values ​​that shape our world - in order to feel free.
 
-Bevrijding is onmogelijk zolang we onszelf niet herdefiniëren. Zonder een verandering van onze eigen visie blijven we slaven van de ideeën en waarden van de onderdrukker. Idealen en waarden die uiteindelijk de kern van ons bestaan aanvallen.  Daarom moeten we de wereld zien in termen van onze eigen realiteit en ontdekken wie we echt zijn.
-Zwarte kunst is geen monoliet. Het is divers, expressief en biedt weerstand tegen eenvoudige categorisering.
+Liberation is impossible as long as we do not redefine ourselves. Without a change in our own vision, we remain slaves to the ideas and values ​​of the oppressor. Ideals and values ​​that ultimately attack the core of our existence. That is why we must see the world in terms of our own reality and discover who we really are.
 
-Kunst stelt ons in staat om het heden en de toekomst uit te tekenen en te visualiseren. Als het gaat om rechtvaardigheid en gemeenschap, moet de toekomst, en dus de bevrijding, eerst worden ingebeeld en afgebeeld.
+Art enables us to visualise the present and the future. When it comes to justice and community, the future, and therefore our liberation, must first be imagined and depicted.
 
-Kunst geeft ons een kleine glimp van wat er nog meer mogelijk is. Het is een manier om om te gaan met het trauma, veroorzaakt door systemen van onderdrukking, en een manier om de stemmen van degenen die het zwijgen zijn opgelegd, te versterken.
+Art gives us a small glimpse of what else is possible. It is a way to deal with the trauma caused by systems of oppression, and a way to strengthen the voices of those who are silenced.
 
-Kunst verbindt. Voor zwarte mensen die overleven onder het juk van de maatschappij is verbinding zoeken via kunst weten dat je niet alleen bent in je persoonlijke strijd.
-Tijdens deze inspirerende maand willen we Afro-Belgen door middel van allerlei kunstvormen dichter brengen bij kunst waarin ze zichzelf kunnen herkennen en waardoor ze geïnspireerd kunnen worden. We willen hen aanmoedigen om zichzelf voor te stellen, te beschrijven en heruit te vinden op manieren die bevrijdend kunnen zijn.
-Laat kunst ons de weg leiden.
+Art connects. For black people who survive under the yoke of society, finding a connection through art means knowing that you are not alone in your personal struggle. During this inspiring month we want to bring Afro-Belgians closer to art through which they can recognize themselves and through which they can be inspired. We want to encourage them to reinvent themselves in ways that can be liberating. Let art lead the way.
