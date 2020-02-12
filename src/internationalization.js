@@ -2,6 +2,7 @@ import locales from './locales';
 import NL from './locales/nl.json';
 import EN from './locales/en.json';
 import FR from './locales/fr.json';
+import moment from 'moment';
 
 function getDefaultLanguage() {
   for (let key in locales) {
@@ -21,6 +22,7 @@ const languages = {
 
 export function setCurrentLanguage(language) {
   currentLanguage = language;
+  moment.locale(language);
 }
 
 export function getCurrentLanguage() {
