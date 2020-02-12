@@ -34,19 +34,8 @@ export const AgendaPostTemplate = ({
             <p><b>Time: </b>{moment(datestart).format("HH:mm")}</p>
             <p><b>Location: </b> {location}</p>
             <p><b>Description : </b> {description}</p>
-            <p><b>Guests: </b>{artists.map(artist => (
-              <LocalizedLink key={artist} to={`/artists/${kebabCase(artist)}/`}>{artist} </LocalizedLink>))}</p>
+            <p><b>Guests: </b>{artists.map(artist => (artist))}</p>
             <PostContent content={content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>{tag}</li>
-                  ))}
-                </ul>
-              </div>
-            ) : null}
           </div>
         </div>
       </div>
