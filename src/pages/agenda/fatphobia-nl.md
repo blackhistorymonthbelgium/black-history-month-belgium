@@ -16,7 +16,7 @@ artists:
   - VUB-Crosstalks
   - VUB RHEA
   - BHM
-location: Brussels
+location: Brussel
 datestart: 2020-03-11T17:30:00.000Z
 dateend: 2020-03-11T22:00:00.000Z
 ---
