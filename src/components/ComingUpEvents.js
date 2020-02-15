@@ -1,6 +1,5 @@
 import React from "react"
 import moment from 'moment'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
 import { T } from '../internationalization';
 import { PostLink, TagLink, LocalizedLink } from './Links'
 

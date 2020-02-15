@@ -1,12 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import moment from 'moment'
-import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
-import { LocalizedLink} from '../components/Links'
+
 
 export const AgendaPostTemplate = ({
   content,
