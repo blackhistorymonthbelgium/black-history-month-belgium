@@ -13,7 +13,7 @@ export default class AgendaRoll extends React.Component {
           posts.map(({ node: post }) => (
             <li key={post.id} className={`column is-one-third ${post.frontmatter.featuredpost ? 'is-featured' : ''}`}>
               <div className="event-wrapper-outside">
-                <div className={`event-wrapper ${post.frontmatter.tags ? post.frontmatter.tags.map(tag => "tag" + tag).join(" ") : 'event-wrapper-default'}`}>
+                <div className={`event-wrapper ${post.frontmatter.tags ? post.frontmatter.tags.map(tag => "tag-" + tag).join(" ") : 'event-wrapper-default'}`}>
                   <div className="event-wrapper-insider">
                     <time>
                       <span className="date-event">{moment(post.frontmatter.datestart).format("DD")}</span>
@@ -24,8 +24,8 @@ export default class AgendaRoll extends React.Component {
                       <div className="event-detail">
                         <div className="detail">
                           <span className="hostname">{post.frontmatter.artists.join(", ")}</span>
-                          <span className={`tag-event ${post.frontmatter.tags ? post.frontmatter.tags.map(tag => "texttag" + tag).join(" ") : ''}`}> <i className="fal fa-hashtag" />{post.frontmatter.tags.map(tag => (<TagLink key={tag} tag={tag}> {tag} </TagLink>))}</span>
-                          <div className={`highlightloc ${post.frontmatter.tags ? post.frontmatter.tags.map(tag => "tag" + tag).join(" ") : 'tag-default'}`}>
+                          <span className={`tag-event ${post.frontmatter.tags ? post.frontmatter.tags.map(tag => "tag-" + tag).join(" ") : ''}`}> <i className="fal fa-hashtag" />{post.frontmatter.tags.map(tag => (<TagLink key={tag} tag={tag}> {tag} </TagLink>))}</span>
+                          <div className={`highlightloc ${post.frontmatter.tags ? post.frontmatter.tags.map(tag => "tag-" + tag).join(" ") : 'tag-default'}`}>
                             <span className="location"><i className="fal fa-map-marker-alt"/> {post.frontmatter.location}</span>
                             <span className="time texttag-game"> <i className="fal fa-clock"/> {moment(post.frontmatter.datestart).format("HH:mm")}</span>
                           </div>
