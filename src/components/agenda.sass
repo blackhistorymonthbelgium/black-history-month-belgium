@@ -167,9 +167,12 @@
     .event-wrapper
       margin-top: 60px
       background-color: white
-      border: 5px solid $orange
       padding: 10px
       flex: 1 0 auto
+      border-width: 5px
+      border-style: solid
+      border-color: $orange
+
 
       time
         margin-top: -60px
@@ -205,17 +208,22 @@
         display: flex
         flex-direction: column
         width: 100%
+        padding-top: 10px
+
         span
           font-family: GT-Eesti-Pro-Text-Medium
-          font-size: 1.2em
           text-transform: uppercase
+          white-space: nowrap
+          text-overflow: ellipsis
+          overflow: hidden
+
+        .hostname
           color: $orange
-          white-space: nowrap;
-          text-overflow: ellipsis;
-          overflow: hidden;
+        .texttaggame
+          a
+            color: $green
 
         .highlightloc
-          background-color: $orange
           padding-left: 23px
           padding-top: 5px
           padding-bottom: 5px
@@ -229,7 +237,18 @@
             font-family: GT-Eesti-Pro-Text-Regular
           svg
             color: $black
+
+        .tagdefault
+          background-color: $orange
+        .taggame
+          background-color: $pink
+        .tagarts
+          background-color: $pink
+        .tagsports
+          background-color: $pink
+        .tagparty
+          background-color: $pink
+
         .tag-event
-          color: $orange
           text-decoration: underline
           font-size: 0.8em
