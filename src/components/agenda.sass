@@ -25,7 +25,6 @@
       color: $pink
       font-family: GT-Eesti-Pro-Text-Medium
       text-transform: uppercase
-
     .selectdiv
       position: relative;
       float: left;
@@ -42,12 +41,10 @@
       transform: rotate(90deg);
       right: 11px;
       /*Adjust for position however you want*/
-
       top: 18px;
       padding: 0 0 2px;
       border-bottom: 1px solid $blue;
       /*left line */
-
       position: absolute;
       pointer-events: none;
       select
@@ -69,14 +66,12 @@
         border: 1px solid $blue
         -ms-word-break: normal;
         word-break: normal;
-
     .dropdown-wrapper
       display: flex
       flex-wrap: wrap
       justify-content: space-between
       width: 80%
       align-items: center
-
       select
         border: 3px solid $blue
         font-size: 1em
@@ -91,9 +86,7 @@
         display: block;
         width: 100%;
         max-width: 320px;
-
         background-image: none;
-
       .selectArrow
         height: unset
         margin-bottom: 10px
@@ -103,14 +96,12 @@
     width: 90%;
     margin: 0 auto;
     align-items: stretch
-
     .column
       .event-wrapper-outside
         height: 100%
         width: 100%
         display: flex
         flex-direction: column
-
     .performancer
       .headerlines
         display: -webkit-box;
@@ -129,7 +120,6 @@
           color: $black
         a:hover
           color: $orange
-
     .detail-wrapper
       display: flex
       flex-direction: row
@@ -138,7 +128,6 @@
       padding-left: 15px
       padding-right: 5px
       flex: 0 0 auto
-
       .detail-spacer
         width: 210px
         height: 10px
@@ -154,16 +143,14 @@
         a:hover
           color: $yellow
         ::before
-          background-color: $orange
           content: ' '
           display: block
           position: absolute
-          top: 0.8em
+          top: 1rem
           bottom: 0
           left: 0
           right: 0
           z-index: -1
-
     .event-wrapper
       margin-top: 60px
       background-color: white
@@ -171,9 +158,6 @@
       flex: 1 0 auto
       border-width: 5px
       border-style: solid
-      border-color: $orange
-
-
       time
         margin-top: -60px
         font-family: GT-Eesti-Pro-Text-Bold
@@ -181,48 +165,38 @@
         display: flex
         flex-direction: column
         width: 100px
-        border: 6px solid $orange;
-        text-align: center;
-
+        border-width: 6px
+        border-style: solid
+        text-align: center
         .date-event
           height: 40px
           background-color: rgba(255, 255, 255, 0.2)
           font-size: 26px
         .month-event
-          background-color: $orange
           font-size: 20px
-
     .event-detail
       display: flex
       flex-direction: row
       position: relative
       justify-content: flex-start
       flex-wrap: wrap-reverse
-
       img
         width: 200px
         height: inherit
         align-self: center
-
       .detail
         display: flex
         flex-direction: column
         width: 100%
         padding-top: 10px
-
         span
           font-family: GT-Eesti-Pro-Text-Medium
           text-transform: uppercase
           white-space: nowrap
           text-overflow: ellipsis
           overflow: hidden
-
         .hostname
           color: $orange
-        .texttaggame
-          a
-            color: $green
-
         .highlightloc
           padding-left: 23px
           padding-top: 5px
@@ -237,18 +211,51 @@
             font-family: GT-Eesti-Pro-Text-Regular
           svg
             color: $black
-
-        .tag-default
-          background-color: $orange
-        .tag-game
-          background-color: #f00
-        .tag-arts
-          background-color: #f0f
-        .tag-sports
-          background-color: #ff0
-        .tag-party
-          background-color: #0ff
-
         .tag-event
           text-decoration: underline
           font-size: 0.8em
+          a:hover
+            color: $black
+
+  .tag-other
+    .highlightloc, .month-event, .detail-link::before
+      background-color: $orange
+    .tag
+      color: $orange
+    time, .event-wrapper
+      border-color: $orange
+  .tag-game
+    .highlightloc, .month-event, .detail-link::before
+      background-color: $pink
+    .tag
+      color: $pink
+    time, .event-wrapper
+      border-color: $pink
+  .tag-arts,
+  .tag-theater,
+  .tag-literature
+    .highlightloc, .month-event, .detail-link::before
+      background-color: $purple
+    .tag
+      color: $purple
+    time, .event-wrapper
+      border-color: $purple
+  .tag-sport,
+  .tag-talks,
+  .tag-debate
+    .highlightloc, .month-event, .detail-link::before
+      background-color: $green
+    .tag
+      color: $green
+    time, .event-wrapper
+      border-color: $green
+  .tag-party,
+  .tag-movie
+  .highlightloc, .month-event, .detail-link::before
+    background-color: $blue
+  .tag
+    color: $blue
+  time, .event-wrapper
+    border-color: $blue
+  .tag
+    background-color: white
