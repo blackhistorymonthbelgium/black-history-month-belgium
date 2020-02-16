@@ -11,7 +11,7 @@ const ComingUpEvents = (props) => {
       <h1>{T('upcomingEvents')}</h1>
       <ul className="columns container is-one-third-widescreen">
         {events.slice(0,3).map((event, key)=>
-        <li key={key} className="column">
+        <li key={key} className="column is-one-third">
           <div className="event-wrapper-outside">
             <div className="event-wrapper">
               <div className="event-wrapper-insider">
@@ -20,7 +20,7 @@ const ComingUpEvents = (props) => {
                   <span className="month-event">{moment(event.node.frontmatter.datestart).format("MMM")}</span>
                 </time>
                 <div className="performancer">
-                  <h1><PostLink post={event.node}>{event.node.frontmatter.title}</PostLink></h1>
+                  <div className="headerlines"><PostLink post={event.node}>{event.node.frontmatter.title}</PostLink></div>
                   <p>{event.node.frontmatter.artists.join(", ")}</p>
                 </div>
                 <div className="event-detail">

@@ -33,7 +33,19 @@
   .performancer
     position: relative
     padding-top: 5px
-
+    .headerlines
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: GT-Eesti-Pro-Text-Bold
+      font-weight: bold
+      font-size: 1.4em
+      text-transform: uppercase
+      height: 65px
+      text-align: center
+      padding-top: 5px
     h1
       font-family: GT-Eesti-Pro-Text-Bold
       font-weight: bold
@@ -125,13 +137,14 @@
     .detail
       display: flex
       flex-direction: column
-      font-size: 1.2em
+      font-size: 1em
       .highlightloc
         background-color: $orange
         padding: 5px
         right: 25px
         position: relative
         margin-top: 5px
+        text-transform: uppercase
         span
           color: black
         svg
