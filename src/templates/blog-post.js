@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import { TagLink } from '../components/Links'
 import { createPagePath } from '../helpers'
+import {T} from '../internationalization'
 
 export const BlogPostTemplate = ({
   content,
@@ -30,7 +31,7 @@ export const BlogPostTemplate = ({
             <h1 className="title">
               {title}
             </h1>
-            <p>Written by: {author}</p>
+            <p>{T('writtenBy')}: {author}</p>
             <p>{date}</p>
             <div className="fb-share-button" data-href={url} data-layout="button_count" data-size="small"><a target="_blank" href={shareUrl} className="fb-xfbml-parse-ignore">Share on FB</a></div>
             <p>{description}</p>

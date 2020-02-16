@@ -12,7 +12,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
       <div className="about-wrapper">
         <header>
           <h1 className="title">
-            About BHM
+            {T("about")}
           </h1>
         </header>
         <div>

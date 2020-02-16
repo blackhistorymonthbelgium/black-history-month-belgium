@@ -4,6 +4,7 @@ import { graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import { getPostsInLanguage } from '../helpers'
 import { PostLink } from './Links'
+import {T} from '../internationalization'
 
 class BlogRoll extends React.Component {
   render() {
@@ -45,13 +46,13 @@ class BlogRoll extends React.Component {
                   {post.frontmatter.date}
                 </span>
                 <span className="extra-info">
-                  Written by: {post.frontmatter.author}
+                  {T('writtenBy')} : {post.frontmatter.author}
                 </span>
                 <p>
                   {post.excerpt}
                   <br />
                   <PostLink className="keepReading" post={post}>
-                     Keep Reading <i className="far fa-chevron-right"/>
+                     {T('keepReading')} <i className="far fa-chevron-right"/>
                   </PostLink>
                 </p>
               </article>

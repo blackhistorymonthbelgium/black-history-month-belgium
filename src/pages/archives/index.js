@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../../components/Layout'
 import ArchivesRoll from '../../components/ArchivesRoll'
+import {T} from '../../internationalization'
 
 
 export default class ArchivesIndexPage extends React.Component {
@@ -10,7 +11,7 @@ export default class ArchivesIndexPage extends React.Component {
       <Layout language={language}>
         <section className="blogs">
           <h1 className="blogs-title">
-            Archives
+            {T("archives")}
           </h1>
           <div className="container">
             <div className="content">

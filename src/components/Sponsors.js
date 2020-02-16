@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from 'prop-types'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import { graphql, StaticQuery } from 'gatsby'
+import {T} from '../internationalization'
 
 class Sponsors extends React.Component {
   render(){
@@ -11,7 +12,7 @@ class Sponsors extends React.Component {
       <section className="sponsors">
         <div className="sponsors-wrapper">
           <div className="bePartner">
-            <h1>Our Partners</h1>
+            <h1>{T("ourPartners")}</h1>
             <ul className="partners">
                 {posts.map((post, key)=>
                   <li key={key}>
@@ -31,7 +32,7 @@ class Sponsors extends React.Component {
                 )}
             </ul>
             <a className="emailPartner" href="mailto:blackhistorymonth.belgium@gmail.com?subject=Become BHM Partner&body=Hello BHM! We'd like to be your partner...">
-              Be our partner
+              {T("beOurPartner")}
             </a>
           </div>
         </div>

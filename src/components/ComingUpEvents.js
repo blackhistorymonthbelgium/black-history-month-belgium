@@ -39,7 +39,7 @@ const ComingUpEvents = (props) => {
               <div className='detail-spacer' />
               <div className='detail-link'>
                 <PostLink post={event.node}>
-                  Detail <i className="far fa-chevron-right"></i>
+                  {T('details')} <i className="far fa-chevron-right"></i>
                 </PostLink>
             </div>
             </div>

@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import { TagLink } from '../components/Links'
+import {T} from '../internationalization'
 
 export const ArchivesPostTemplate = ({
   content,
@@ -26,8 +27,8 @@ export const ArchivesPostTemplate = ({
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
               {title}
             </h1>
-            <p><b>Theme:</b> {description}</p>
-            <p><b>Year:</b> {year}</p>
+            <p><b>{T('theme')}:</b> {description}</p>
+            <p><b>{T('year')}:</b> {year}</p>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>

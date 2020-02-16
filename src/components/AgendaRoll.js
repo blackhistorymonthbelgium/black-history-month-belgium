@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import moment from 'moment'
 import { PostLink, TagLink } from './Links'
+import {T} from '../internationalization'
 
 export default class AgendaRoll extends React.Component {
 
@@ -38,7 +39,7 @@ export default class AgendaRoll extends React.Component {
                   <div className='detail-spacer' />
                   <div className='detail-link'>
                     <PostLink post={post} className="detail-link">
-                      Detail <i className="far fa-chevron-right"></i>
+                      {T('details')} <i className="far fa-chevron-right"></i>
                     </PostLink>
                   </div>
                 </div>

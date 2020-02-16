@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../../components/Layout'
 import PressRoll from '../../components/PressRoll'
+import {T} from '../../internationalization'
 
 export default class PressIndexPage extends React.Component {
   render() {
@@ -9,7 +10,7 @@ export default class PressIndexPage extends React.Component {
       <Layout language={language}>
         <section className="blogs">
           <h1 className="blogs-title">
-            Press
+            {T("press")}
           </h1>
           <div className="container press">
             <div className="content">

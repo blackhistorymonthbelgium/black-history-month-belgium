@@ -36,10 +36,10 @@ const News = (props) =>{
                     <time>{moment(blog.node.frontmatter.date).format("DD-MMM-YYYY")}</time>
                     <p>
                       {blog.node.excerpt}
-                      <PostLink post={blog.node}> <span className="readMore">read  more...</span></PostLink>
+                      <PostLink post={blog.node}> <span className="readMore">{T("readMore")}</span></PostLink>
                     </p>
                   </main>
-                  <LocalizedLink className="goToBlog" to="/blog">More news</LocalizedLink>
+                  <LocalizedLink className="goToBlog" to="/blog">{T("moreNews")}</LocalizedLink>
                 </article>
                 ))}
             </div>
@@ -88,7 +88,7 @@ const News = (props) =>{
                         <input type="text" name="b_c1d7bead0df2b5f05cd385477_999730b5cc" tabIndex="-1" defaultValue="" />
                       </div>
                       <div className="clear">
-                        <input className="subscribe buttonForm" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
+                        <input className="subscribe buttonForm" type="submit" value={T("subscribe")} name="subscribe" id="mc-embedded-subscribe" />
                       </div>
                     </div>
                 </form>

@@ -16,7 +16,7 @@ export default class ExtraPartnersIndexPage extends React.Component {
               <p dangerouslySetInnerHTML={{__html:T("extraPartnersText")}}>
               </p>
               <a className="emailPartner" href="mailto:info@blackhistorymonth.be?subject=Become BHM Partner&body=Hello BHM! We'd like to be your partner...">
-                  Be our partner
+                  {T("beOurPartner")}
               </a>
               <br/>
               <br/>
