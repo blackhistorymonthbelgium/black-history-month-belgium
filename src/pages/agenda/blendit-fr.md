@@ -6,7 +6,6 @@ slug: blendid5mar
 date: 2020-02-05T21:50:27.946Z
 description: >-
   Pour Black History Month, Rwanda en Zoveel meer (RZM) ont réalisé une série de portraits puissants.
-
 featuredpost: true
 featuredimage: /img/blendit.jpg
 tags:
@@ -15,8 +14,8 @@ year: '2020'
 artists:
   - BHM
 location: Anvers
-datestart: 2020-03-05T19:00:00.000Z
-dateend: 2020-03-05T22:00:00.000Z
+datestart: 2020-03-07T11:00:00.000Z
+dateend: 2020-03-29T19:00:00.000Z
 ---
 [Attend this event on Facebook](https://www.facebook.com/events/1916202505180705/?active_tab=about)
 <br/>

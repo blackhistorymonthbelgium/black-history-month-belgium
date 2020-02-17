@@ -14,8 +14,8 @@ year: '2020'
 artists:
   - Beursschouwburg
 location: Bruxelles
-datestart: 2020-03-06T22:00:00.000Z
-dateend: 2020-03-07T05:00:00.000Z
+datestart: 2020-03-06T21:00:00.000Z
+dateend: 2020-03-06T21:00:00.000Z
 ---
 [Attend this event on Facebook](https://www.facebook.com/events/196284398239401/)
 
@@ -29,4 +29,4 @@ des billets
 
 [en savoir plus](beursschouwburg.be/fr/events/the-african-diplomat-show/)
 
-Adres:Beursschouwburg, Auguste Ortsstraat 20 -28, 1000 Brussel, Belgium [zie maps](https://goo.gl/maps/DhBu8cak4gTzckgZA)
+Adres: Beursschouwburg, Auguste Ortsstraat 20 -28, 1000 Brussel, Belgium [zie maps](https://goo.gl/maps/DhBu8cak4gTzckgZA)
