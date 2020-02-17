@@ -3,9 +3,14 @@ import PropTypes from 'prop-types'
 import moment from 'moment'
 import { PostLink, TagLink } from './Links'
 import {T} from '../internationalization'
+function formatDateEvent(post){
+  const dateStart = moment(post. frontmatter.datestart).format("DD");
+  const dateEnd = moment(post.frontmatter.dateend).format("DD");
+  return dateStart
+    + " " + (dateStart !== dateEnd ? `- ${dateEnd}` : "");
+}
 
 export default class AgendaRoll extends React.Component {
-
   render() {
     const { posts } = this.props
     return (
@@ -17,7 +22,7 @@ export default class AgendaRoll extends React.Component {
                 <div className={`event-wrapper`}>
                   <div className="event-wrapper-insider">
                     <time>
-                      <span className="date-event">{moment(post.frontmatter.datestart).format("DD")}</span>
+                      <span className="date-event">{formatDateEvent(post)}</span>
                       <span className={`month-event`}>{moment(post.frontmatter.datestart).format("MMM")}</span>
                     </time>
                     <div className="performancer">

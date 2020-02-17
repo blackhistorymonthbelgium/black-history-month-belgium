@@ -20,6 +20,8 @@ export const AgendaPostTemplate = ({
   dateend,
  }) => {
   const PostContent = contentComponent || Content
+  const dateStart = moment(datestart).format("DD");
+  const dateEnd = moment(dateend).format("DD");
 
   return (
     <section className="agenda">
@@ -29,11 +31,11 @@ export const AgendaPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <p><b>{T('date')}: </b>{moment(datestart).format("MM-DD-YYYY")}</p>
+            <p><b>{T('date')}: </b>{dateStart} {dateStart !== dateEnd ? `- ${dateEnd}/` : "/"}{moment(dateend).format("MM/YY")} </p>
             <p><b>{T('time')}: </b>{moment(datestart).format("HH:mm")}</p>
             <p><b>{T('location')}: </b> {location}</p>
             <p><b>{T('description')} : </b> {description}</p>
-            <p><b>Host: </b>{artists.map(artist => (artist))}</p>
+            <p><b>{T('artist')}: </b>{artists.map(artist => (artist))}</p>
             <PostContent content={content} />
           </div>
         </div>

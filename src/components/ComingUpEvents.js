@@ -3,6 +3,13 @@ import moment from 'moment'
 import { T } from '../internationalization';
 import { PostLink, TagLink, LocalizedLink } from './Links'
 
+function formatDateEvent(event){
+  const dateStart = moment(event.node.frontmatter.datestart).format("DD");
+  const dateEnd = moment(event.node.frontmatter.dateend).format("DD");
+  return dateStart
+    + " " + (dateStart !== dateEnd ? `- ${dateEnd}` : "");
+}
+
 const ComingUpEvents = (props) => {
   const { events } = props;
 
@@ -16,7 +23,7 @@ const ComingUpEvents = (props) => {
             <div className="event-wrapper">
               <div className="event-wrapper-insider">
                 <time>
-                  <span className="date-event">{moment(event.node.frontmatter.datestart).format("DD")}</span>
+                  <span className="date-event">{formatDateEvent(event)}</span>
                   <span className="month-event">{moment(event.node.frontmatter.datestart).format("MMM")}</span>
                 </time>
                 <div className="performancer">
