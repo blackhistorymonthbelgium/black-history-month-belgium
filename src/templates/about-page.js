@@ -39,7 +39,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           <h2>{T("memberTitle")}</h2>
           <p>{T("memberName1")}: <span>Aminata Ndow & Mohamed Barrie</span></p>
           <p>{T("memberName2")}: <span>Jonelle Luzolele Nkakala</span></p>
-          <p>{T("memberName3")}: <span>Jelaime Mayamba</span></p>
+          <p>{T("memberName3")}: <span>Jelaime Dino Mayamba</span></p>
           <p>{T("memberName4")}: <span>Rachel Hansoul</span></p>
           <p>{T("memberName5")}: <span>Ama Kissi</span></p>
           <p>{T("memberName6")}: <span>Laura Ganza</span></p>
