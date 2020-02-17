@@ -2,7 +2,7 @@
 templateKey: archives-post
 language: fr
 slug: secondedition
-title: La Deuxième
+title: La deuxième édition
 date: 2020-02-03T15:58:55.744Z
 description: L'ART NOIR AU SERVICE DE LA LIBÉRATION
 featuredpost: false
