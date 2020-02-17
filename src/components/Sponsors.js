@@ -54,6 +54,7 @@ export default () => (
     query={graphql`
       query PartnersRollQuery {
         allMarkdownRemark(
+          sort: { order: ASC, fields: [frontmatter___title] }
           filter: { frontmatter: { templateKey: { eq: "partners-post" } } }
         ) {
           edges {
