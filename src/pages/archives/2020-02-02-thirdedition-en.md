@@ -2,7 +2,7 @@
 templateKey: archives-post
 language: en
 slug: thirdedition
-title: Third Edition
+title: The Third Edition
 date: 2020-02-02T17:09:06.964Z
 description: >-
   The third edition of Black History Month in Belgium will be centred on the

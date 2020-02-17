@@ -2,7 +2,7 @@
 templateKey: archives-post
 language: en
 slug: secondedition
-title: Second Edition
+title: The Second Edition
 date: 2020-02-02T16:45:42.648Z
 description: ZWARTE KUNST DE WEG NAAR DE BEVRIJDING
 featuredpost: false
