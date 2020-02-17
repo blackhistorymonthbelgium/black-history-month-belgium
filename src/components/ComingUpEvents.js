@@ -47,7 +47,7 @@ const ComingUpEvents = (props) => {
         </li>
       )}
       </ul>
-      <LocalizedLink className="goToAgenda" to="/agenda">See more events <i className="far fa-chevron-right"></i></LocalizedLink>
+      <LocalizedLink className="goToAgenda" to="/agenda">{T("seeMoreEvents")} <i className="far fa-chevron-right"></i></LocalizedLink>
     </section>
   );
 
