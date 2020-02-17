@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import moment from 'moment'
 import { graphql, StaticQuery } from 'gatsby'
 import PreviewCompatibleImage from './PreviewCompatibleImage'
 import { getPostsInLanguage } from '../helpers'
@@ -39,11 +40,10 @@ class BlogRoll extends React.Component {
                         {post.frontmatter.title}
                       </PostLink>
                     </h1>
-
                   </header>
                 </div >
                 <span className="extra-info">
-                  {post.frontmatter.date}
+                {moment(post.frontmatter.date).format("L")}
                 </span>
                 <span className="extra-info">
                   {T('writtenBy')} : {post.frontmatter.author}

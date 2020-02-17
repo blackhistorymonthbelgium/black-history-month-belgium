@@ -33,7 +33,7 @@ const News = (props) =>{
                     </h1>
                   </header>
                   <main>
-                    <time>{moment(blog.node.frontmatter.date).format("DD-MMM-YYYY")}</time>
+                    <time>{moment(blog.node.frontmatter.date).format("L")}</time>
                     <p>
                       {blog.node.excerpt}
                       <PostLink post={blog.node}> <span className="readMore">{T("readMore")}</span></PostLink>
