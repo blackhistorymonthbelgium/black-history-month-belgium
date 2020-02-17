@@ -9,7 +9,7 @@ export default class BlogIndexPage extends React.Component {
       <Layout language={language}>
         <section className="blogs">
           <h1 className="blogs-title">
-            Blogs
+            Blog
           </h1>
           <div className="container">
             <div className="content">
