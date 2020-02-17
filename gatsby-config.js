@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Black History Month 2020',
     description:
-      'This is a website for spreading information about Black History Month Belgium 2020.',
+      'Black History Month Belgium is a celebration of Sub-Saharan African culture and history in Belgium. We aim to bring our community together and share what binds us within our community and other communities',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
