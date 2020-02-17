@@ -25,7 +25,7 @@ const TemplateWrapper = (props) => {
         <html lang={language} />
         <title>{title}</title>
         <meta name="description" content={description} />
-        <meta name="keywords" content= 'african, bhm, black history, cultural events' />
+        <meta name="keywords" content= 'african, bhm, black history, cultural events, black history month belgium, eventementantwerpen, eventementbrussel, eventementgent, eventementafricain, africanevent' />
         <meta name="author" content= 'Alfi Yusrina' />
         <link
           rel="apple-touch-icon"
