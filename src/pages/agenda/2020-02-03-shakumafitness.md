@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: en
-title: King Franky
+title: Shakuma Fitness
 slug: shakumaFitness
 date: 2020-02-03T16:22:55.926Z
 description: Shakuma Fitness by King Franky
