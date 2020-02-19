@@ -13,6 +13,7 @@ tags:
   - theater
 year: '2020'
 artists:
+  - Arenberg
   - For All Queens
 location: Antwerpen
 datestart: 2020-03-15T18:30:00.000Z

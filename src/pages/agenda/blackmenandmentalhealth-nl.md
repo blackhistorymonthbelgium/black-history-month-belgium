@@ -15,6 +15,7 @@ tags:
   - theater
 year: '2020'
 artists:
+  - Arenberg
   - BHM
 location: Antwerpen
 datestart: 2020-03-12T19:00:00.000Z

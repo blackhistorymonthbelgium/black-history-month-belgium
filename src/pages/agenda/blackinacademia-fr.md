@@ -16,6 +16,7 @@ year: '2020'
 artists:
   - KU Leuven
   - Karibu
+  - UNDIVIDED
 location: Louvain
 datestart: 2020-03-04T16:00:00.000Z
 dateend: 2020-03-04T18:00:00.000Z
