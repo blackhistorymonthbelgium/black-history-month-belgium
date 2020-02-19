@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: nl
-title: Shakuma Fitness
+title: King Franky
 slug: shakumaFitness
 date: 2020-02-03T16:09:52.073Z
 description: Shakuma Fitness by King Franky
@@ -11,7 +11,7 @@ tags:
   - sport
 year: '2020'
 artists:
-  - Franky
+  - King Franky
 location: Antwerpen
 datestart: 2020-03-03T17:00:52.083Z
 dateend: 2020-03-03T18:00:00.000Z
