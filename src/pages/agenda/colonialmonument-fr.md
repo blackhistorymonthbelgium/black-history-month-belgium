@@ -12,8 +12,7 @@ tags:
   - arts
 year: '2020'
 artists:
-  - UA
-  - Middelheim
+  - Middelheim museum
 location: Anvers
 datestart: 2020-03-20T13:00:00.000Z
 dateend: 2020-03-20T18:00:00.000Z
