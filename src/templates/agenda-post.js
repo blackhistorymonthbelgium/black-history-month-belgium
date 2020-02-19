@@ -35,7 +35,7 @@ export const AgendaPostTemplate = ({
             <p><b>{T('time')}: </b>{moment(datestart).format("HH:mm")}</p>
             <p><b>{T('location')}: </b> {location}</p>
             <p><b>{T('description')} : </b> {description}</p>
-            <p><b>{T('artist')}: </b>{artists.map(artist => (artist))}</p>
+            <p><b>{T('artist')}: </b>{artists.join(", ")}</p>
             <PostContent content={content} />
           </div>
         </div>
