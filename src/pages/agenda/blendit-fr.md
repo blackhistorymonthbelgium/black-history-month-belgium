@@ -12,7 +12,7 @@ tags:
   - arts
 year: '2020'
 artists:
-  - BHM
+  - Rwanda en zo veel meer
 location: Anvers
 datestart: 2020-03-07T11:00:00.000Z
 dateend: 2020-03-29T19:00:00.000Z
