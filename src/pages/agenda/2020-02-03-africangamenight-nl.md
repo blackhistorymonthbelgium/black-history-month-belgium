@@ -12,7 +12,8 @@ tags:
   - competition
 year: '2020'
 artists:
-  - nn
+  - AYO
+  - BHM
 location: Antwerpen
 datestart: 2020-03-05T16:00:00.000Z
 dateend: 2020-03-05T22:00:00.000Z
