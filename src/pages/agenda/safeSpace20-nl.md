@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: nl
-title: Workshop 'Safe Spaces'
+title: Workshop 'Safe Space'
 slug: safespace20
 date: 2020-02-05T21:50:27.946Z
 description: >-
