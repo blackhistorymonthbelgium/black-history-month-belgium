@@ -20,6 +20,7 @@ datestart: 2020-03-06T19:30:00.000Z
 dateend: 2020-03-07T19:30:00.000Z
 ---
 6 Mar [Attend this event on Facebook](https://www.facebook.com/events/2611324708920582/)
+
 7 Mar [Attend this event on Facebook](https://www.facebook.com/events/2611324708920582/?event_time_id=2611324715587248)
 
 
@@ -33,6 +34,7 @@ Language no problem
 tickets
 €14 /  €11 reduction / €7 student
 bit.ly/mamelanyamza
+
 [Get your ticket](https://apps.ticketmatic.com/widgets/beursschouwburg/flow/welovewe?event=842386696379,540342693205&l=en&fbclid=IwAR10Y5n2GxhietUpQhjAHYGUTOtiaFR3IAL6xKxn2e6urJNkvc1cI0TSGnQ#!/addtickets)
 
 Find out more
