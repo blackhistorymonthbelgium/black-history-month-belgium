@@ -16,7 +16,7 @@ year: '2020'
 artists:
   - Karibu
   - BHM
-location: Lovain
+location: Louvain
 datestart: 2020-03-03T18:00:00.000Z
 dateend: 2020-03-03T21:00:00.000Z
 ---
