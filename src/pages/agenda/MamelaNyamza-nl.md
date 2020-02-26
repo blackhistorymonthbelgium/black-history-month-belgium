@@ -1,6 +1,6 @@
 ---
 templateKey: agenda-post
-language: en
+language: nl
 title: Mamela Nyamza - Black Privilege
 slug: mamelanyamza
 date: 2020-02-05T21:50:27.946Z
