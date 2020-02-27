@@ -2,7 +2,7 @@
 templateKey: agenda-post
 language: en
 title: Atlantique (Mati Diop)
-slug: homeihkv
+slug: matidiop
 date: 2020-02-05T21:50:27.946Z
 description: >-
   ATLANTIQUE (Mati Diop | 106’ | 2019 | FR/SN/BE | Wolof, French, English, Arabic spoken NL SUB).
