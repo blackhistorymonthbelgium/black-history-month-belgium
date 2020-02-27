@@ -5,7 +5,7 @@ title: Afroyoga
 slug: afroyoga
 date: 2020-02-03T16:22:55.926Z
 description: >-
-  The first edition of the Black History Month Ghent is all about holistic well-being the Black community in Belgium. We go back to the historical roots of our well-being under the motto: "healing from the past in the present".
+  The first edition of the Black History Month Ghent is all about holistic well-being the Black community in Belgium. We go back to the historical roots of our well-being under the motto "healing from the past in the present".
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
