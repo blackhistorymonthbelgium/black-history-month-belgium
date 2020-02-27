@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: en
-title: Ciné CluBB: L’Eau Sacrée
+title: Ciné CluBB - L’Eau Sacrée
 slug: CineCluBB
 date: 2020-02-05T21:50:27.946Z
 description: >-
