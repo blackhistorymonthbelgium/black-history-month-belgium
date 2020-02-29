@@ -11,7 +11,10 @@ function formatDateEvent(event){
 }
 
 const ComingUpEvents = (props) => {
-  const { events } = props;
+
+  let { events } = props;
+  const now = moment();
+  events = events.filter(event => now.isBefore(event.node.frontmatter.datestart));
 
   return(
     <section className="comingUpEvents">
