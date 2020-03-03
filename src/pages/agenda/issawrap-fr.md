@@ -12,12 +12,13 @@ tags:
   - other
 year: '2020'
 artists:
+  - AYO
   - BHM
-location: Bruxelles
-datestart: 2020-03-31T17:30:00.000Z
+location: Anvers
+datestart: 2020-03-31T17:00:00.000Z
 dateend: 2020-03-31T22:00:00.000Z
 ---
-[Attend this event on Facebook](https://www.facebook.com/events/2955298627825429/)
+[Attend this event on Facebook](https://www.facebook.com/events/509289133118669/)
 
 
 
@@ -25,3 +26,4 @@ Cette soirée est l'occasion idéale de revenir sur toutes les expériences que 
 Soit dit en passant, nous encourageons chacun à apporter autant de nourriture et de boissons qu'il le souhaite! Tenez également compte des végétariens et de ceux qui mangent du halal.
 
 Jusque-là, ASCOM, AYO, Karibu et Umoja
+Address: Sint-Jacobsmarkt 9, 2000 Antwerpen, België

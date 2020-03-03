@@ -12,16 +12,17 @@ tags:
   - other
 year: '2020'
 artists:
+  - AYO
   - BHM
-location: Brussel
-datestart: 2020-03-31T17:30:00.000Z
+location: Antwerpen
+datestart: 2020-03-31T17:00:00.000Z
 dateend: 2020-03-31T22:00:00.000Z
 ---
-[Dit event op Facebook](https://www.facebook.com/events/2955298627825429/)
-
+[Dit event op Facebook](https://www.facebook.com/events/509289133118669/)
 
 
 Deze avond is de perfecte mogelijkheid om terug te blikken op alle ervaringen die we gedeeld hebben afgelopen maand. Wat je zeker kan verwachten is heerlijk eten, geweldige vrienden en zeer veel gelach.
 Trouwens, we moedigen iedereen aan om zoveel eten en drinken mee te nemen als ze willen! Houdt ook rekening met vegetariërs en zij die halal eten.
 
 Totdan, ASCOM, AYO, Karibu en Umoja
+Adres: Sint-Jacobsmarkt 9, 2000 Antwerpen, België
