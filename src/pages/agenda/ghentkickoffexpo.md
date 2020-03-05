@@ -15,8 +15,8 @@ year: '2020'
 artists:
   - BHM
 location: Ghent
-datestart: 2020-03-08T16:00:00.000Z
-dateend: 2020-03-08T22:00:00.000Z
+datestart: 2020-03-07T16:00:00.000Z
+dateend: 2020-03-07T22:00:00.000Z
 ---
 [Attend this event on Facebook](https://www.facebook.com/events/203727230747514/?notif_t=event_calendar_create&notif_id=1582801803082111)
 
