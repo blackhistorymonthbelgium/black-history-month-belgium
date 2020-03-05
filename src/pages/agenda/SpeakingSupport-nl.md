@@ -15,7 +15,7 @@ tags:
 year: '2020'
 artists:
   - Rainbow Nation Brussels
-location: Brussels
+location: Brussel
 datestart: 2020-03-05T11:00:00.000Z
 dateend: 2020-03-31T16:00:00.000Z
 ---
