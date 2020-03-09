@@ -5,7 +5,7 @@ title: Café Congo x FATSABBATS invitent Jo Güstin
 slug: jogustin
 date: 2020-02-05T21:50:27.946Z
 description: >-
-  JO GÜSTIN gaat de eerste verjaardag vieren van de publicatie van zijn boek "Ah Sissi, je moet lijden om Frans te zijn! »(14/03/2019) op FATSABBATS met Cafe Congo, deze # vrijdag 13 maart.
+  JO GÜSTIN passe fêter le 1er anniversaire de la parution de son livre « Ah Sissi il faut souffrir pour être française!
 
 featuredpost: true
 featuredimage: /img/rataplan.jpg
@@ -22,13 +22,15 @@ dateend: 2020-03-13T22:00:00.000Z
 [Dit event Facebook](https://www.facebook.com/events/531132490868477/)
 
 
-We vieren een speciale Masterclass met de titel: “Geboren racistische Fxmme Queer: Lucky day of horrorfilm? "
+JO GÜSTIN passe fêter le 1er anniversaire de la parution de son livre « Ah Sissi il faut souffrir pour être française! » (14/03/2019) chez FATSABBATS avec Cafe Congo, ce #Vendredi13 mars. Nous soufflerons ses bougies autour d’une Master Class spéciale intitulée:
 
-Tea-time, Afterwork of Before, wat het ook voor u is: ga spelen en denk met ons mee.
+« Né∙e Fxmme Queer racisé∙e : Jour de chance ou film d'horreur ? »
 
-Bio:
-Jo Güstin is een pan-Afrikaanse schrijver, humorist, tekstschrijver en scenarioschrijver. De rode draad van zijn creaties kan worden samengevat in het drieluik "dekolonisatie, intersectionaliteit, bevrijding". Ze verhindert rondjes te gaan en pakt gevoelige onderwerpen aan terwijl ze 'lacht, droomt, denkt'. Na de tragikomische 9 Luminous Stories gepubliceerd in 2017 door Présence Africaine, sluit Jo Güstin zestien jaar van het leven in Frankrijk met Ah Sissi, je moet lijden om Frans te zijn !, Een briljante roman in de roman, op het kruispunt van het essay, autobiografie en fictie.
+Tea-time, Afterwork ou Before, peu importe ce que c'est pour toi: passe jouer et penser avec nous. Nous poursuivrons la soirée tou.t.e.s ensemble au Festival MASSIMADI, à quelques pas de là.
 
-“Voltijds Frans zijn als je niet blank bent, is een veeleisende uitdaging: maandag moet je klagen omdat het hoe dan ook maandag is; Dinsdag moet je de favoriete persoonlijkheid van de Fransen zijn; op woensdag moeten we ons distantiëren van de islam; Donderdag moet je een internationaal toernooi winnen; Vrijdag moet je een Nobelprijs winnen ... omdat je bij de minste teleurstelling onvermijdelijk wordt herinnerd aan waar je vandaan komt. Sprankelend en bijtend, geeft Jo Güstin ons, tussen verhaal en gratis essay, een schokkende roman in de vorm van een afscheidsbrief aan Frankrijk geschreven op het puntje van een meedogenloze en bijtende pen. Het opent de weg naar feministische en intersectionele Afrikaanse literatuur van grote finesse door te vertellen met de kruidige toon die het levensmomenten van geracialiseerde vrouwen in Frankrijk kenmerkt, afgewisseld met uitsteeksels in het leven van zijn verteller.
+Bio :
+Jo Güstin est une écrivaine, humoriste, parolière et scénariste panafricaine. Le fil conducteur de ses créations se résume dans le triptyque "décolonisation, intersectionnalité, libération". Empêcheuse de tourner en rond, elle aborde des sujets sensibles tout en faisant "rire, rêver, réfléchir". Après le tragicomique « 9 Histoires Lumineuses » paru en 2017 chez Présence Africaine, Jo Güstin clôture seize années de vie en France avec « Ah Sissi il faut souffrir pour être française! » , un brillant roman dans le roman, à la croisée de l’essai, de l’autobiographie et de la fiction.
+
+« Être française à plein temps quand on n’est pas blanche est une gageure exigeante : lundi, il faut râler parce que, quand même, c’est lundi ; mardi, il faut être la personnalité préférée des Français ; mercredi, il faut se désolidariser de l’Islam ; jeudi, il faut remporter un tournoi international ; vendredi, il faut décrocher un Prix Nobel… car à la moindre déconvenue on se fait immanquablement rappeler d’où l'on vient. » Pétillante et caustique, Jo Güstin nous livre, entre récit et essai libre, un roman choc sous la forme d’une lettre d’adieux à la France écrite à la pointe d’une plume impitoyable et corrosive. Elle ouvre la voie d’une littérature féministe et intersectionnelle africaine d’une grande finesse en racontant, avec le ton piquant qui la caractérise, des moments de vie de femmes racisées en France, entrecoupés de saillies dans la propre vie de sa narratrice.
 
 Adres: FATSABBATS, Rue Philippe de Champagne 5, 1000 Bruxelles [Zie maps](https://goo.gl/maps/fRmRW6RtoArwWefM7)
