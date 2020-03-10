@@ -27,8 +27,8 @@ export default class ExtraPartnersIndexPage extends React.Component {
                   {T("extraPartnersDonateButton")}
               </a>
               <br/>
-              <p dangerouslySetInnerHTML={{__html:T("extraPartnersDonateText")}}>
-              </p>
+              <span dangerouslySetInnerHTML={{__html:T("extraPartnersDonateText")}}>
+              </span>
             </div>
           </div>
         </section>
