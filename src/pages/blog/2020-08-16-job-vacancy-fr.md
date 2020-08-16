@@ -19,9 +19,11 @@ tags:
   - blog
   - job vacancy
 ---
-Vous devez être motivé, enthousiaste et axé sur la communauté pour assumer ce rôle passionnant. Ce poste nécessite une personne dotée d'une attitude positive et disposée à être un joueur d'équipe. Vous occuperiez ce poste en tant que bénévole. Ce rôle débutera en septembre 2020 jusqu'à fin mars 2021.
+Vous devez être motivé, enthousiaste et axé sur la communauté pour assumer ce rôle passionnant. Ce poste nécessite une personne dotée d'une attitude positive et disposée à être un joueur d'équipe. Vous occuperiez ce poste en tant que bénévole. **Ce rôle débutera en septembre 2020 jusqu'à fin mars 2021.**
 
-Responsabilités:
+![](/img/cafécongo-13.jpg "Picture by Monday Agbonzee Junior")
+
+**Responsabilités:**
 
 * Superviser la planification et la mise en œuvre des stratégies de sensibilisation.
 * Relier les gens de la communauté au sens large en créant des accords de parrainage et en cultivant des relations avec des entreprises, des particuliers et d'autres organisations pertinentes.
