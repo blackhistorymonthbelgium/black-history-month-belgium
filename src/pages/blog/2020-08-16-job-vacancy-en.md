@@ -18,9 +18,9 @@ tags:
   - blog
   - job vacancy
 ---
-![](/img/cafécongo-13.jpg "Picture by Monday Agbonzee Junior")
-
 You need to be self-motivated, enthusiastic and community-driven to take on this exciting role. This position requires someone equipped with a positive attitude and readiness to be a team player. You would take up this position as a volunteer. **The role will start in September 2020 until the end of March 2021.** 
+
+![](/img/cafécongo-13.jpg "Picture by Monday Agbonzee Junior")
 
 **Responsibilities:**
 
