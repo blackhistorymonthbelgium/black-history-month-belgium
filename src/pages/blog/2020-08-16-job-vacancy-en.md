@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: en
 slug: job-vacancy
-title: Black History Month Belgium is expanding our team
+title: Black History Month Belgium is expanding the team
 date: 2020-08-16T19:40:21.485Z
 description: >
   We are searching for two Community Outreach Coordinators, one for Ghent and
