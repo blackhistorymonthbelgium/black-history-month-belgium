@@ -19,11 +19,9 @@ tags:
   - blog
   - job vacancy
 ---
-Je moet gemotiveerd, enthousiast en gemeenschapsgericht zijn om deze opwindende rol op je te nemen. Deze functie vereist iemand met een positieve instelling en bereidheid om een ​​teamspeler te zijn. Je zou deze functie aanvaarden als vrijwilliger. Deze rol start in september 2020 tot eind maart 2021.
+Je moet gemotiveerd, enthousiast en gemeenschapsgericht zijn om deze opwindende rol op je te nemen. Deze functie vereist iemand met een positieve instelling en bereidheid om een ​​teamspeler te zijn. Je zou deze functie aanvaarden als vrijwilliger. **Deze rol start in september 2020 tot eind maart 2021.**
 
 ![](/img/cafécongo-13.jpg "Picture by Monday Agbonzee Junior")
-
-
 
 **Verantwoordelijkheden:**
 
