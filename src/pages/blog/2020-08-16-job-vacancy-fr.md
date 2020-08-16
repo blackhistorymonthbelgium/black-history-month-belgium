@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: fr
 slug: job-vacancy
-title: Black History Month Belgium agrandit notre équipe
+title: Black History Month Belgium agrandit l'équipe
 date: 2020-08-16T19:40:18.225Z
 description: >-
   Nous recherchons deux coordinateurs de sensibilisation communautaire, un pour
