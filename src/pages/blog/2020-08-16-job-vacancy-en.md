@@ -5,7 +5,7 @@ slug: job-vacancy
 title: Black History Month Belgium is expanding the team
 date: 2020-08-16T19:40:21.485Z
 description: >
-  We are searching for two Community Outreach Coordinators, one for Ghent and
+  We are searching for two Community Outreach Coordinators, one for Antwerp and
   one for Brussels to maintain all community outreach activities. You will
   represent BHM to the Black/African community in your respective cities and
   work within the city team of three to develop and implement initiatives that
@@ -36,7 +36,7 @@ You need to be self-motivated, enthusiastic and community-driven to take on this
 * Outstanding presentation skills.
 * Friendly, enthusiastic and positive attitude.
 * An approachable character with the necessary dose of perseverance. 
-* Preferably have an existing network in the Black/African community in Ghent or Brussels. 
+* Preferably have an existing network in the Black/African community in Antwerp or Brussels. 
 
 **Time Commitment:** 
 
