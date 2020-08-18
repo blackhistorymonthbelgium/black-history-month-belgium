@@ -6,7 +6,7 @@ title: Black History Month Belgium agrandit l'équipe
 date: 2020-08-16T19:40:18.225Z
 description: >-
   Nous recherchons deux coordinateurs de sensibilisation communautaire, un pour
-  Gand et un pour Bruxelles afin de maintenir toutes les activités de
+  Anvers et un pour Bruxelles afin de maintenir toutes les activités de
   sensibilisation communautaire. Vous représenterez BHM auprès de la communauté
   noire / africaine dans vos villes respectives et travaillerez au sein de
   l'équipe de la ville de trois personnes pour développer et mettre en œuvre des
@@ -37,7 +37,7 @@ Vous devez être motivé, enthousiaste et axé sur la communauté pour assumer c
 * Compétences de présentation exceptionnelles.
 * Attitude amicale, enthousiaste et positive.
 * Un personnage accessible avec la dose de persévérance nécessaire.
-* Avoir de préférence un réseau existant dans la communauté noire / africaine à Gand ou à Bruxelles.
+* Avoir de préférence un réseau existant dans la communauté noire / africaine à Anvers ou à Bruxelles.
 
 **Engagement de temps:**
 
