@@ -5,8 +5,8 @@ slug: job-vacancy
 title: Black History Month Belgium breidt het team uit
 date: 2020-08-16T19:40:03.259Z
 description: >-
-  We zijn op zoek naar twee Community Outreach Coördinatoren, één voor Gent en
-  één voor Brussel om alle community outreach activiteiten te onderhouden. Je
+  We zijn op zoek naar twee Community Outreach Coördinatoren, één voor Antwerpen
+  en één voor Brussel om alle community outreach activiteiten te onderhouden. Je
   vertegenwoordigt BHM voor de zwarte / Afrikaanse gemeenschap in je
   respectievelijke steden en werkt binnen een stadsteam van drie om initiatieven
   te ontwikkelen en te implementeren die de zichtbaarheid van BHM binnen de
@@ -37,7 +37,7 @@ Je moet gemotiveerd, enthousiast en gemeenschapsgericht zijn om deze opwindende 
 * Uitstekende presentatievaardigheden.
 * Vriendelijke, enthousiaste en positieve instelling.
 * Een benaderbare persoonlijkheid met de nodige dosis doorzettingsvermogen.
-* Bij voorkeur beschikken over een bestaand netwerk in de Zwart / Afrikaanse gemeenschap in Gent of Brussel.
+* Bij voorkeur beschikken over een bestaand netwerk in de Zwart / Afrikaanse gemeenschap in Antwerpen of Brussel.
 
 **Tijdsbesteding:**
 
