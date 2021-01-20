@@ -80,7 +80,7 @@ const News = (props) =>{
               </p>
               <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css" />
               <div id="mc_embed_signup">
-                <form action="https://blackhistorymonth.us4.list-manage.com/subscribe/post?u=c1d7bead0df2b5f05cd385477&amp;id=999730b5cc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
+                <form action="https://blackhistorymonth.us4.list-manage.com/subscribe/post?u=c1d7bead0df2b5f05cd385477&amp;id=999730b5cc" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" rel="noopener" noValidate>
                   <label htmlFor="email">{T("newsletterInput")}</label>
                     <div id="mc_embed_signup_scroll">
                       <input type="email" name="EMAIL" className="emailSubscribe" id="mce-EMAIL" placeholder="name@address.com" required />

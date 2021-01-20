@@ -9,7 +9,7 @@ description: >-
   tegen eenvoudige categorisering. Het bestaat overal. In musea en galerijen, op
   gebouwen en in de straten, op blogs en digitale platforms en op de canvassen
   van onze lichamen.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/2019.jpg
 author: Aminata
 tags:

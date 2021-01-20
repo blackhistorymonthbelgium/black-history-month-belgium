@@ -25,7 +25,7 @@ class ExtraPartnersRoll extends React.Component {
                 .filter(({ node: post }) => post.frontmatter.yearPartner === year)
                 .map(({ node: post }) => (
                   <li key={post.id}>
-                    <a target="_blank" href={post.frontmatter.link}> &#8226; {post.frontmatter.title}</a>
+                    <a rel="noopener" href={post.frontmatter.link}> &#8226; {post.frontmatter.title}</a>
                   </li>
                 ))
               }

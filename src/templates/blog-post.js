@@ -33,7 +33,7 @@ export const BlogPostTemplate = ({
             </h1>
             <p>{T('writtenBy')}: {author}</p>
             <p>{date}</p>
-            <div className="fb-share-button" data-href={url} data-layout="button_count" data-size="small"><a target="_blank" href={shareUrl} className="fb-xfbml-parse-ignore">{T("shareFB")}</a></div>
+            <div className="fb-share-button" data-href={url} data-layout="button_count" data-size="small"><a rel="noopener" href={shareUrl} className="fb-xfbml-parse-ignore">{T("shareFB")}</a></div>
             <p>{description}</p>
             <PostContent content={content} />
             {tags && tags.length ? (

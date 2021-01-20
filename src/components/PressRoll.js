@@ -25,7 +25,7 @@ class PressRoll extends React.Component {
                 .filter(({ node: post }) => post.frontmatter.yearPress === year)
                 .map(({ node: post }) => (
                   <li key={post.frontmatter.link}>
-                    <a target="_blank" href={post.frontmatter.link}> <i className="fal fa-link"></i> {post.frontmatter.title}</a>
+                    <a rel="noopener" href={post.frontmatter.link}> <i className="fal fa-link"></i> {post.frontmatter.title}</a>
                   </li>
                 ))
               }

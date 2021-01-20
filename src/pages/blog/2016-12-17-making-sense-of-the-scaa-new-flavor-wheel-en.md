@@ -6,7 +6,7 @@ title: Black art - resistance and liberation
 date: 2019-01-31T15:04:10.000Z
 description: >-
   We want to show that black art, like black people, is not a monolith, but is divers, expressive and offers resistance to simple categorisation. Black art exists everywhere and is not restricted to the walls of museums but can also be found in the streets, on blogs and other digital platforms and on the canvases of our bodies.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/2019.jpg
 author: Aminata
 tags:

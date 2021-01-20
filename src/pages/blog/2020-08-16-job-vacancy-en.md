@@ -11,14 +11,14 @@ description: >
   work within the city team of three to develop and implement initiatives that
   increase the visibility of BHM within the surrounding community and increase
   community engagement.
-featuredpost: false
+featuredpost: true
 featuredimage: /img/cafécongo-13.jpg
 author: Black History Month Belgium
 tags:
   - blog
   - job vacancy
 ---
-You need to be self-motivated, enthusiastic and community-driven to take on this exciting role. This position requires someone equipped with a positive attitude and readiness to be a team player. You would take up this position as a volunteer. **The role will start in September 2020 until the end of March 2021.** 
+You need to be self-motivated, enthusiastic and community-driven to take on this exciting role. This position requires someone equipped with a positive attitude and readiness to be a team player. You would take up this position as a volunteer. **The role will start in September 2020 until the end of March 2021.**
 
 ![](/img/cafécongo-13.jpg "Picture by Monday Agbonzee Junior")
 
@@ -36,7 +36,7 @@ You need to be self-motivated, enthusiastic and community-driven to take on this
 * Outstanding presentation skills.
 * Friendly, enthusiastic and positive attitude.
 * An approachable character with the necessary dose of perseverance. 
-* Preferably have an existing network in the Black/African community in Antwerp or Brussels. 
+* Preferably have an existing network in the Black/African community in Antwerp or Brussels.
 
 **Time Commitment:** 
 
@@ -45,13 +45,13 @@ You need to be self-motivated, enthusiastic and community-driven to take on this
 **Benefits:**
 
 * Knowledge that you are working as a team to ensure that Black History Month can exist and function in Belgium.
-* Give back to, uplift, inspire and create space for Black people in Belgium.  
+* Give back to, uplift, inspire and create space for Black people in Belgium.
 * Be part of a community of young, motivated and driven Black people.
-* Work experience 
+* Work experience
 * Annual Team Weekend
-* Free refreshments 
+* Free refreshments
 * Free entry to BHM events
 
-**We can’t do it without you! Thank you for wanting to be part of our team.** 
+**We can’t do it without you! Thank you for wanting to be part of our team.**
 
 Does this position appeal to you? Send your motivation letter and CV (optional) to info@blackhistorymonth.be

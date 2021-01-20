@@ -4,7 +4,7 @@ import moment from 'moment'
 import { PostLink, TagLink } from './Links'
 import {T} from '../internationalization'
 function formatDateEvent(post){
-  const dateStart = moment(post. frontmatter.datestart).format("DD");
+  const dateStart = moment(post.frontmatter.datestart).format("DD");
   const dateEnd = moment(post.frontmatter.dateend).format("DD");
   return dateStart
     + " " + (dateStart !== dateEnd ? `- ${dateEnd}` : "");

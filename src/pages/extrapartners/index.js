@@ -23,7 +23,7 @@ export default class ExtraPartnersIndexPage extends React.Component {
               <ExtraPartnersRoll />
               <br/>
               <br/>
-              <a className="emailPartner" target="_blank" href="https://ko-fi.com/bhmbelgium">
+              <a className="emailPartner" rel="noopener" href="https://ko-fi.com/bhmbelgium">
                   {T("extraPartnersDonateButton")}
               </a>
               <br/>
