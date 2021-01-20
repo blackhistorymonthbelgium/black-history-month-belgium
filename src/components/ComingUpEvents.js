@@ -10,17 +10,19 @@ function formatDateEvent(event){
     + " " + (dateStart !== dateEnd ? `- ${dateEnd}` : "");
 }
 
+
 const ComingUpEvents = (props) => {
 
   let { events } = props;
   const now = moment();
   events = events.filter(event => now.isBefore(event.node.frontmatter.datestart));
+  const noEvents = events.length === 0;
 
   return(
     <section className="comingUpEvents">
       <h1>{T('upcomingEvents')}</h1>
-
       <ul className="columns container is-one-third-widescreen">
+      {noEvents && <span>There are no events</span>}
       {events.slice(0,3).map((event, key)=>
       <li key={key} className="column is-one-third">
         <div className="event-wrapper-outside">
@@ -57,7 +59,7 @@ const ComingUpEvents = (props) => {
       </li>
       )}
       </ul>
-      <LocalizedLink className="goToAgenda" to="/agenda">{T("seeMoreEvents")} <i className="far fa-chevron-right"></i></LocalizedLink>
+      {!noEvents && <LocalizedLink className="goToAgenda" to="/agenda">{T("seeMoreEvents")} <i className="far fa-chevron-right"></i></LocalizedLink>}
     </section>
   );
 }

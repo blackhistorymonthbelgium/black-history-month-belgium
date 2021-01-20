@@ -35,7 +35,9 @@ class AgendaIndexPage extends React.Component {
     const { language } = pageContext;
     const { edges: allPosts } = data.allMarkdownRemark;
     const { filterDate, filterType, filterLocation } = this.state;
-    const posts = getPostsInLanguage(allPosts, language);
+    const postsInLanguage = getPostsInLanguage(allPosts, language);
+    const thisYear = moment().year();
+    const posts = postsInLanguage.filter(post => moment(post.node.frontmatter.datestart).year() === thisYear);
     const filteredPosts = posts.filter(post => {
       return (filterType === 'any' || post.node.frontmatter.tags.includes(filterType))
         && (filterDate === 'any' || moment(post.node.frontmatter.datestart).format('DD/MM') === filterDate)
