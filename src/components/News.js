@@ -75,6 +75,22 @@ const News = (props) =>{
                   </a>
                 </div>
               </div>
+              <div className="channel">
+                <i className="iconSocial fab fa-youtube"/>
+                <div className="detail-link">
+                  <a title="youtube" href="https://www.youtube.com/channel/UCV6J0pC2e_P1F0qBc8MsetA/videos">
+                  Youtube <i className="far fa-chevron-right"/>
+                  </a>
+                </div>
+              </div>
+              <div className="channel">
+                <i className="iconSocial fab fa-linkedin"/>
+                <div className="detail-link">
+                  <a title="linkedin" href="https://www.linkedin.com/">
+                  LinkedIn <i className="far fa-chevron-right"/>
+                  </a>
+                </div>
+              </div>
               <p>
               {T("newsletterText")}
               </p>
