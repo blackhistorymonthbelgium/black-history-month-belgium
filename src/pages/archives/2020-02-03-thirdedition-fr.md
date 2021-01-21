@@ -5,7 +5,7 @@ slug: thirdedition
 title: La troisième édition
 date: 2020-02-03T15:52:11.191Z
 description: L'ART NOIR AU SERVICE DE LA LIBÉRATION
-featuredpost: true
+featuredpost: false
 featuredimage: /img/6.jpg
 bannerimage: /img/Instatemplates-04.jpg
 tags:

@@ -1,20 +1,17 @@
 ---
 templateKey: archives-post
-language: en
-slug: thirdedition
-title: The Third Edition
-date: 2020-02-02T17:09:06.964Z
+language: fr
+slug: fourthedition
+title: The Fourth Edition
+date: 2021-01-21T17:09:06.964Z
 description: >-
-  The third edition of Black History Month in Belgium will be centred on the
-  holistic wellbeing of the black community. The intention is to go back to the
-  historical roots of our wellbeing under the motto: “Healing from the past in
-  the present.
-featuredpost: false
+  De Vierde Edition
+featuredpost: true
 featuredimage: /img/1.jpg
 bannerimage: /img/Instatemplates-02.jpg
 tags:
-  - third edition
-year: '2020'
+  - fourth edition
+year: '2021'
 ---
 ![poster2020](/img/1.jpg "Poster 2020")
 
