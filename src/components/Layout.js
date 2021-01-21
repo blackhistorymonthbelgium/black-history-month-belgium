@@ -8,10 +8,10 @@ import { withPrefix } from 'gatsby'
 import { library, dom } from '@fortawesome/fontawesome-svg-core'
 import { faChevronRight } from '@fortawesome/pro-regular-svg-icons'
 import { faThumbsUp, faMapMarkerAlt, faHashtag, faClock, faChevronDown, faLink, faBullseyeArrow, faCalendar, faNewspaper} from '@fortawesome/pro-light-svg-icons'
-import { faInstagram, faTwitter} from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faYoutube, faTwitter, faLinkedin} from '@fortawesome/free-brands-svg-icons'
 import { setCurrentLanguage } from '../internationalization';
 
-library.add(faChevronRight, faThumbsUp, faInstagram, faTwitter, faMapMarkerAlt, faHashtag, faClock, faChevronDown, faLink, faBullseyeArrow, faCalendar, faNewspaper);
+library.add(faChevronRight, faThumbsUp, faInstagram, faYoutube, faTwitter, faLinkedin, faMapMarkerAlt, faHashtag, faClock, faChevronDown, faLink, faBullseyeArrow, faCalendar, faNewspaper);
 dom.watch();
 
 const TemplateWrapper = (props) => {
