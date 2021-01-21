@@ -15,7 +15,7 @@ export default class AgendaRoll extends React.Component {
     const { posts } = this.props
     return (
         <ul className=" columns agendaRoll agenda-results">
-        {posts.length === 0 && <span>No tiems</span>}
+        {posts.length === 0 && <li className="noEventInAgenda"><h1 className="noEventInAgendaText">We will post our upcoming events shortly</h1></li>}
         {posts &&
           posts.map(({ node: post }) => (
             <li key={post.id} className={`column is-one-third ${post.frontmatter.featuredpost ? 'is-featured' : ''} ${post.frontmatter.tags ? post.frontmatter.tags.map(tag => "tag-" + tag).join(" ") : ''}`}>
