@@ -37,13 +37,13 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           <br/>
 
           <h2>{T("memberTitle")}</h2>
-          <p>{T("memberName1")}: <span><a href="mailto:info@blackhistorymonth.be?subject=Hello&body=Hello BHM!...">Aminata Ndow & Mohamed Barrie - info@blackhistorymonth.be</a></span></p>
-          <p>{T("memberName2")}: <span><a href="mailto:info@blackhistorymonth.be?subject=Hello&body=Hello BHM!...">Jelaime Dino Mayamba, Rhoda Yeboah, Evelyn and Delia Mbouala-Bini - info@blackhistorymonth.be</a></span></p>
-          <p>{T("memberName4")}: <span><a href="mailto:rachelhansoul@gmail.com=Hello&body=Hello Rachel!...">Rachel Hansoul - rachelhansoul@gmail.com</a></span></p>
-          <p>{T("memberName5")}: <span><a href="mailto:ghent@blackhistorymonth.be?subject=Hello&body=Hello BHM Ghent!...">Faiza Osaman, Philsan Osman and Jacine Mangana - ghent@blackhistorymonth.be</a></span></p>
-          <p>{T("memberName6")}: <span><a href="mailto:brussels@blackhistorymonth.be?subject=Hello&body=Hello BHM Brussels!...">Eric Cyuzuzo, Olga Briard, Laura Ganza, Bettina Guigui - brussels@blackhistorymonth.be</a></span></p>
-          <p>{T("memberName7")}: <span><a href="mailto:antwerp@blackhistorymonth.be?subject=Hello&body=Hello BHM Antwerp!...">Eyram Amavi and Awula Cole - antwerp@blackhistorymonth.be</a></span></p>
-          <p>{T("memberName8")}: <span><a href="mailto:limburg@blackhistorymonth.be?subject=Hello&body=Hello BHM Hasselt!...">Rachel Hansoul & Stella Nyanchama - limburg@blackhistorymonth.be</a></span></p>
+          <p>{T("memberName1")}: <span><a href="mailto:info@blackhistorymonth.be?subject=Hello&body=Hello BHM!...">Aminata Ndow & Mohamed Barrie</a></span></p>
+          <p>{T("memberName2")}: <span><a href="mailto:info@blackhistorymonth.be?subject=Hello&body=Hello BHM!...">Jelaime Dino Mayamba, Rhoda Yeboah, Evelyn and Delia Mbouala-Bini</a></span></p>
+          <p>{T("memberName4")}: <span><a href="mailto:rachelhansoul@gmail.com=Hello&body=Hello Rachel!...">Rachel Hansoul</a></span></p>
+          <p>{T("memberName5")}: <span><a href="mailto:ghent@blackhistorymonth.be?subject=Hello&body=Hello BHM Ghent!...">Faiza Osaman, Philsan Osman and Jacine Mangana</a></span></p>
+          <p>{T("memberName6")}: <span><a href="mailto:brussels@blackhistorymonth.be?subject=Hello&body=Hello BHM Brussels!...">Eric Cyuzuzo, Olga Briard, Laura Ganza, Bettina Guigui</a></span></p>
+          <p>{T("memberName7")}: <span><a href="mailto:antwerp@blackhistorymonth.be?subject=Hello&body=Hello BHM Antwerp!...">Eyram Amavi and Awula Cole</a></span></p>
+          <p>{T("memberName8")}: <span><a href="mailto:limburg@blackhistorymonth.be?subject=Hello&body=Hello BHM Hasselt!...">Rachel Hansoul & Stella Nyanchama</a></span></p>
           <br/>
           <p>{T("memberText")}</p>
         </div>
