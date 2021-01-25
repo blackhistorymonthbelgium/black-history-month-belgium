@@ -1,7 +1,7 @@
 ---
 templateKey: partners-post
 title: Schouwburg Beurs
-featuredimage: /img/beursschouwburg.png
-width: 100
+featuredimage: /img/beurs.png
+width: 120
 link: 'https://www.beursschouwburg.be/en/'
 ---

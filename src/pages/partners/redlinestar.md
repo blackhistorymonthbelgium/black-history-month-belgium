@@ -1,7 +1,7 @@
 ---
 templateKey: partners-post
 title: Red Star Line Museum
-featuredimage: /img/RSL_logo_solo.jpg
+featuredimage: /img/rsl.png
 width: 100
 link: 'https://www.redstarline.be/nl'
 ---
