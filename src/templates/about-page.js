@@ -37,7 +37,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
           <br/>
 
           <h2>{T("memberTitle")}</h2>
-          <p>{T("memberName1")}: <span><a href="mailto:info@blackhistorymonth.be?subject=Hello&body=Hello BHM!...">Aminata Ndow & Mohamed Barrie</a></span></p>
+          <p>{T("memberName1")}: <span><a href="mailto:blackhistorymonth.belgium@gmail.com ?subject=Hello&body=Hi Aminata & Mohamed!...">Aminata Ndow & Mohamed Barrie</a></span></p>
           <p>{T("memberName2")}: <span><a href="mailto:info@blackhistorymonth.be?subject=Hello&body=Hello BHM!...">Jelaime Dino Mayamba, Rhoda Yeboah, Evelyn and Delia Mbouala-Bini</a></span></p>
           <p>{T("memberName4")}: <span><a href="mailto:rachelhansoul@gmail.com=Hello&body=Hello Rachel!...">Rachel Hansoul</a></span></p>
           <p>{T("memberName5")}: <span><a href="mailto:ghent@blackhistorymonth.be?subject=Hello&body=Hello BHM Ghent!...">Faiza Osaman, Philsan Osman and Jacine Mangana</a></span></p>
