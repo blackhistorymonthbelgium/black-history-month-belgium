@@ -10,6 +10,7 @@ class ArchivesRoll extends React.Component {
     const { data, language } = this.props
     const { edges: allPosts } = data.allMarkdownRemark
     const posts = getPostsInLanguage(allPosts, language);
+    console.log(posts);
 
     return (
       <div className="columns is-one-third-widescreen archivesRoll">

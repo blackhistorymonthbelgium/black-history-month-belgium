@@ -1,6 +1,6 @@
 ---
 templateKey: partners-post
-title: AB
+title: YA
 featuredimage: /img/ab.png
 width: 100
 link: 'https://www.abconcerts.be/en/'

@@ -1,7 +1,7 @@
 ---
 templateKey: archives-post
 language: fr
-slug: laquatrièmeédition
+slug: fourthedition
 title: La quatrième édition
 date: 2021-01-21T17:09:06.964Z
 description: La quatrième édition

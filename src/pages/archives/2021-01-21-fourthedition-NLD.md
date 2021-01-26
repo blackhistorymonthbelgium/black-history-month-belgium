@@ -1,7 +1,7 @@
 ---
 templateKey: archives-post
 language: nl
-slug: vierdeeditie
+slug: fourthedition
 title: Vierde editie
 date: 2021-01-21T17:09:06.964Z
 description: Black History Month 2021
