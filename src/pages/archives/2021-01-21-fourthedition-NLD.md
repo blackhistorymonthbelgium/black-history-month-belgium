@@ -1,11 +1,10 @@
 ---
 templateKey: archives-post
 language: nl
-slug: fourthedition
-title: The Fourth Edition
+slug: vierdeeditie
+title: Vierde editie
 date: 2021-01-21T17:09:06.964Z
-description: >-
-  Black History Month 2021
+description: Black History Month 2021
 featuredpost: true
 featuredimage: /img/poster2021.jpg
 bannerimage: /img/banner2021.jpg

@@ -1,11 +1,10 @@
 ---
 templateKey: archives-post
 language: fr
-slug: fourthedition
-title: The Fourth Edition
+slug: laquatrièmeédition
+title: La quatrième édition
 date: 2021-01-21T17:09:06.964Z
-description: >-
-  De Vierde Edition
+description: La quatrième édition
 featuredpost: true
 featuredimage: /img/poster2021.jpg
 bannerimage: /img/banner2021.jpg
