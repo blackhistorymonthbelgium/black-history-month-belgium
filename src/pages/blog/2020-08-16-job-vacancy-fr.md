@@ -12,7 +12,7 @@ description: >-
   l'équipe de la ville de trois personnes pour développer et mettre en œuvre des
   initiatives qui augmentent la visibilité de BHM au sein de la communauté
   environnante et augmentent l'engagement communautaire.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/cafécongo-13.jpg
 author: Black History Month Belgium
 tags:

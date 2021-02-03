@@ -11,7 +11,7 @@ description: >
   work within the city team of three to develop and implement initiatives that
   increase the visibility of BHM within the surrounding community and increase
   community engagement.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/cafécongo-13.jpg
 author: Black History Month Belgium
 tags:
