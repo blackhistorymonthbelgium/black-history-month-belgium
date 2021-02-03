@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: fr
-title: AB x BHM - Badi April Maey
+title: BHM x AB - Badi April Maey
 slug: badiapril
 date: 2021-03-18T16:35:39.507Z
 description: Binnen het programma voor de Black History Month België organiseren we 3 uitzendingen op de AB-Facebookpagina waarin we een reeks veelbelovende zwarte artiesten voorstellen.

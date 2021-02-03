@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: nl
-title: AB x BHM - IKRAAAN + WAYI + nanaKILL
+title: BHM x AB - IKRAAAN + WAYI + nanaKILL
 slug: ikraaan
 date: 2021-03-17T16:35:39.507Z
 description: Binnen het programma voor de Black History Month België organiseren we 3 uitzendingen op de AB-Facebookpagina waarin we een reeks veelbelovende zwarte artiesten voorstellen.
