@@ -6,6 +6,7 @@ import Highlights from '../components/Highlights'
 import ComingUpEvents from '../components/ComingUpEvents'
 import News from '../components/News'
 import Sponsors from '../components/Sponsors'
+import Top40Songs from '../components/Top40Songs'
 
 export const IndexPageTemplate = ({
   language,
@@ -16,6 +17,7 @@ export const IndexPageTemplate = ({
   <>
     <Highlights archives={archives} events={events}/>
     <ComingUpEvents events={events} language={language} />
+    <Top40Songs />
     <News blogs={blogs}/>
     <Sponsors />
   </>
