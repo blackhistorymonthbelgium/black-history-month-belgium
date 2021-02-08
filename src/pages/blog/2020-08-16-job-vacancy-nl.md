@@ -12,7 +12,7 @@ description: >-
   te ontwikkelen en te implementeren die de zichtbaarheid van BHM binnen de
   omliggende gemeenschap vergroten en de betrokkenheid van de gemeenschap
   vergroten.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/cafécongo-13.jpg
 author: Black History Month Belgium
 tags:
