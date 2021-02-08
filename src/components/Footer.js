@@ -26,7 +26,7 @@ const Footer = class extends React.Component {
           <a className="social-item" title="facebook" href="https://www.facebook.com/blackhistorymonthbelgium/"><i className="iconSocial fal fa-thumbs-up"/></a>
           <a className="social-item" title="instagram" href="https://www.instagram.com/bhmbelgium/"><i className="iconSocial fab fa-instagram"/></a>
           <a className="social-item" title="twitter" href="https://twitter.com/BHMBelgium"><i className="iconSocial fab fa-twitter"/></a>
-          <a className="social-item" title="linkedin" href="https://www.linkedin.com/"><i className="iconSocial fab fa-linkedin"/></a>
+          <a className="social-item" title="linkedin" href="https://www.linkedin.com/company/black-history-month-belgium/"><i className="iconSocial fab fa-linkedin"/></a>
           <a className="social-item" title="youtube" href="https://www.youtube.com/channel/UCV6J0pC2e_P1F0qBc8MsetA/videos"><i className="iconSocial fab fa-youtube"/></a>
         </div>
         </div>

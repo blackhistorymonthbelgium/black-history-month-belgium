@@ -86,7 +86,7 @@ const News = (props) =>{
               <div className="channel">
                 <i className="iconSocial fab fa-linkedin"/>
                 <div className="detail-link">
-                  <a title="linkedin" href="https://www.linkedin.com/">
+                  <a title="linkedin" href="https://www.linkedin.com/company/black-history-month-belgium/">
                   LinkedIn <i className="far fa-chevron-right"/>
                   </a>
                 </div>
