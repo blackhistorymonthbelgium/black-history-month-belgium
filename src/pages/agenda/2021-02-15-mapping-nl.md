@@ -12,7 +12,7 @@ tags:
 year: '2021'
 artists:
   - BHM x AVG-Carhif
-  - Rosa vzw
+  - RoSa vzw
   - VUB Crosstalks
 location: Youtube
 datestart: 2021-03-08T18:30:00.000Z

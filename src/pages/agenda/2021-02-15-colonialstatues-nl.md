@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: nl
-title: A conversation about colonial statues and street names
+title: Een gespreksavond over koloniale standbeelden en straatnamen
 slug: colonialstatues
 date: 2021-02-15T16:35:39.507Z
 description: Horen we de verschillende stemmen in het debat over gecontesteerde standbeelden en straatnamen? Luisteren we onbevooroordeeld naar reacties en protesten over beladen beelden en straatnamen? Op welke manier verschillen opinies vandaag van de periodes waarin vele standbeelden werden opgetrokken? Hoe ervaren mensen vandaag de aanwezigheid van dit erfgoed in de publieke ruimte?  En vooral, hoe geven we die verschillende stemmen een plaats in de trajecten die worden gestart?
@@ -32,7 +32,5 @@ Moderator: Sarah Agyemang (Afrikaniste)
 
 Deelnemen is gratis. U kan u aanmelden via de kalender van FARO (link volgt nog). Enkele dagen voor het webinar ontvangt u een deelnamelink.
 
-Language: Dutch
-Location: MS Teams (Later on Youtube)
-Time: 9/3 at 19u30 - 21u
+
 Partners: FARO, Black History Month, Kunst in de Stad-Middelheimmuseum en Bacongo Limburg/Erfgoed Haspengouw/Erfgoed Mijn-Erfgoed
