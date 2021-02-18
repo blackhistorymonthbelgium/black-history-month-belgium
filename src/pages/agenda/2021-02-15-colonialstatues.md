@@ -23,17 +23,18 @@ The purpose of this discussion is to bring out a diversity of voices to enrich t
 
 The speakers are:
 
-Stephanie Collingwoode Williams (anthropologist, activist)
-Omar Ba (historian, diversity and inclusion consultant)
-Stella Nyanchama Okemwa (Hand in Hand Against Racism)
-Mathieu Charles (Kif Kif)
+Stephanie Collingwoode Williams (antropologe, activiste)
+Omar Ba (historicus, consultant diversiteit en inclusie)
+Nyanchama Okemwa (Hand in Hand tegen racisme)
+Mathieu Charles (schrijver & performance artiest)
 
-Moderator: Sarah Agyemang (Afrikanist)
+Moderator Sarah Agyemang (africanist) opens the evening with an interview of our speakers about a self-chosen example. Why did they choose this image, this street name? What strikes them and why? What do they think should happen to it? What do they like about the existing routes?
 
-Participation is free. You can register via the FARO calendar (link will follow). A few days before the webinar you will receive a participation link.
+Participation is free. You can register [here](https://faro.be/kalender/horen-we-wel-verschillende-stemmen-een-gespreksavond-over-beladen-koloniale-standbeelden)
+
+A few days before the webinar you will receive a participation link.
 
 
 Language: Dutch
-Location: MS Teams (Later on Youtube)
-Time: 9/3 at 19u30 - 21u
-Partners: FARO, Black History Month, Kunst in de Stad-Middelheimmuseum en Bacongo Limburg/Erfgoed Haspengouw/Erfgoed Mijn-Erfgoed
+Location: MS Teams (achteraf beschikbaar op Youtube)
+Partners: FARO, Black History Month, Kunst in de Stad-Middelheimmuseum en Het Stadsmus (Hasselt)/Erfgoed Haspengouw/Erfgoedcel Mijn-Erfgoed (Bacongo Limburg).
