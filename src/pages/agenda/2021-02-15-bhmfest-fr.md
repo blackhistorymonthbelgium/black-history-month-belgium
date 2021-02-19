@@ -8,12 +8,12 @@ description:
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
-  - talk
+  - concert
 year: '2021'
 artists:
   - Ancienne Belgique
 
-location: Podium 19(Facebook Live)
+location: Online
 datestart: 2021-03-17T19:00:00.000Z
 dateend: 2021-03-19T21:30:00.000Z
 fblink: /

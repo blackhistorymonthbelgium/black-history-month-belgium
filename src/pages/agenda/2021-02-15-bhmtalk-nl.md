@@ -20,3 +20,5 @@ fblink: /
 ---
 
 Samen met AB gaan we in gesprek met muzikanten in het kader van het thema dit jaar namelijk het documenteren en archiveren van de ervaringen van zwarte mensen in België. Deze talk is live en in het Engels te volgen zijn op donderdag 11 maart 2021, via de gekende AB-kanalen (nadien ook op de BHM Youtube kanaal).
+
+Taal: Engels

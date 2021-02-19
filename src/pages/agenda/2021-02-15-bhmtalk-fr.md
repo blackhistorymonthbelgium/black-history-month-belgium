@@ -23,4 +23,4 @@ fblink: /
 
 Together with AB, we will be talking to musicians in the context of this year's theme, namely documenting and archiving the experiences of black people in Belgium. This talk can be followed live and in English on Thursday 11 March 2021, via the well-known AB channels (afterwards also on the BHM Youtube channel).
 
-Language: Dutch
+Language: English
