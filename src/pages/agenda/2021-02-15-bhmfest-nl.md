@@ -21,3 +21,5 @@ fblink: /
 
 
 Deze reeks concerten zijn een ode aan opkomende talenten. Via live optredens, kunst, video documentatie en fotografie zorgen Agneskena, Kenny Mala Ngombe, Badi, IKRAAAN, ESINAM, Sunday Rose, April Maey, WAYI, nanaKILL en Rami Hara voor geweldige avonden. Live te volgen via de AB-kanalen op 17, 18 & 19 maart 2021, maar ook op TV via het pop-up cultuurkanaal Podium19 . Nadien integraal op de Youtube kanaal van BHM.
+
+Taal: Dutch, English, French
