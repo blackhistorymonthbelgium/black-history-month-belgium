@@ -24,6 +24,4 @@ fblink: /
 
 The attack on Black intellectuality manifests itself in various forms and exhibits itself in modernised ways on social media. According to us it’s important to know the value of our Black intellectuals, dive into our archives and dig up the knowledge that has been unvalued/undervalued and as a result is not broadly known. We believe it is crucial to look back at the knowledge of our ancestors in order to collect and archive the past, present and future.
 
-Speakers:
-Fiona Nziza is from Burundi and works for the NGO Louvain Coopération, where she is responsible for global and inclusive citizenship education and builds the university community’s awareness of North-South relations. Two years ago she held a TED Talk on decolonizing knowledge where she talked about the lack of non-Western knowledge and how it is normalized.
-Second speaker from the African continent TBA
+Speakers: TBA
