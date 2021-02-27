@@ -14,10 +14,11 @@ artists:
   - De Roma
   - Rwanda en Zo Veel Meer
 location: Youtube
-datestart: 2021-03-28T18:30:00.000Z
+datestart: 2021-03-07T18:30:00.000Z
 dateend: 2021-03-28T20:00:00.000Z
 fblink: /
 ---
+Datum: 07-14-21 & 28 march 2021
 
 Rwanda en Zo Veel Meer (RZM) is een belangengroep die zich al jaren inzet voor geadopteerde Rwandezen. Tijdens deze Table Talk gaan ze in gesprek met andere geadopteerden wiens geschiedenis deels afhankelijk is van de juiste archivering. De zoektocht naar hun biologische ouders loopt vaak enorm in de papieren. Denk aan vliegtickets, vergoedingen voor lokale zoekers, het boven water krijgen van papieren, juridische procedures, etc.
 
