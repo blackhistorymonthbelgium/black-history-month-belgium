@@ -23,7 +23,7 @@ fblink: /
 A mapping of Black womxn and feminist networks in Brussels
 
 
-Graciela Dutrieue (student Interuniversity Master in Gender and Diversity) will do an internship during February and March at the Archives and Research Center for Women's History where she will work on drawing up a mapping of Black womxn and feminist networks in the Brussels-Capital Region (organizations, initiatives, key figures, meeting places…). The entire process and results of the research will be recorded and shared with the public via video blogs (vlogs) that will be posted on the BHM Youtube channel.
+Graciela Dutrieue (student Interuniversity Master in Gender and Diversity) will do an internship during February and March at the Archive and Research Center for Women's History where she will work on drawing up a mapping of Black womxn and feminist networks in the Brussels-Capital Region (organizations, initiatives, key figures, meeting places…). The entire process and results of the research will be recorded and shared with the public via video blogs (vlogs) that will be posted on the BHM Youtube channel.
 
 Language: Dutch/English
 
