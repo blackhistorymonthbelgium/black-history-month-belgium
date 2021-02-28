@@ -25,4 +25,4 @@ The history of the Shona pre-dates and post-dates this temporary but obtuse and 
 
 Partner: Kunstencentrum Vooruit and Nora Chipaumire
 Date & time: 15/03 - 31/03 everyday from 16h
-Where: Online/Youtube
+[Location](www.beursschouwburg.be)

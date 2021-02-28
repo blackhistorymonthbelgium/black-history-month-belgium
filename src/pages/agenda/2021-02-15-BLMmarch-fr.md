@@ -11,7 +11,7 @@ tags:
   - talk
 year: '2021'
 artists:
-  - DeBuren
+  - Black Achievement Month Netherlands
   - Beursschouwburg
   - Rainbow Nation Brussels
 location: Online
@@ -19,17 +19,19 @@ datestart: 2021-03-18T18:00:00.000Z
 dateend: 2021-03-18T20:00:00.000Z
 fblink: /
 ---
-Dit gesprek gaat over de intersectionaliteiten van de BLM-steunmarsen en -opstanden in de Lage Landen (NL & BE) afgelopen juni. Het gesprek zal aantonen hoe veel zwarte mensen die vrouw en/of queer zijn in de voorhoede van de beweging stonden en de marsen en protesten planden/redden. Keer op keer zetten deze takken van onze gemeenschappen hun energie en levensonderhoud op het spel om vervolgens opzij te worden geschoven als het gaat om het eisen van echte politieke verandering voor de andere identiteiten die kruisen met hun Zwartheid.
+The BLM support marches and uprisings in the Netherlands and Belgium this past June 2020 were organized and/or pushed by a lot of Black People who are Women and/or Queer. Historically, these same branches of Black communities got the political movement for Black Liberation ahead by putting their energy and livelihood on the line to then be pushed aside when it comes to demanding real political change for the other identities that intersect with their Blackness. How can the aftermath of the uprisings be used to push for a more intersectional common movement? How can the movement truly be contextualized in Belgium and The Netherlands?
+The talk will be moderated by Rainbow Nation Brussels’ co-founders Eric Cyuzuzo & Rachael Moore.
 
-We moeten niet vergeten dat de beweging zoals die in de Lage Landen is gecontextualiseerd niet alleen gaat over politiegeweld of cis hetero mannen die gedocumenteerd en valide zijn. Het gaat over niet-mannen, over Queer en Trans People, over migranten/asielzoekers/vluchtelingen en mensen zonder papieren, sekswerkers, etc., en vormde de aanleiding voor de Black Trans & Queer Lives Matter protest op 25 juli 2020 in Nederland.
+Panelists:
+- Ange Amina Nahimana (one of the original BLM5 – all Women and Girls – in BE)
+- Naomie Pieter (one of the leaders of the support marches in the NL + co-founder and leader of Black Queer & Trans Resistance NL and Black Pride NL)
+- Eric Cyuzuzo (co-founder and leader of Rainbow Nation Brussels + stepped in to help save the support march in Brussels)
 
-Panelleden:
-Ange Amina Nahimana (een van de originele BLM5 in BE)
-Naomie Pieter (een van de leiders van de steunmarsen in de NL + mede-oprichter en leider van Black Queer & Trans Resistance NL en Black Pride NL)
-Olave Nduwanje (actief in het organiseren van de supportmarsen in BE & NL)
-Eric Cyuzuzo (mede-oprichter en leider van Rainbow Nation Brussels + stapte in om de steunmars in Brussel te helpen redden)
-
-Gemodereerd door Rachael Moore (mede-oprichter en leider van Rainbow Nation Brussels)
+Moderated by Rachael Moore (co-founder and leader of Rainbow Nation Brussels)
 
 
-Language: Dutch/English
+
+Language: English
+[Location](www.beursschouwburg.be)
+Time: 18/3 at 19h
+Partners: Rainbow Nation Brussels, Black Achievement Month Netherlands, and Beursschouwburg

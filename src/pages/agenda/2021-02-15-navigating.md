@@ -30,6 +30,6 @@ Célia Lutangu (Wu-Tangu)
 
 Moderator: Eric Cyuzuzo
 
-
+[Location](www.beursschouwburg.be)
 
 Language: French
