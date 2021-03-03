@@ -23,6 +23,15 @@ fblink: /
 
 
 
-AKOMFRAHDIO is a performance that takes place in spacetime and alternative realities. It is a journey through a non-linear experience of time, technological innovation, fragments of history and non-Western knowledge production collected from the archives of so-called past, present and future.
+AKOMFRAHDIO is a performance that takes place in the spacetime continuum and alternative realities. It is a journey through non-linear experience of time, technological innovation, fragments of history and non-Western knowledge production collected in the archives of so-called pasts, presents and futures.
 
-Language: Dutch
+This version was co-produced by Kunstencentrum Vooruit, Production house Rotterdam Theater and Flemish cultural institution the Brakke Grond.
+
+The title is a contraction of John Akomfrah (the artist behind the award-winning "The Last Angel Of History" and founder of Black Audio Film Collective) and the concept of radio frequencies. The premiere of "AKOMFRAHDIO" will be a live-streamed performance, followed by an online aftertalk with the maker, hosted by Black History Month Belgium. The moderator is the guest dramaturge at the Vooruit, Kopano Maroga.
+
+
+To join the zoom conversation please inscribe at the link.
+
+Date & time: 25/03 from 20h
+
+Where: Zoom webinar
