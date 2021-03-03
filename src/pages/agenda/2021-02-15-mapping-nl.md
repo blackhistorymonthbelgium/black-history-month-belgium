@@ -22,6 +22,9 @@ fblink: /
 
 Graciela Dutrieue (student Interuniversitaire Master in Gender en Diversiteit) doet tijdens de maanden Februari en Maart stage bij het Archief- en Onderzoekscentrum voor Vrouwengeschiedenis waar ze zal werken aan het opmaken van  een landschapstekening van vrouwen en feministische netwerken uit de Zwarte gemeenschappen in het Brussels Hoofdstedelijk Gewest (organisaties, initiatieven, sleutelfiguren, ontmoetingsplaatsen…). Het volledige proces en de resultaten van het onderzoek worden vastgelegd en gedeeld met het publiek via video blogs (vlogs) die gepost zullen worden op het BHM Youtube kanaal.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4knpsOhY2Uc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 Language: Dutch/English
 
 

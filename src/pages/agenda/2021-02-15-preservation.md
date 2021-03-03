@@ -8,7 +8,7 @@ description: In 2021, Black History Month Belgium will be centred on the process
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
-  - workshop
+  - panel discussion
 year: '2021'
 artists:
   - Kunstencentrum Vooruit
