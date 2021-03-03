@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: fr
-title: Herstory, Spells, Proverbs, & Reads​ - A Black Queer Storyteller’s Workshop
+title: I Been Tellin Tales I Almost Understand
 slug: herstory
 date: 2021-02-15T16:35:39.507Z
 description: a workshop
@@ -12,18 +12,14 @@ tags:
 year: '2021'
 artists:
   - Kunstencentrum Vooruit
-location: Zoom
+location: Online
 datestart: 2021-03-13T11:00:00.000Z
 dateend: 2021-03-13T21:30:00.000Z
 fblink: /
 ---
 
+Envisioned as a creative forum for those who are interested in telling stories, in this workshop participants will be writing, exchanging, performing, and learning from one another. I Been Tellin Tales I Almost Understand is a space for writers who would write all day if they could, while also being a space for writers who do not yet know that they are writers, but have their suspicions and curiosities. As a community we will encourage, nurture, and hold space for diverse Black perspectives and experience. In addition to developing narratives we’ll also discuss creative ways to construct and share our stories. Please register for this workshop by submitting the following: an image or a description of an image that you feel connected to, or an image that you find fascinating, the titles of the last three songs that gave you life, and a short text which describes one of your earliest memories. This event is open to all people of Black African descent and is a safer space Black womxn, Black people who are disability identified, Black people who chart their identities along LGBTQIA PLUS spectrums, Black people in administrative irregularity, Black who identify as working class, and Black people who practice African Traditional Religions and / or Afro-Diasporic Religions.
 
-This is a writer’s workshop formulated for Black people who identify as Queer. To be held every Saturday during the month of February, with the last Saturday potentially being an open platform for presentations of works made during the workshop. This workshop must be
-free and limited to six to eight participants. Participants must apply with the submission of three works. Depending on interest, workshops can be single sessions, or cumulative.
+Date: 13/03/2021 Time: 12h - 15h
 
-Isaiah Lopaz is a transdiscplinary artist who works with photography, text, collage, and performance. Maintaining a socially engaged practice is essential to Lopaz who curates public conversations, facilitates workshops, writes about art and culture, lectures, and is a frequent media commentator. Themes and subjects central to his work include gender, race, sexuality, class, citizenship, Hoodoo, African and Afro-Diasporic histories and cultures. Born into a working class family in occupied Tongva territory, Lopaz is an African American of Geechee and Indigenous heritage. He identifies as queer and is a local of Los Angeles, Brussels, and Berlin.
-
-Language: English
-Location: Zoom webinar
-Time: 13/3 from 12h - 15h
+Where: Zoom webinar
