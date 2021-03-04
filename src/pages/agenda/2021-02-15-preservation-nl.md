@@ -11,7 +11,7 @@ tags:
   - panel discussion
 year: '2021'
 artists:
-  - Kunstencentrum Vooruit
+  - Kunsthal Gent
 location: Online
 datestart: 2021-03-06T18:00:00.000Z
 dateend: 2021-03-06T21:30:00.000Z
