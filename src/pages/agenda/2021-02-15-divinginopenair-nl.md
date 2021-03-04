@@ -4,7 +4,7 @@ language: nl
 title: Diving IN - Connections between Photography, History & Community
 slug: divinginopen
 date: 2021-02-15T16:35:39.507Z
-description: "DIVING IN" is an urban open-air exhibition of four Afro-Belgian artists
+description: It is an urban open-air exhibition of four Afro-Belgian artists
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
