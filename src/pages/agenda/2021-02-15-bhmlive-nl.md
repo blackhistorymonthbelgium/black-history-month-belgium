@@ -15,7 +15,7 @@ artists:
   - Soe Nsuki
 
 location: Online
-datestart: 2021-03-14T19:00:00.000Z
+datestart: 2021-03-14T20:00:00.000Z
 dateend: 2021-03-14T20:15:00.000Z
 fblink: /
 ---

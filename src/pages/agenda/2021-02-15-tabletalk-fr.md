@@ -15,10 +15,10 @@ artists:
   - Rwanda en Zo Veel Meer
 location: Youtube
 datestart: 2021-03-28T18:30:00.000Z
-dateend: 2021-03-28T20:00:00.000Z
+dateend: 2021-03-20T20:00:00.000Z
 fblink: /
 ---
-Dates: 07-14-21 & 28 march 2021
+When: Every Suday
 
 Rwanda en Zo Veel Meer (RZM) is an organisation that has been advocating for adopted Rwandans for years. During this Table Talk, they engage in conversation with other adoptees whose history partly depends on proper archiving. The search for their biological parents is often very expensive: think of airline tickets, compensation for local seekers, getting papers to the surface, legal proceedings, etc.
 

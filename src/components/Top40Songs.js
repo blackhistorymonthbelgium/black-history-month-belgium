@@ -1,5 +1,5 @@
 import React from "react"
-import {T} from '../internationalization'
+
 
 class Top40Songs extends React.Component {
   render(){

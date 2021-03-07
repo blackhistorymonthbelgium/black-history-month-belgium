@@ -16,7 +16,7 @@ artists:
   - Red Star Line Star Museum
 location: Anvers
 datestart: 2021-03-22T10:30:00.000Z
-dateend: 2021-03-28T20:00:00.000Z
+dateend: 2021-03-29T20:00:00.000Z
 fblink: /
 ---
 
