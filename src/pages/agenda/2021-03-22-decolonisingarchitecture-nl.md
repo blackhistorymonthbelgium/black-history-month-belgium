@@ -23,8 +23,16 @@ location: Online
 datestart: 2021-03-30T18:00:00.000Z
 dateend: 2021-03-30T20:00:00.000Z
 ---
-
-
 The discussion will be moderated by Nikolaus Hirsch (artistic director of CIVA). We will be joined by architect Johnny Leya (Traumnovelle) and a member of the Brussels working group on decolonization (TBC). 
 
 Make sure to join us via Zoom on March 30th at 19.00. (link to come).
+
+
+
+Language: English
+
+Location: Zoom webinar
+
+Time: 30/3 at 20h
+
+Partners: CIVA and Brussels Museums
