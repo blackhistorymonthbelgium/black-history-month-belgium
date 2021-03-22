@@ -2,7 +2,7 @@
 templateKey: agenda-post
 language: en
 title: 'BHMxCIVA - Decolonising Architecture '
-slug: 'DecolonisingArchitecture '
+slug: decolonising
 date: 2021-03-22T19:34:39.514Z
 description: >-
   On March 30th, Black History Month Brussels, in collaboration with CIVA, the
