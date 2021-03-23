@@ -20,7 +20,7 @@ artists:
   - CIVA
   - Brussels Museums
 location: Online
-datestart: 2021-03-30T18:00:00.000Z
+datestart: 2021-03-30T17:00:00.000Z
 dateend: 2021-03-30T20:00:00.000Z
 ---
 
