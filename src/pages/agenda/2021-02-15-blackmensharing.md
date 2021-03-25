@@ -12,11 +12,9 @@ tags:
 year: '2021'
 artists:
   - FOMU
-
-location: Online
-datestart: 2021-03-25T10:30:00.000Z
+location: BHM YouTube
+datestart: 2021-03-25T18:00:00.000Z
 dateend: 2021-03-25T20:00:00.000Z
-fblink: /
 ---
 
 
