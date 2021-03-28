@@ -11,7 +11,7 @@ description: >+
   ontvangen van La Piscine d’Activité vzw.
 
 featuredpost: true
-featuredimage: /img/poster2021.jpg
+featuredimage: /img/ludo_renders.jpg
 author: Black History Month Belgium
 tags:
   - donation
