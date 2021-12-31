@@ -16,6 +16,8 @@ author: Black History Month
 tags:
   - 2021 aminata harvard 2022 anniversary
 ---
+![Coördinatoren van Black History Month Belgium zijn verhuisd naar Boston](/img/cafécongo-33.jpg "Coördinatoren van Black History Month Belgium zijn verhuisd naar Boston")
+
 In onze vierde BHM-editie hebben we velen doen nadenken over institutionele, persoonlijke en familiearchieven. We zien de impact in de aantallen jongeren die in gesprek met ons te kennen hebben gegeven dat ze steeds bewuster zijn beginnen omgaan met fysieke en immateriële archiefstukken. Anderen zetten zich meer in op orale verhalen. Als BHM hebben we nog grootse plannen m.b.t. archiefwerken, waar we hopelijk snel genoeg mee naar buiten kunnen treden.
 
 In de maanden voor ons vertrek hebben we in alle sereniteit samen met de rest van team BHM gewerkt aan de nodige stappen om onze fysieke afwezigheid op te vangen. De algemene digitalisering vanwege Covid bood ons de kansen om aanwezig te zijn bij de nodige meetings en collega’s kregen een impuls om nog iets meer verantwoordelijkheden te dragen. Ons fysieke vertrek heeft dus extra ruimte gemaakt voor de verdere ontwikkeling van teamleden, iets waar we enorm fan van zijn.
