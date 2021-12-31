@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 language: nl
-slug: 2021-is-een-jaar-van-verandering-geworden-voor-ons
+slug: Coördinatoren-van-Black-History-Month-Belgium-zijn-verhuisd-naar-Boston
 title: Coördinatoren van Black History Month Belgium zijn verhuisd naar Boston
 date: 2021-12-31T08:39:17.998Z
 description: >-
