@@ -1,5 +1,5 @@
 ---
 templateKey: index-page
-title: Black History Month Belgium 2020
-
+title: Black History Month Belgium 2022
 ---
+
