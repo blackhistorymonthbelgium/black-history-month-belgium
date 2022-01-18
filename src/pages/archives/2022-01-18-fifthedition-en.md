@@ -6,7 +6,7 @@ title: Black history month belgium FIFTH anniversary
 date: 2022-01-18T17:49:18.857Z
 description: The Power of Assembly
 featuredpost: true
-featuredimage: /img/2022_bhm_social-media-campagnebeeld-vierkant_def.jpg
+featuredimage: /img/2022_bhm_campagnebeeld-banner.jpg
 bannerimage: /img/2022_bhm_campagnebeeld-banner.jpg
 tags:
   - fifth edition 2022
