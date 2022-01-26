@@ -2,7 +2,7 @@
 templateKey: blog-post
 language: en
 slug: open-call-fomu-bhmb
-title: 'OPEN CALL: visual interpretations of ‘the power of assembly’.'
+title: 'OPEN CALL: visual interpretations of ‘the power of assembly’'
 date: 2022-01-26T18:00:15.275Z
 description: >-
   Black History Month Belgium and FOMU - Fotomuseum Antwerp are looking for your
