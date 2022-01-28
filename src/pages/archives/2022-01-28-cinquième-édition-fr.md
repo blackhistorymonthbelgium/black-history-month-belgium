@@ -12,10 +12,6 @@ tags:
   - bhm fifth edition power of assembly 2022
 year: '2022'
 ---
-
-
-
-
 ![](/img/2022_bhm_social-media-campagnebeeld-vierkant_def3.jpg)
 
 ![](/img/2022_bhm_social-media-campagnebeeld-vierkant_def5.jpg)
