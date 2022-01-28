@@ -5,7 +5,7 @@ slug: fourthedition
 title: Vierde editie
 date: 2021-01-21T17:09:06.964Z
 description: Black History Month 2021
-featuredpost: true
+featuredpost: false
 featuredimage: /img/poster2021.jpg
 bannerimage: /img/banner2021.jpg
 tags:

@@ -4,12 +4,12 @@ language: en
 slug: 'https://blackhistorymonth.be/blog/donation'
 title: >-
   GENEROUS DONATION FROM La Piscine d’Activité vzw TO BLACK HISTORY MONTH
-  BELGIUM  
+  BELGIUM
 date: 2021-03-28T13:00:00.000Z
 description: >
   We are thrilled to announce that we have received a very generous donation
-  from La Piscine d’Activité vzw.  
-featuredpost: true
+  from La Piscine d’Activité vzw.
+featuredpost: false
 featuredimage: /img/ludo_renders.jpg
 author: Black History Month Belgium
 tags:

@@ -10,7 +10,7 @@ description: >-
   Aminata haar PhD dromen mocht najagen in de VS aan de Universiteit van
   Harvard. Dit betekende dat we als coördinatoren van BHM en levenspartners
   België zouden verlaten.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/cafécongo-33.jpg
 author: Black History Month
 tags:
