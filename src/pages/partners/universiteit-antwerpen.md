@@ -1,7 +1,8 @@
 ---
 templateKey: partners-post
-title: Universiteit Antwerpen
-featuredimage: /img/antwerpuniv.png
+title: Vooruit
+featuredimage: /img/vooruit.png
 width: 100
-link: 'https://www.uantwerpen.be/nl/'
+link: 'https://www.vooruit.be/nl'
 ---
+
