@@ -6,7 +6,7 @@ title: the fifth edition
 date: 2022-01-28T14:04:17.649Z
 description: The Power of Assembly
 featuredpost: true
-featuredimage: /img/2022_bhm_social-media-campagnebeeld-vierkant_def.jpg
+featuredimage: /img/2022_bhm_campagnebeeld_affiche.jpg
 bannerimage: /img/2022_bhm_campagnebeeld-banner_v2.jpg
 tags:
   - bhm fifth edition power of assembly 2022
