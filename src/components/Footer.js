@@ -11,7 +11,7 @@ const Footer = class extends React.Component {
         <div className="columnBHM">
           <img src={logo} alt="Black History Month Belgium" style={{ width: '100px' }} />
           <br/>
-          <span>©2021</span>
+          <span>©2022</span>
         </div>
         <div className="columnBHM">
           <h1 className="footerTitle">Contact</h1>
