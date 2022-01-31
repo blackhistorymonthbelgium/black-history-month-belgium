@@ -10,6 +10,7 @@ import PartnersPostPreview from './preview-templates/PartnersPostPreview'
 import ExtraPartnersPostPreview from './preview-templates/ExtraPartnersPostPreview'
 import PressPostPreview from './preview-templates/PressPostPreview'
 import IndexPagePreview from './preview-templates/IndexPagePreview'
+import OpenCallsPreview from './preview-templates/OpenCallsPagePreview'
 
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
@@ -22,3 +23,4 @@ CMS.registerPreviewTemplate('partners', PartnersPostPreview)
 CMS.registerPreviewTemplate('extrapartners', ExtraPartnersPostPreview)
 CMS.registerPreviewTemplate('press', PressPostPreview)
 CMS.registerPreviewTemplate('agenda', AgendaPostPreview)
+CMS.registerPreviewTemplate('opencalls', OpenCallsPreview)

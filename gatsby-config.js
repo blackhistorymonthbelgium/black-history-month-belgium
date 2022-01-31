@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Black History Month 2021',
+    title: 'Black History Month 2022',
     description:
       'Black History Month Belgium is a celebration of Sub-Saharan African culture and history in Belgium. We aim to bring our community together and share what binds us within our community and other communities',
   },

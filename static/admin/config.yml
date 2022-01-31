@@ -120,3 +120,10 @@ collections:
           - {label: "Template Key", name: "templateKey", widget: "hidden", default: "about-page"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+      - file: "src/pages/opencalls/index.md"
+        label: "Open Calls"
+        name: "opencalls"
+        fields:
+          - {label: "Template Key", name: "templateKey", widget: "hidden", default: "opencalls-page"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
