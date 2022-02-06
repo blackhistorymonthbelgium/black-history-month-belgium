@@ -23,7 +23,7 @@ Documenting the different ways Black people in Belgium have gathered together th
 
 For this open call, we are looking for 10 visual representations of this year’s BHM theme. Did you capture any images that portray ‘the power of assembly’ (by taking pictures during a ceremony, wedding, party, gathering, funeral, etc.)? Send us your image(s) where you think the (in)formal gatherings that symbolise the assembly/ies of Black people in Belgium are represented. 
 
-Submit your images by Friday 18/02 to the following email address: info@blackhistorymonth.be
+Submit your images by Friday 18/02 to the following email address: antwerp@blackhistorymonth.be
 
 Our team will reach out to the winner on Monday 21/02. 
 
