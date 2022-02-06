@@ -23,7 +23,7 @@ Samenkomen voor vriendschap, erediensten, spel, sport, leren, handel, protest, r
 
 Voor deze oproep zijn we op zoek naar 10 visuele representaties van het BHM-thema van dit jaar. Heb jij beelden gemaakt die 'the power of assembly' representeren (door foto's te maken tijdens een ceremonie, bruiloft, feest, bijeenkomst, begrafenis, etc.)? Stuur ons je beeld(en) waarbij volgens jou de (in)formele bijeenkomsten die symbool staan voor de assemblee(s) van zwarte mensen in België vertegenwoordigd zijn. 
 
-Stuur uw beelden ten laatste op vrijdag 18/02 naar het volgende e-mailadres: info@blackhistorymonth.be
+Stuur uw beelden ten laatste op vrijdag 18/02 naar het volgende e-mailadres: antwerp@blackhistorymonth.be
 
 Ons team zal op maandag 21/02 contact opnemen met de winnaars. 
 
