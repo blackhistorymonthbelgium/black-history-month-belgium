@@ -1,10 +1,10 @@
 ---
 templateKey: agenda-post
 language: fr
-title:  Black Feminist Forum: discussing the past, present and future of Black Feminism in Belgium
+title:  Black Feminist Forum discussing the past, present and future of Black Feminism in Belgium
 slug: ABlackFeministForum
 date: 2022-02-15T16:35:39.507Z
-description:  Black Feminist Forum: discussing the past, present and future of Black Feminism in Belgium
+description:  Black Feminist Forum discussing the past, present and future of Black Feminism in Belgium
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
