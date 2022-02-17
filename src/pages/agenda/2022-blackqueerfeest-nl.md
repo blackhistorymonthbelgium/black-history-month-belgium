@@ -1,6 +1,6 @@
 ---
 templateKey: agenda-post
-language: en
+language: nl
 title: BLACK QUEER FEST
 slug: blackqueerfeest
 date: 2022-02-15T16:35:39.507Z
