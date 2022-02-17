@@ -13,7 +13,7 @@ year: '2022'
 artists:
   - Beursschouwburg
   - RECOGNITION
-location: Secret
+location: Brussels
 datestart: 2022-03-16T19:30:00.000Z
 dateend: 2022-03-16T21:30:00.000Z
 fblink: /

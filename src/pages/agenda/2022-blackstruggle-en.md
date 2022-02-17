@@ -12,13 +12,13 @@ tags:
 year: '2022'
 artists:
   - BHM
-location: Secret
+location: Brussels
 datestart: 2022-03-15T19:00:00.000Z
 dateend: 2022-03-15T21:30:00.000Z
 fblink: /
 ---
 
-Location: SECRET (will be revealed to registered people by email on the day of)
+Location: TBA
 
 Time: 20:00-23:00
 
