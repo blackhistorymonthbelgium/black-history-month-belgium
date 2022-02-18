@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: fr
-title: Opening Night (Big Event)
+title: Opening Night
 slug: openingnight
 date: 2022-02-15T16:35:39.507Z
 description: Opening Night
@@ -13,11 +13,9 @@ tags:
 year: '2022'
 artists:
   - Ancienne Belgique
-
 location: Brussels
 datestart: 2022-03-02T17:00:00.000Z
 dateend: 2022-03-02T21:30:00.000Z
-fblink: https://www.facebook.com/events/787090588874730/
 ---
 FB Link : [click here](https://www.facebook.com/events/787090588874730/)
 
