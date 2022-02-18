@@ -1,7 +1,9 @@
 ---
 templateKey: agenda-post
 language: en
-title: Atelier pour Construire des Narratifs Écologiques et Décoloniaux
+title: >-
+  Écolo quoi? - Atelier pour Construire des Narratifs Écologiques et
+  Décoloniaux 
 slug: atelierpourconstruire
 date: 2022-02-15T16:35:39.507Z
 description: Écolo quoi? - Atelier pour Construire des Narratifs Écologiques et Décoloniaux
@@ -12,11 +14,9 @@ tags:
 year: '2022'
 artists:
   - BHM
-
 location: Brussels
 datestart: 2022-03-06T13:00:00.000Z
 dateend: 2022-03-06T21:30:00.000Z
-fblink: /
 ---
 
 Location: JOC Bruxelles
