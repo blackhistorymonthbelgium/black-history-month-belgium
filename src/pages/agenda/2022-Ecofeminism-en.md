@@ -1,7 +1,9 @@
 ---
 templateKey: agenda-post
 language: en
-title: An Evening on Ecofeminism and Decolonial Ecology
+title: >-
+  An Evening on Ecofeminism and Decolonial Ecology + Screening of Selina
+  Thompson's salt: dispersed
 slug: ecofeminism
 date: 2022-02-15T16:35:39.507Z
 description: Screening Selina Thompson's salt-dispersed
@@ -13,11 +15,9 @@ tags:
 year: '2022'
 artists:
   - Beursschouwburg
-
 location: Brussels
 datestart: 2022-03-03T17:30:00.000Z
 dateend: 2022-03-03T21:30:00.000Z
-fblink: /
 ---
 An Evening on Ecofeminism and Decolonial Ecology + Screening Selina Thompson's salt:dispersed
 
