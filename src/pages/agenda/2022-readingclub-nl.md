@@ -13,15 +13,13 @@ tags:
 year: '2022'
 artists:
   - Beursschouwburg
-
 location: Brussels
 datestart: 2022-03-05T13:00:00.000Z
 dateend: 2022-03-05T21:30:00.000Z
-fblink: /
 ---
 Location: Beursschouwburg
 
-Time: 14:00-16:00
+Time: 13:30-15:30
 
 Language: EN
 
