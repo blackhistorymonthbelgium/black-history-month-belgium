@@ -1,10 +1,10 @@
 ---
 templateKey: agenda-post
 language: en
-title:  Lady Blaxx Invites
+title: Lady Blaxx Invites
 slug: blaxx
 date: 2022-02-15T16:35:39.507Z
-description:  Lady Blaxx Invites
+description: Lady Blaxx Invites
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
@@ -16,11 +16,7 @@ artists:
 location: Brussels
 datestart: 2022-03-30T18:00:00.000Z
 dateend: 2022-03-30T21:30:00.000Z
-fblink: /
 ---
-
-March 30th – Lady Blaxx Invites…
-
 Location: Zinnema
 
 Time: 19:00-23:30
