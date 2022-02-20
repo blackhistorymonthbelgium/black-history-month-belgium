@@ -29,7 +29,7 @@ Tickets: FREE
 
 To stop environmental disaster, Krenak argues that we must reject the homogenizing effect of this perspective and embrace a new form of “dreaming” that allows us to regain our place within nature. In Ideas to Postpone the End of the World (2020), he shows us the way. Indigenous peoples have faced the end of the world before.
 
-Facilitator: TBC
+Facilitator: Carolina Maciel de França 
 
 Bios + Socials
 
