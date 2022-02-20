@@ -1,10 +1,14 @@
 ---
 templateKey: agenda-post
 language: nl
-title: I am Afro Greek Black Portraiture in Greece
+title: >-
+  Screening + Exhibition – I am Afro Greek: Black Portraiture in Greece -
+  Adéọlá Naomi Adérè̩mí (2022)
 slug: imafrogreek
 date: 2022-02-15T16:35:39.507Z
-description: Screening + Exhibition – I am Afro Greek Black Portraiture in Greece - Adeola Naomi Aderemi (2022)
+description: >-
+  Screening + Exhibition – I am Afro Greek Black Portraiture in Greece - Adeola
+  Naomi Aderemi (2022)
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
@@ -17,7 +21,6 @@ artists:
 location: Brussels
 datestart: 2022-03-18T17:00:00.000Z
 dateend: 2022-03-18T21:30:00.000Z
-fblink: /
 ---
 
 
