@@ -5,8 +5,9 @@ title: BHM Boekenbeurs
 slug: boekenbeursantwerp
 date: 2022-02-15T16:35:39.507Z
 description: >-
-  As part of the fifth edition of Black History Month (BHM) Belgium, this year
-  we will organize a bookfair in Antwerp
+  Dans le cadre de la cinquième édition du Black History Month (BHMB) Belgium,
+  nous organiserons cette année pour la première fois un salon du livre (11-13
+  mars 2022) axé sur la littérature Noire et les traditions orales.
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
