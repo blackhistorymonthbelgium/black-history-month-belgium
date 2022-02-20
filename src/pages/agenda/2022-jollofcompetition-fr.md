@@ -4,7 +4,9 @@ language: fr
 title: JOLLOF COMPETITION & AFRICAN GAME NIGHT
 slug: jollofcompetition
 date: 2022-02-15T16:35:39.507Z
-description: o you also think back with such warmth to the games you played while growing up? Do you remember the bonding with fellow players and the joy after victory?
+description: >-
+  Do you also think back with such warmth to the games you played while growing
+  up? Do you remember the bonding with fellow players and the joy after victory?
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
@@ -16,7 +18,6 @@ artists:
 location: Anvers
 datestart: 2022-03-15T17:00:00.000Z
 dateend: 2022-03-15T21:30:00.000Z
-fblink: /
 ---
 JOLLOF COMPETITION & AFRICAN GAME NIGHT – Tuesday 15/03
 
