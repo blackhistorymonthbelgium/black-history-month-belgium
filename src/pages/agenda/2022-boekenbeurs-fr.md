@@ -21,7 +21,7 @@ dateend: 2022-03-13T09:00:00.000Z
 ---
 Programme : FAMEUS - Zirkstraat 36, 2000 Anvers
 
-Vendredi 11 mars 2022
+**Vendredi 11 mars 2022**
 
 13h00 – Ouverture du Salon du Livre (acheter votre billet ici) avec :
 
@@ -41,7 +41,7 @@ Colour, Mitchell Esajas, Yves Kibi Puati Nelen et mod r  par Aminata Demba)
 
 20:30u – 23u Reception avec musique par DJ SAHЯA
 
-samedi 12 mars 2022
+**samedi 12 mars 2022**
 
 12h00 – Ouverture du Salon du Livre avec musique par DJ SAHЯA
 
@@ -63,7 +63,7 @@ Appiah (avec Ehi Okungbowa). La conversation est en anglais.
 
 17h00 – Cl ture de la deuxième journée
 
-dimanche 13 mars 2022
+**dimanche 13 mars 2022**
 
 10h00 – Ouverture du Salon du Livre avec musique par DJ SAHЯA
 
