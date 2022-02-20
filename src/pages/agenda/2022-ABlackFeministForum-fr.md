@@ -1,10 +1,11 @@
 ---
 templateKey: agenda-post
 language: fr
-title:  Black Feminist Forum discussing the past, present and future of Black Feminism in Belgium
+title: 'Black Feminism in Belgium: a look at the Past, Present and Future'
 slug: ABlackFeministForum
 date: 2022-02-15T16:35:39.507Z
-description:  Black Feminist Forum discussing the past, present and future of Black Feminism in Belgium
+description: |
+  Black Feminism in Belgium: a look at the Past, Present and Future
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
@@ -15,7 +16,6 @@ artists:
 location: Brussels
 datestart: 2022-03-08T19:30:00.000Z
 dateend: 2022-03-08T21:30:00.000Z
-fblink: /
 ---
 
 Event Link: [click here](https://www.abconcerts.be/nl/agenda/bhm-x-ab-talks-black-female-representation-in-the-music-industry/a105J000005Hp7jQAC)
