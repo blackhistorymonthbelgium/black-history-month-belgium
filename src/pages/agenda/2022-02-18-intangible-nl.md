@@ -12,7 +12,7 @@ tags:
 year: '2022'
 artists:
   - DE//COLONIZE Leuven deBuren
-location: Leuven
+location: Brussels
 datestart: 2022-03-16T18:30:59.539Z
 dateend: 2022-03-16T20:00:00.000Z
 ---
