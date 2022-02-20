@@ -21,7 +21,7 @@ dateend: 2022-03-13T09:00:00.000Z
 ---
 Program: FAMEUS - Zirkstraat 36, 2000 Antwerpen
 
-Friday 11 March, 2022
+**Friday 11 March, 2022**
 
 13:00u – Opening of the Book Fair (tickets available here) featuring:
 
@@ -41,7 +41,7 @@ Colour, Mitchell Esajas, Yves Kibi Puati Nelen and moderated by Aminata Demba)
 
 20:30u – 23u Reception with music by DJ SAHЯA
 
-Saturday 12 March, 2022
+**Saturday 12 March, 2022**
 
 12:00u – Opening of the Book Fair Opening with music DJ SAHЯA (tickets available here)
 
@@ -63,7 +63,7 @@ Appiah (with Ehi Okungbowa). Conversation will be in English
 
 17:00u – Close of Day 2
 
-Sunday 13 March, 2022
+**Sunday 13 March, 2022**
 
 10:00u – Opening of the Book Fair with music DJ SAHЯA (tickets available here)
 
