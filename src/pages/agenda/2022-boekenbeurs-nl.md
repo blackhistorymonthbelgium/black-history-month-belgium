@@ -19,13 +19,9 @@ location: Antwerpen
 datestart: 2022-03-11T12:00:00.000Z
 dateend: 2022-03-13T09:00:00.000Z
 ---
-BLACK HISTORY MONTH - BOOKFAIR PROGRAM 11-12-13 MARCH 2022
-
-Bookfair organisers : Jason-Louise Graham | Merryl Njimegni | Sophie Gallant
-
 Programma: FAMEUS - Zirkstraat 36, 2000 Antwerpen
 
-vrijdag 11 maart, 2022
+**vrijdag 11 maart, 2022**
 
 13:00u – Opening Boekenbeurs (tickets hier beschikbaar) met:
 
@@ -47,7 +43,7 @@ Demba)
 
 20:30u – 23u Ontvangst met muziek door DJ SAHЯA
 
-zaterdag 12 maart 2022
+**zaterdag 12 maart 2022**
 
 12:00u – Opening Boekenbeurs met muziek door DJ SAHЯA (tickets hier beschikbaar)
 
@@ -69,7 +65,7 @@ Appiah (met Ehi Okungbowa). Het gesprek verloopt in het Engels.
 
 17:00u – Sluiting van dag 2
 
-zondag 13 maart 2022
+**zondag 13 maart 2022**
 
 10:00u – Opening Boekenbeurs met muziek door DJ SAHЯA (tickets hier beschikbaar)
 
