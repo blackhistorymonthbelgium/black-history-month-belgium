@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: nl
-title: BOEKENBEURS
+title: BHM Bookfair
 slug: boekenbeursantwerp
 date: 2022-02-15T16:35:39.507Z
 description: >-
