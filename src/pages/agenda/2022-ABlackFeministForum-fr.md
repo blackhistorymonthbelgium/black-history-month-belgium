@@ -17,7 +17,6 @@ location: Brussels
 datestart: 2022-03-08T19:30:00.000Z
 dateend: 2022-03-08T21:30:00.000Z
 ---
-
 Event Link: [click here](https://www.abconcerts.be/nl/agenda/bhm-x-ab-talks-black-female-representation-in-the-music-industry/a105J000005Hp7jQAC)
 
 Location: Kaaistudio's
@@ -27,6 +26,8 @@ Time:20:00-23:00
 Language: EN
 
 Tickets: FREE
+
+CST: YES
 
 The rich and growing body of black feminist writings of the last decades constitutes a powerful reminder of the fact that Black women have long worked to challenge and dismantle the many axes of oppression such as race, gender, class and ableism. Despite being widely excluded from mainstream feminism, history shows us that Black women have successfully harnessed the power of their nuanced experiences and knowledge to advocate for women’s rights.
 
