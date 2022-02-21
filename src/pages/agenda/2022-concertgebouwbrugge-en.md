@@ -4,7 +4,9 @@ language: en
 title: BHM x Concert Gebouw
 slug: concertgebouwbrugge
 date: 2022-02-15T16:35:39.507Z
-description: Interrogating Through Photos, the Role Race Plays In driving the Black Community out of Bruges
+description: >-
+  Interrogating Through Photos, the Role Race Plays In driving the Black
+  Community out of Bruges
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
@@ -12,10 +14,9 @@ tags:
 year: '2022'
 artists:
   - Concert Gebouw
-location: Brugges
+location: Bruges
 datestart: 2022-03-13T17:30:00.000Z
 dateend: 2022-03-13T21:30:00.000Z
-fblink: /
 ---
 
 Date: 13/03/2022
