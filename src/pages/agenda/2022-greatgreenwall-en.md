@@ -16,9 +16,7 @@ artists:
 location: Antwerp
 datestart: 2022-03-06T18:00:00.000Z
 dateend: 2022-03-06T21:30:00.000Z
-fblink: /
 ---
-
 •	Location: De Cinema – Maarschalk Gerardstraat 4, 2000 Antwerpen
 
 •	Time: TBA
@@ -27,10 +25,8 @@ fblink: /
 
 •	CST: Yes
 
-•	Tickets: De Cinema – Orlando Verde [email](orlando@decinema.be)
+•	Tickets: <https://www.destudio.com/nl/project/great-green-wall>
 •	Partners: De Cinema, Green Deen vzw
-•	Contactpersoon: [BHM Antwerp](antwerp@blackhistorymonth.be)
-
 
 De Grote Groene Muur is een inspirerende beweging van nu. Dit Afrikaanse initiatief heeft als doel een nieuw wereldwonder te stimuleren over de hele breedte van het continent: over 8.000 km en voor miljoenen mensen.
 De Malinese zangeres Inna Modja reist van Senegal tot Oost-Afrika, langs de Grote Groene Muur, om de effecten van de  klimaatverandering op microniveau aan het licht te brengen. Voedselschaarste, conflicten en migratie bewijzen dat streken en volkeren in een kwalijke toestand verkeren. Tijdens haar tocht ontmoet Inna verschillende artiesten en muzikanten, die allen de maatschappelijke ontwrichting als onderwerp van hun kunst nemen. De hoop in hun muziek doet leven en uit het vertrouwen in het megalomane plan om de oprukkende Sahara terug te dringen door het aanplanten van een lange bosgordel.
