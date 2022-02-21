@@ -23,13 +23,13 @@ Program: FAMEUS - Zirkstraat 36, 2000 Antwerpen
 
 **Friday 11 March, 2022**
 
-13:00u – Opening of the Book Fair (tickets available here) featuring: 
+13:00u – Opening of the Book Fair [(tickets available here)](https://www.eventbrite.be/e/264488250477) featuring: 
 
 KifKif, Black Archives, Pepites Blues, EPO, Uitgeverij Wilde Haren, Cargo Confetti, Little Africans/Ayo Ed., De Groene Waterman (featuring titles by Uitgeverij Prometheus, Querido, Geus, Uitgeverij Pluim)  and Abantu Audio Booth 
 
 17:30u – Welcome by the Bookfair Team  
 
-18:00u – Panel : Traditions of Black storytelling (with Kopano Tiyana Matoga, Words of 
+18:00u – [Panel : Traditions of Black storytelling ](https://www.eventbrite.be/e/262149615557)(with Kopano Tiyana Matoga, Words of 
 
 Colour, Mitchell Esajas, Yves Kibi Puati Nelen and moderated by Aminata Demba)  
 
@@ -37,40 +37,36 @@ Colour, Mitchell Esajas, Yves Kibi Puati Nelen and moderated by Aminata Demba)
 
 20:30u – 23u  Reception with music by DJ SAHЯA
 
-
-
 **Saturday 12 March, 2022**  
 
-12:00u – Opening of the Book Fair Opening with music DJ SAHЯA  (tickets available here)
+12:00u – Opening of the Book Fair Opening with music DJ SAHЯA  [(tickets available here)](https://www.eventbrite.be/e/264488250477)
 
-13:00u – Workshop: How to make your own podcast (with Jade Yorks and Menji Talks)
+13:00u – Workshop: [How to make your own podcast ](https://www.eventbrite.be/e/264535441627)(with Jade Yorks and Menji Talks)
 
-14:00u – Limba Reads Book club reviews ‘Beter nooit dan laat’ by Chika Unigwe (with Will-
+14:00u – [Limba Reads Book club reviews](https://www.eventbrite.be/e/267063071837) ‘Beter nooit dan laat’ by Chika Unigwe (with Will-
 
 \    Limba Moleka). Het gesprek verloopt in het nederlands.
 
-15:00u – Workshop: How to get your book published – Q&A with publishers and self-
+15:00u – Workshop: [How to get your book published](https://www.eventbrite.be/e/264565902737) – Q&A with publishers and self-
 
 published authors (with Ebissé Wakjira-Rouw, Othi Berry, Carmel Mbenga – moderated by Jason-Louise Graham)
 
-16:00u – Mixed Remedies Book club reviews “The lies that bind” by Kwame Anthony 
+16:00u – [Mixed Remedies Book club reviews ](https://www.eventbrite.be/e/267091115717)“The lies that bind” by Kwame Anthony 
 
   Appiah (with Ehi Okungbowa). Conversation will be in English
 
 17:00u – Close of Day 2
 
-
-
 **Sunday 13 March, 2022**
 
-10:00u – Opening of the Book Fair with music DJ SAHЯA  (tickets available here)
+10:00u – Opening of the Book Fair with music DJ SAHЯA  [(tickets available here)](https://www.eventbrite.be/e/264488250477)
 
-10:30u – 11:30 - Childrens’ Hour reading and artistic reflection (led by Cargo Confetti and 
+10:30u – 11:30 - [Childrens’ Hour reading and artistic reflection ](https://www.eventbrite.be/e/264589102127)(led by Cargo Confetti and 
 
 \    Anne-Sophie Opara)
 
 13:00u – Book Reading for young adults
 
-15:00u – Poetry Reading thema “Assembly” (with Esohe Weyden, Sefora Sam (Sesa), Seckou Ouologuem, Avery Bertrand Iradukunda (Bai), moderated by Yves Kibi Puati Nelen)
+15:00u – [Poetry Reading thema “Assembly”](https://www.eventbrite.be/e/267101356347) (with Esohe Weyden, Sefora Sam (Sesa), Seckou Ouologuem, Avery Bertrand Iradukunda (Bai), moderated by Yves Kibi Puati Nelen)
 
 16u – Close of Day 3
