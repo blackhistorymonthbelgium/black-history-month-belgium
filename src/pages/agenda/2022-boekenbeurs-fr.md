@@ -29,11 +29,11 @@ KifKif, Black Archives, Pepites Blues, EPO, Uitgeverij Wilde Haren, Cargo Confet
 
 17h30 - Accueil par l'équipe du salon du livre
 
-18:00u – Panel : [Les traditions de Black storytelling](https://www.eventbrite.be/e/262149615557) (avec Kopano Tiyana Matoga, Words of 
+18:00u – Panel : [Les traditions de Black storytelling](https://www.eventbrite.be/e/262149615557) (avec Kopano Tiyana Maroga, Words of 
 
 \    Colour, Mitchell Esajas, Yves Kibi Puati Nelen et modéré par Aminata Demba)
 
-19h30 – Spoken Word et performance musicale par Caly J and Mind of Tumba
+19h30 – Spoken Word et performance musicale par Calya J and Mind of Tumba
 
 20:30u – 23u Réception avec musique par DJ SAHЯA
 
