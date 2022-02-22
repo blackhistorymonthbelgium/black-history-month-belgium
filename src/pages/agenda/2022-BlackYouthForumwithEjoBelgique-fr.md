@@ -1,8 +1,8 @@
 ---
 templateKey: agenda-post
 language: fr
-title: Black Youth Forum with Ejo Belgique
-slug: BlackYouthForumwithEjoBelgique
+title: 'Forum Jeunesse Noire et Afrodescendante, avec EJO'
+slug: 'Forum Jeunesse Noire et Afrodescendante, avec EJO'
 date: 2022-02-15T16:35:39.507Z
 description: >-
   Le mouvement de jeunesse et centre éducatif panafricain EJO collabore avec le
