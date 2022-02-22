@@ -16,8 +16,6 @@ location: Brussels
 datestart: 2022-03-22T18:00:00.000Z
 dateend: 2022-03-22T21:00:00.000Z
 ---
-March 22nd – Screening – Elder’s Corner (2021) - Siji Awoyinka
-
 Location: Centre Tour à Plomb
 
 Language: EN
