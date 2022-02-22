@@ -29,11 +29,11 @@ KifKif, Black Archives, Pepites Blues, EPO, Uitgeverij Wilde Haren, Cargo Confet
 
 17:30u – Welcome by the Bookfair Team  
 
-18:00u – [Panel : Traditions of Black storytelling ](https://www.eventbrite.be/e/262149615557)(with Kopano Tiyana Matoga, Words of 
+18:00u – [Panel : Traditions of Black storytelling ](https://www.eventbrite.be/e/262149615557)(with Kopano Tiyana Maroga, Words of 
 
 Colour, Mitchell Esajas, Yves Kibi Puati Nelen and moderated by Aminata Demba)  
 
-19:30u – Spoken Word and musical performance by Caly J and Mind of Tumba 
+19:30u – Spoken Word and musical performance by Calya J and Mind of Tumba 
 
 20:30u – 23u  Reception with music by DJ SAHЯA
 
