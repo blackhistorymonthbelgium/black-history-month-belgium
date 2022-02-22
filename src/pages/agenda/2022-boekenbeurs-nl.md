@@ -29,11 +29,11 @@ KifKif, Black Archives, Pepites Blues, EPO, Uitgeverij Wilde Haren, Cargo Confet
 
 17:30u – Welkom door Boekenbeurs Team
 
-18:00u – Panel : [Tradities van Black storytelling ](https://www.eventbrite.be/e/262149615557)(met Kopano Tiyana Matoga, Words of 
+18:00u – Panel : [Tradities van Black storytelling ](https://www.eventbrite.be/e/262149615557)(met Kopano Tiyana Maroga, Words of 
 
  Colour, Mitchell Esajas, Yves Kibi Puati Nelen en gemodereerd door Aminata  Demba)
 
-19:30u – Spoken Word en Muzikaal optreden door Caly J and Mind of Tumba
+19:30u – Spoken Word en Muzikaal optreden door Calya J and Mind of Tumba
 
 20:30u – 23u Ontvangst met muziek door DJ SAHЯA
 
