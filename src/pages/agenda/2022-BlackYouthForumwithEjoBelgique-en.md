@@ -4,7 +4,10 @@ language: en
 title: 'Forum Jeunesse Noire et Afrodescendante, avec EJO'
 slug: BlackYouthForumwithEjoBelgique
 date: 2022-02-15T16:35:39.507Z
-description: Black Youth Forum with Ejo Belgique
+description: >-
+  Le mouvement de jeunesse et centre éducatif panafricain EJO collabore avec le
+  Black History Month Belgium pour vous offrir cette après-midi pendant laquelle
+  la jeunesse Noire 
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
