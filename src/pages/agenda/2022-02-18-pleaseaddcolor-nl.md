@@ -28,8 +28,6 @@ Tickets: FREE
 
 Partners: Please Add Color, Ballon Rouge
 
-Releasing sunday 13/02 — https://www.instagram.com/p/CZmvfO8gSF3/
-
 Black History Month (BHM) is an annual celebration (during the month of March) of the resilience of the black community in the present and the past. It is an attempt to transform the way in which we represent the past and the present through conversations, exchange moments, lectures, film, debate, performances and exhibitions. Through a people's history/history from below (the past told from the perspective of everyday people instead of leaders) we strive to make history more honest/truthful and inclusive, so more about all of us, regardless of our socio-economic, ethnic or cultural backgrounds. The ultimate motivation is to demonstrate the importance of conserving and promoting cultural diversity and the right to culture for everyone in our society.
 
 Kevin Kotahunyi founded the artistic and curatorial platform PLEASE ADD COLOR in May 2019. When he entered the art industry as an artist in 2018, he discovered that only 1% of visual art students in Antwerp turned out to be black. Proper guidance for these aspiring artists was also lacking.The broader ethos is one of collaboration, accessibility, progress, and collective support. There seems to be a great need for critical thinking and understanding what perspectives and solutions this new ethos in art can breed. Kotahunyi has been appointed curator for the Black History Month Belgium exhibition in March 2022 where a selection of artists with sub-Saharan roots will merge in a group exhibition in Antwerp and Brussels.
