@@ -4,7 +4,7 @@ language: nl
 title: BLACK QUEER FEST
 slug: blackqueerfeest
 date: 2022-02-15T16:35:39.507Z
-description: Tijdens het Black Queer Fest zet BHM zwarte queers in de spotlight.
+description: Met Black Queer Fest wilt BHM de zwarte queer community in de spotlight zetten
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
@@ -15,28 +15,16 @@ artists:
 location: Antwerpen
 datestart: 2022-03-19T14:00:00.000Z
 dateend: 2022-03-19T21:30:00.000Z
-fblink: /
 ---
-BLACK QUEER FEST – Saturday 19/03
+Met Black Queer Fest wilt BHM de zwarte queer community in de spotlight zetten. De stemmen van deze community worden nog niet voldoende gehoord en door middel van events zoals deze, willen we hier verandering in brengen. Het is tijd voor een nieuw tijdperk waarin de zwarte queer community zich gezien, gesteund en vooral gevierd voelt. 
 
-•	Location: Arenberg – Arenbergstraat 28, 2000 Antwerpen
+Het programma start met een reeks activiteiten en speeddates, uitsluitend voor black queer people. Het doel is dat de participanten elkaar op een vrije en leuke manier leren kennen doorheen de namiddag. Aangezien het thema van BHM dit jaar #BHMAssembly is, sluiten we af met een gezellig diner. Hiervoor zijn er slechts 30 plaatsen beschikbaar dus snel zijn is de boodschap!
 
+Vanaf 20:00 is het Black Queer Fest dan voor iedereen toegankelijk.  De naam zegt het al zelf, het wordt een feestelijke avond waarop we de black queer community gaan vieren. Benieuwd naar de line-up? Deze bestaat uit young & upcoming black queer artiesten die hun talent met ons komen delen. Nadien is er een afterparty waar jij je beste moves kan showen. 
 
-o	15:00 – 19:00: Workshops (only for black queers)
+Wij hebben er alvast heel veel zin in! Jij ook?
 
-o	19:00 – 0:00: Black Queer Fest ( available for everyone )
-
-•	Language: NL/FR/ENG
-
-•	CST: Yes
-
-•	Tickets: [Link](https://www.arenberg.be/nl/programma/black-queer-fest/743/)
-
-Tijdens het Black Queer Fest zet BHM zwarte queers in de spotlight. We willen dat ze zich gezien en gesteund voelen.
-In de namiddag organiseren we groepsgesprekken en activiteiten, uitsluitend voor zwarte queers. Deelnemers leren elkaar op een leuke manier kennen, door verschillende activiteiten en door groepsgesprekken. De middag sluiten we af met een gezellig diner. (max 30 deelnemers)
-Het avondprogramma is toegankelijk voor iedereen. Het wordt een feest waar we de zwarte queers vieren. Door deel te nemen, laat jij hen shinen. Toon je dat je ze respecteert, dat je begrip hebt en hen steunt. Op de line-up staan spectaculaire optredens van jonge zwarte queer artiesten. Nadien? Dan kan jij je beste moves laten zien op de afterparty.
-
-Praktisch
+Praktisch:
 
 Namiddagprogramma met diner & avondprogramma: € 10
 
