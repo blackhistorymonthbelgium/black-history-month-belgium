@@ -4,7 +4,9 @@ language: en
 title: BLACK QUEER FEST
 slug: blackqueerfeest
 date: 2022-02-15T16:35:39.507Z
-description: Tijdens het Black Queer Fest zet BHM zwarte queers in de spotlight.
+description: >-
+  Met Black Queer Fest wilt BHM de zwarte queer community in de spotlight
+  zetten.
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
