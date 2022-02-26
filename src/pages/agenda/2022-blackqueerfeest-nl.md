@@ -16,6 +16,26 @@ location: Antwerpen
 datestart: 2022-03-19T14:00:00.000Z
 dateend: 2022-03-19T21:30:00.000Z
 ---
+Ticket link: [link](https://www.arenberg.be/nl/programma/black-queer-fest/743/)
+
+**Tijdschema**
+
+Namiddagprogramma
+
+**_Voorbehouden voor black queer people_**
+
+15:00 Start
+
+17:30 Diner
+
+Avondprogramma
+
+_**Toegankelijk voor iedereen**_
+
+19:00 Deuren
+
+20:00 Black Queer Fest
+
 Met Black Queer Fest wilt BHM de zwarte queer community in de spotlight zetten. De stemmen van deze community worden nog niet voldoende gehoord en door middel van events zoals deze, willen we hier verandering in brengen. Het is tijd voor een nieuw tijdperk waarin de zwarte queer community zich gezien, gesteund en vooral gevierd voelt. 
 
 Het programma start met een reeks activiteiten en speeddates, uitsluitend voor black queer people. Het doel is dat de participanten elkaar op een vrije en leuke manier leren kennen doorheen de namiddag. Aangezien het thema van BHM dit jaar #BHMAssembly is, sluiten we af met een gezellig diner. Hiervoor zijn er slechts 30 plaatsen beschikbaar dus snel zijn is de boodschap!
