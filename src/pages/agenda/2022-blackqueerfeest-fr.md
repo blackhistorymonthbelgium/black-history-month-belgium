@@ -20,11 +20,11 @@ dateend: 2022-03-19T21:30:00.000Z
 ---
 Ticket link: [link](https://www.arenberg.be/nl/programma/black-queer-fest/743/)
 
-Tijdschema
+**Tijdschema**
 
 Namiddagprogramma
 
-Voorbehouden voor black queer people
+_**Voorbehouden voor black queer people**_
 
 15:00 Start
 
@@ -32,7 +32,7 @@ Voorbehouden voor black queer people
 
 Avondprogramma
 
-Toegankelijk voor iedereen
+_**Toegankelijk voor iedereen**_
 
 19:00 Deuren
 
