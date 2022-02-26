@@ -15,7 +15,7 @@ artists:
   - Rhythmic Mobility
 location: Antwerp
 datestart: 2022-03-05T13:00:00.000Z
-dateend: 2022-03-05T21:30:00.000Z
+dateend: 2022-03-05T21:00:00.000Z
 ---
 •	Location: CORSO - Driekoningenstraat 126, 2600 Antwerpen
 
