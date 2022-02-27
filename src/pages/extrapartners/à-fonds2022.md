@@ -1,7 +1,6 @@
 ---
 templateKey: extrapartners-post
-title: Zinnema
-link: 'https://www.zinnema.be/'
+title: À Fonds
+link: 'https://www.afonds.be/'
 yearPartner: 2022
 ---
-
