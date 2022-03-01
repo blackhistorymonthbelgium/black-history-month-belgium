@@ -4,7 +4,7 @@ language: en
 title: BHM Book Fair
 slug: bookfair
 date: 2022-02-15T16:35:39.507Z
-description: March 26th & 27th – BHM Book Fair
+description: BHM Book Fair
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
