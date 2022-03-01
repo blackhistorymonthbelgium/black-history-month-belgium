@@ -17,13 +17,11 @@ location: Brussels
 datestart: 2022-03-02T17:00:00.000Z
 dateend: 2022-03-02T21:30:00.000Z
 ---
-
 FB Link [click here](https://www.facebook.com/events/787090588874730/)
-
 
 Location: Ancienne Belgique
 
-Time: 18:00-03:00
+Time: 18:00-23:00
 
 Language: EN
 
