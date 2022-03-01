@@ -8,7 +8,7 @@ description: Deze laatste Masculinities Nocturne sluiten we feestelijk
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
-  - tallk
+  - talk
 year: '2022'
 artists:
   - FOMU
