@@ -14,7 +14,7 @@ artists:
   - Miranda Aerts
 location: Antwerpen
 datestart: 2022-03-14T18:30:00.000Z
-dateend: 2022-03-28T21:30:00.000Z
+dateend: 2022-03-28T19:00:00.000Z
 ---
 * Organization: Cier Community - Miranda Ntirandekura 
 
