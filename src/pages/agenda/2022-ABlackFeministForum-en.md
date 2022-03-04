@@ -12,7 +12,7 @@ tags:
   - Forum
 year: '2022'
 artists:
-  - Kaaitheater
+  - Kaaitheather
 location: Brussels
 datestart: 2022-03-08T19:00:00.000Z
 dateend: 2022-03-08T22:00:00.000Z
@@ -25,7 +25,7 @@ Time:20:00-23:00
 
 Language: EN
 
-Tickets: FREE
+Tickets: [FREE](https://www.kaaitheater.be/nl/agenda/black-feminism-in-belgium)
 
 CST: YES
 
