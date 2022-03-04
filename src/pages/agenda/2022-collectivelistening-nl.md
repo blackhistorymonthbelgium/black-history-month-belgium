@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: nl
-title: Collective Listening Session
+title: 'Collective Listening Session: Innocent (2020) w/ Amelia Umuhire'
 slug: collectivelistening
 date: 2022-02-15T16:35:39.507Z
 description: Collective Listening Session Innocent (2020) with Amelia Umuhire
@@ -12,11 +12,9 @@ tags:
 year: '2022'
 artists:
   - Beursschouwburg
-
 location: Brussels
 datestart: 2022-03-05T15:00:00.000Z
 dateend: 2022-03-05T21:30:00.000Z
-fblink: /
 ---
 Collective Listening Session: Innocent (2020) w/ Amelia Umuhire
 
