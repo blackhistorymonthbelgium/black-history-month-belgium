@@ -25,7 +25,7 @@ Time:20:00-23:00
 
 Language: EN
 
-Tickets: FREE
+Tickets: [FREE](https://www.kaaitheater.be/nl/agenda/black-feminism-in-belgium)
 
 CST: YES
 
