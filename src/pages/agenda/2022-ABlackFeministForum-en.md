@@ -17,8 +17,6 @@ location: Brussels
 datestart: 2022-03-08T19:00:00.000Z
 dateend: 2022-03-08T22:00:00.000Z
 ---
-Event Link: [click here](https://www.abconcerts.be/nl/agenda/bhm-x-ab-talks-black-female-representation-in-the-music-industry/a105J000005Hp7jQAC)
-
 Location: Kaaistudio's
 
 Time:20:00-23:00
