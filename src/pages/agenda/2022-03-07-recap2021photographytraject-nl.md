@@ -37,8 +37,6 @@ Cheikh Niang - antwerp@blackhistorymonth.be / cheikh-niang@outlook.com
 
 Eyram Amavi - antwerp@blackhistorymonth.be / kossi.amavi@hotmail.com 
 
-
-
 In 2021 namen Chloe, Joyce, Shalom en Maïté deel aan onze allereerste fotografie traject dat wij op poten hebben gezet in samenwerking met het Red Star Line Museum en Sint-Lucas Hogeschool. 
 
 ![](/img/picture-1.png)
