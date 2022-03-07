@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: en
-title: NNEKA
+title: NNEKA - POSTPONED
 slug: nneka
 date: 2022-02-15T16:35:39.507Z
 description: Nneka
@@ -15,7 +15,6 @@ artists:
 location: Antwerp
 datestart: 2022-03-29T19:00:00.000Z
 dateend: 2022-03-29T21:30:00.000Z
-fblink: /
 ---
 NNEKA – Tuesday 29/03
 
