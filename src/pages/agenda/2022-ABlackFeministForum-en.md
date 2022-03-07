@@ -17,6 +17,8 @@ location: Brussels
 datestart: 2022-03-08T19:00:00.000Z
 dateend: 2022-03-08T22:00:00.000Z
 ---
+Facebook event: https://www.facebook.com/events/378352116999559
+
 Location: Kaaistudio's
 
 Time:20:00-23:00
