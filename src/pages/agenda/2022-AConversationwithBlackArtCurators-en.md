@@ -16,7 +16,7 @@ location: Brussels
 datestart: 2022-03-10T18:00:00.000Z
 dateend: 2022-03-10T21:00:00.000Z
 ---
-Location: FACE B
+Location: FACE B : Lebeaustraat 18, 1000 Brussel
 
 Language: EN/FR
 
