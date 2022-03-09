@@ -1,12 +1,11 @@
 ---
 templateKey: agenda-post
 language: fr
-title: 'AYO OPEN MIC '
-slug: 'AYO OPEN MIC '
+title: AYO OPEN MIC
+slug: AYOOPENMIC
 date: 2022-03-07T20:56:51.004Z
-description: >-
-  Black history month has started and what is a better way to start this month
-  with an AYO open mic. 
+description: Black history month has started and what is a better way to start this month
+  with an AYO open mic.
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
@@ -26,7 +25,7 @@ dateend: 2022-03-30T19:00:00.000Z
 
 •	Partners: AYO
 
-•	Contactpersoon : antwerp@blackhistorymonth.be / kossi.amavi@hotmail.com 
+•	Contactpersoon : antwerp@blackhistorymonth.be / kossi.amavi@hotmail.com
 
 Black history month has started and what is a better way to start this month with an AYO open mic. A night that will bring us together through poetry, spoken word, dance and music. This is a safe space where participants are encouraged to express themselves.
 
