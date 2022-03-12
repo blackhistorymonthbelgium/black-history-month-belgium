@@ -17,7 +17,7 @@ artists:
   - BHM
 location: Antwerp
 datestart: 2022-03-11T12:00:00.000Z
-dateend: 2022-03-13T17:00:00.000Z
+dateend: 2022-03-13T15:00:00.000Z
 ---
 Program: FAMEUS - Zirkstraat 36, 2000 Antwerpen 
 
