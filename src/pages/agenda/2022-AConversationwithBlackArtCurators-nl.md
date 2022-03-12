@@ -47,3 +47,17 @@ Marie Gomis-Trezise
 Whether nurturing new musicians or launching the career of a promising visual artist, Marie Gomis-Trezise is best described as a serial scout of the best and brightest talent around. The groundbreaking creative director first made waves in the music industry as France’s first Black A&R in a major company. In developing her artists’ sound and image she fell in love with photography – that was the acorn from which GALERIE NUMBER 8 grew. Bringing together a new wave of photographers, predominantly from the African diaspora and global south, GALERIE NUMBER 8 champions artists with an unflinching gaze – those creatives whose work seeks to dismantle cultural barriers and sexual constructs. Since its launch in 2016, the gallery’s impact on popular culture has been immeasurable. It was one of the first space to exhibit the now-acclaimed photographer Campbell Addy, Justin French’s work with Ib Kamara and she has represented highly sought after names including David Uzochukwu, Djeneba Aduayom and Mous Lamrabat. The Brussels-based online gallery has also made a name for itself presenting innovative exhibitions across the globe, with shows at AKAA art fair, Unseen, Les Rencontres D’Arles, Dak’art Off Biennale and 1-54 London to mention just a few. Marie’s impact can be felt further afield through her creative directorship at Nataal, the global media brand spotlighting contemporary African fashion, music art and culture.
 
 https://www.instagram.com/mariegtee/
+
+Eric Cyuzuzo
+
+\=== Eric Cyuzuzo ===
+
+Eric Cyuzuzo is a sociocultural worker involved in various Brussels-based platforms that seek to foreground the stories of Black People at their intersecting identities. He is also part of the leading team of the Brussels chapter of Black History Month Belgium.
+
+https://www.instagram.com/ericcyuzuzo/
+
+Bo Meng
+
+Bo Meng is a Brussels based DJ that started with a passion for afrobeat and hip hop music. Since then, she has added afrohouse, house and a bit of electro to her range. But one thing has definitely remained the same : she prefers to spin tracks by artists of black descent. After playing at several venues and festivals in Brussels such as Beursschouwburg, BRUZZ, Maison du Peuple, VK, Kiosk Radio, Kunstenfestivaldesarts and Decoratelier to name a few, she will gladly come to you to make you discover her bouncy repertoire.
+
+https://www.instagram.com/meng.the.bo/
