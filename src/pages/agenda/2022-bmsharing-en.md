@@ -29,12 +29,12 @@ How is success defined in our communities and broader society for Black men? Is 
 
 These are questions that the co-founders of the platforms Black Men Sharing and Men Talk Too, all Black(-descendant) men, will discuss during a taping of a crossover episode of their respective podcasts. The live audience will be invited to reflect along, as a communal assembly, and to contribute to this redefinition and shifting of what success means for Black men.
 
-Bios+Socials
-
-Black Men Sharing
+Black Men Sharing is a reflection platform creating a space which allows Black men to share openly about psychosocial topics through discussions. Their B.M.S TALK SHOW (video) podcast is a tool to openly entertain an interactive conversation, putting a deep focus on Black men’s experience.
 
 https://www.instagram.com/blackmensharing/
 
-Men Talk Too
+https://www.youtube.com/channel/UCYfg3THYRvyKTSSForbuSaA
+
+Men Talk Too is a podcast that debunks the stereotype that men only talk about shallow topics and don't have meaningful conversations. This stereotype is false and misleading. We need to talk about serious topics more in our society and break away from the social construct men have been placed in. Men, indeed, talk too. The co-hosts behind this podcast are Johnbosco Onyema and Nico Hillé, who discuss topics with good vibes and energy in an attempt to create a safe space to talk about anything.
 
 https://www.instagram.com/men_talk_too/
