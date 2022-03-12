@@ -16,7 +16,7 @@ year: '2022'
 artists:
   - BHM
 location: Anvers
-datestart: 2022-03-11T12:00:00.000Z
+datestart: 2022-03-12T12:00:00.000Z
 dateend: 2022-03-13T15:00:00.000Z
 ---
 Programme : FAMEUS - Zirkstraat 36, 2000 Anvers
