@@ -21,7 +21,6 @@ dateend: 2022-03-17T21:30:00.000Z
 Location: Muntpunt - Munt 6, 1000 Brussel
 Time: 20:00-23:00
 Language: EN/FR
-CST: Yes
 Tickets: FREE (with registration)
 Partners: Black Men Sharing, Men Talk Too, Muntpunt
 
