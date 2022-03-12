@@ -18,7 +18,7 @@ location: Brussels
 datestart: 2022-03-17T19:00:00.000Z
 dateend: 2022-03-17T21:30:00.000Z
 ---
-Location: Muntpunt
+Location: Muntpunt - Munt 6, 1000 Brussel
 Time: 20:00-23:00
 Language: EN/FR
 CST: Yes
@@ -26,8 +26,6 @@ Tickets: FREE (with registration)
 Partners: Black Men Sharing, Men Talk Too, Muntpunt
 
 How is success defined in our communities and broader society for Black men? Is there a pressure to hustle and provide? Is there a pressure to excel, and what does that Black Male Excellence look like? How do that pressure affect the mental health of Black men? Where and how can we create space for self-indulgence, rest and joy? Is there a generational and diasporic shift in the way these things are perceived? What role does community play in these shifts and this healing process?
-
-
 
 These are questions that the co-founders of the platforms Black Men Sharing and Men Talk Too, all Black(-descendant) men, will discuss during a taping of a crossover episode of their respective podcasts. The live audience will be invited to reflect along, as a communal assembly, and to contribute to this redefinition and shifting of what success means for Black men.
 
