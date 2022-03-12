@@ -24,7 +24,9 @@ CST: No
 
 Tickets: FREE
 
-A Conversation with Black Visual Art Curators during which they will discuss their careers, backgrounds, strategies and values, as well as the place they give to Black-descendant artists in their practice and their relationship to the diaspora and the container in their practice.
+A Conversation with Black Visual Art Curators during which they will discuss their careers, backgrounds, strategies and values, as well as the place they give to Black-descendant artists in their practice and their relationship to the diaspora and the continent in their practice.
+
+The talk will be moderated by Eric Cyuzuzo, and followed by a DJ set by BO MENG.
 
 Sorana Munsya 
 
