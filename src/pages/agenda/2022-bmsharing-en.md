@@ -18,7 +18,7 @@ location: Brussels
 datestart: 2022-03-17T19:00:00.000Z
 dateend: 2022-03-17T21:30:00.000Z
 ---
-Location: Muntpunt
+Location: Muntpunt - Munt 6, 1000 Brussel
 Time: 20:00-23:00
 Language: EN/FR
 CST: Yes
