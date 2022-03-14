@@ -22,7 +22,7 @@ Time: 20:30-23:00
 
 Language: EN
 
-CST: Yes
+Ticket: [link](https://beursschouwburg.be/en/events/recognition_march22/)
 
 Partners: RECOGNITION
 
