@@ -21,7 +21,7 @@ dateend: 2022-03-17T21:30:00.000Z
 Location: Muntpunt - Munt 6, 1000 Brussel
 Time: 20:00-23:00
 Language: EN/FR
-Tickets: FREE (with registration)
+Tickets: FREE 
 Partners: Black Men Sharing, Men Talk Too, Muntpunt
 
 How is success defined in our communities and broader society for Black men? Is there a pressure to hustle and provide? Is there a pressure to excel, and what does that Black Male Excellence look like? How do that pressure affect the mental health of Black men? Where and how can we create space for self-indulgence, rest and joy? Is there a generational and diasporic shift in the way these things are perceived? What role does community play in these shifts and this healing process?
