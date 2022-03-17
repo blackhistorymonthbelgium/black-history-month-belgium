@@ -42,11 +42,13 @@ https://www.instagram.com/customs.n.borders/
 
 https://www.instagram.com/respekmeteieren/
 
-Marie Gomis-Trezise
+Rose-Myrtha Fortuna
 
-Whether nurturing new musicians or launching the career of a promising visual artist, Marie Gomis-Trezise is best described as a serial scout of the best and brightest talent around. The groundbreaking creative director first made waves in the music industry as France’s first Black A&R in a major company. In developing her artists’ sound and image she fell in love with photography – that was the acorn from which GALERIE NUMBER 8 grew. Bringing together a new wave of photographers, predominantly from the African diaspora and global south, GALERIE NUMBER 8 champions artists with an unflinching gaze – those creatives whose work seeks to dismantle cultural barriers and sexual constructs. Since its launch in 2016, the gallery’s impact on popular culture has been immeasurable. It was one of the first space to exhibit the now-acclaimed photographer Campbell Addy, Justin French’s work with Ib Kamara and she has represented highly sought after names including David Uzochukwu, Djeneba Aduayom and Mous Lamrabat. The Brussels-based online gallery has also made a name for itself presenting innovative exhibitions across the globe, with shows at AKAA art fair, Unseen, Les Rencontres D’Arles, Dak’art Off Biennale and 1-54 London to mention just a few. Marie’s impact can be felt further afield through her creative directorship at Nataal, the global media brand spotlighting contemporary African fashion, music art and culture.
+The name Rose-Myrtha is a conjunction of the words Rosacae and Myrthacae. Both the Rosacae and Myrthacae are the names of plant families consisting of herbs, shrubs, and trees, with powerful healing qualities, but more so they are known for their beauty. The collision of these two words conjured the essence, the soul and the spirit of Rose-Myrtha. A powerful being with healing qualities, passionate by aesthetic pleasure. A passion which she transfigures in her work as an art curator, healer and plantwoman. At 18 years old she founded her own non-profit organization 'Kuchukua Hatua vzw'. With Kuchukua Hatua vzw she aims to generate, boost and bundle inner strengths to transform them into sustainable development within our societies. With Kuchukua Hatua she has organized and curated the ‘African contemporary art exhibitioin’ in 2016. The ‘Sankofa’ art exhibition in 2017. The ‘Healing through art‘ exhibition in 2019 and the ‘Honor&Respect – the de-objectification of Black femininity’ art exhibition in 2021. In Kuchukua Hatua latest expo Rose-Myrtha debuted as a visual artist for the very first time.
 
-https://www.instagram.com/mariegtee/
+https://www.instagram.com/artcuratorrrosemyrtha/
+
+https://www.instagram.com/kuchukua.hatua/
 
 Eric Cyuzuzo
 
