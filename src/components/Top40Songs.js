@@ -7,12 +7,11 @@ class Top40Songs extends React.Component {
       <section className="sponsors">
         <div className="sponsors-wrapper">
           <div className="bePartner">
-            <h1>BHM Book Fair</h1>
+            <h1>Black Assembly</h1>
             <div className="top40Songs">
-              As part of the fifth edition of Black History Month (BHM) Belgium, this year we will organize a bookfair in Antwerp (11-13 March 2022) focusing on black literature and oral traditions.
-              <span className="top40Songstext">#BHM #BHMBoekenbeurs</span>
+              Na het succesvolle event Archiving While Black in 2021 is Black History Month terug in Kunsthal Gent met de community-curated tentoonstelling Black Assembly.
             </div>
-            <a className="emailPartner" href="https://blackhistorymonth.be/agenda/boekenbeursantwerp">
+            <a className="emailPartner" href="https://blackhistorymonth.be/agenda/assembly">
               Details
             </a>
           </div>

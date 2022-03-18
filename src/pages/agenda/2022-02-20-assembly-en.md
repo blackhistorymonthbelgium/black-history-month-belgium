@@ -4,7 +4,10 @@ language: en
 title: Black Assembly
 slug: assembly
 date: 2022-02-20T21:35:06.173Z
-description: ' Black History Month Gent is inviting you to a two week exhibition on the power of assembly curated in collaboration with you, our community. Come be in communion with us and share your own experiences of assembly via stories, photos, and/or mementos.'
+description: >-
+  Na het succesvolle event Archiving While Black in 2021 is Black History Month
+  terug in Kunsthal Gent met de community-curated tentoonstelling Black
+  Assembly.
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
@@ -13,8 +16,8 @@ year: '2022'
 artists:
   - Kunsthal
 location: Ghent
-datestart: 2022-03-18T18:00:06.213Z
-dateend: 2022-04-02T19:00:00.000Z
+datestart: 2022-03-18T10:00:32.012Z
+dateend: 2022-04-10T16:00:00.000Z
 ---
 Location: Lange Steenstraat 14
 
