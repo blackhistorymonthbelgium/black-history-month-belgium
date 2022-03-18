@@ -20,6 +20,10 @@ Location: Lange Steenstraat 14
 
 Partners: Kunsthal
 
+**Opening: 18th march 2022 - 20:00-22:00**
+
+**Date: 18/03-20/03, 25/03-27/03, 01/04-03/04 & 8/04-10/04**
+
 REFUGE
 
 Na het succesvolle event Archiving While Black in 2021 is Black History Month terug in Kunsthal Gent met de community-curated tentoonstelling Black Assembly.
