@@ -13,7 +13,7 @@ year: '2022'
 artists:
   - Centre Tour à Plomb
 location: Brussels
-datestart: 2022-03-22T18:00:00.000Z
+datestart: 2022-03-22T17:30:00.000Z
 dateend: 2022-03-22T21:00:00.000Z
 ---
 Location: Centre Tour à Plomb
