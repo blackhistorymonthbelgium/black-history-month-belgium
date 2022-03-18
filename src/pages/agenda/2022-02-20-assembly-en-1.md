@@ -1,6 +1,6 @@
 ---
 templateKey: agenda-post
-language: en
+language: nl
 title: Black Assembly
 slug: assembly
 date: 2022-02-20T21:44:53.337Z
