@@ -13,8 +13,8 @@ year: '2022'
 artists:
   - Kunsthal
 location: Gent
-datestart: 2022-03-18T18:00:06.213Z
-dateend: 2022-04-02T19:00:00.000Z
+datestart: 2022-03-18T10:00:06.213Z
+dateend: 2022-04-10T16:00:00.000Z
 ---
 Location: Lange Steenstraat 14
 
