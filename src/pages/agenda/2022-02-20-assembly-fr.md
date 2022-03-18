@@ -12,7 +12,7 @@ tags:
 year: '2022'
 artists:
   - Kunsthal
-location: Gent
+location: Gand
 datestart: 2022-03-18T18:00:32.012Z
 dateend: 2022-04-02T19:00:00.000Z
 ---
