@@ -1,6 +1,6 @@
 ---
 templateKey: agenda-post
-language: nl
+language: fr
 title: ' Les Santés Mentales des Afros - Kilimandjaro Saint-Louis x BHM Belgium'
 slug: ' LesSantésMentalesdesAfros'
 date: 2022-03-21T20:18:19.396Z
