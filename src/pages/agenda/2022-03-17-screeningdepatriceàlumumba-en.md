@@ -20,7 +20,7 @@ dateend: 2022-03-20T21:30:00.000Z
 ---
 Location: Opek Leuven, Vaartkom 4, 3000 Leuven
 
-Time: 20:00-22:30
+Time: 20:00-21:30
 
 Language: FR (with EN and NL subtitles in EN)
 
