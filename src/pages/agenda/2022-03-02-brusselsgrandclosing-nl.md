@@ -14,15 +14,25 @@ year: '2022'
 artists:
   - Beursschouwburg
 location: Brussels
-datestart: 2022-03-31T16:30:18.100Z
-dateend: 2022-03-31T21:30:00.000Z
+datestart: 2022-03-31T16:00:18.100Z
+dateend: 2022-04-01T01:00:00.000Z
 ---
 Location: Beursschouwburg
 
-Time: 18:30-23:30
+Time: 18:00-03:00
 
-CST: Yes
+Language: EN/NL/FR
 
-Tickets: TBA
+Tickets: FREE admission
 
 Partners: Beursschouwburg
+
+Kom met ons mee naar de viering van de officiële afsluiting van de Brusselse activiteiten van Black History Month Belgium 2022 – #BHMAssembly. Wees erbij voor de epische afsluiting van een maand vol met meer dan 30 evenementen in de hoofdstad alleen.
+
+Onszelf vieren is een politieke daad en belangrijk om onze pijn los te laten. Kom samen met anderen in een veilige(re) en trotse ruimte en neem een moment om te genieten van en interactief te zijn met muziek en dansvoorstellingen die ons inspireren om te genezen en vreugdevol te zijn, eten dat onze ziel voedt, en de dansvloer van een afterparty die Blackness in zijn geheel verheerlijkt.
+
+GRATIS TOEGANG
+
+Dress code: zoals altijd, kleed je zoals je van jezelf houdt.
+
+𝗕𝗘𝗟𝗔𝗡𝗚𝗥𝗜𝗝𝗞: de ruimte is beperkt, daarom moeten mensen er rekening mee houden dat BHM Belgium een viering van Blackness en zwarte gemeenschappen is, en van wie ze een plek zouden kunnen afnemen door ervoor te kiezen deze ruimte te komen bezetten.
