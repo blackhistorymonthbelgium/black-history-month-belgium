@@ -33,17 +33,27 @@ This Book Fair will be a unique opportunity to dive into the expansive and diver
 
 FREE Admission
 
+𝐏𝐚𝐧𝐞𝐥 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐚𝐭𝐢𝐨𝐧
+
+\- 11:00-12:30: Black Women in the Belgian Literature Sector (in FR)
+
+\- Moderator: Celestina Jorge Vindes (Pépite Blues)
+
+\- Guest speakers: Médiatrice Mujawamariya (Little Africans/ Ayo Editions), Emilie Kasongo (Empaj Editions), Christelle Pandanzyla (Le Monde de Jahi)
+
+
+
 𝐌𝐞𝐞𝐭 𝐓𝐡𝐞 𝐀𝐮𝐭𝐡𝐨𝐫:
 
-• Marie Dasylva - Survivre au Taf (2022, FR) – in conversation (FR) with Sarah Diedro Jordão
+• 13:00-14:00: Milouska Meulens - Elin (2021, NL) – in conversation (NL) with Anne-Sophie Opara
 
-• Milouska Meulens - Elin (2021, NL) – in conversation (NL) with TBC
+• 14:30-15:30: Moussa Don Pandzou & Lieven Miguel Kandolo - Yaya Na Leki (2021, BE) – in conversation (NL) with TBC
 
-• Amzat Boukari-Yabara - L'Empire qui ne veut pas mourir, Une histoire de la Françafrique (2021, FR) – in conversation (FR) with TBC
+• 16:00-17:30: Dr. Pierre Mbuyamba Wakujoja - Impossible Trajectoire de Vie, Le Racisme N’existe Pas? Je L’ai Rencontré. (2022, BE) & Dr. Paul Bosuma W'Okungu Bakili - Je M’en Souviens (2020, BE) – in conversation (FR) with François Makanga
 
-• Moussa Don Pandzou & Lieven Miguel Kandolo - Yaya Na Leki (2021, BE) – in conversation (NL) with TBC
+• 18:00-19:00: Marie Dasylva - Survivre au Taf (2022, FR) – in conversation (FR) with Sarah Diedro Jordão
 
-• Dr. Pierre Mbuyamba Wakujoja - Impossible Trajectoire de Vie, Le Racisme N’existe Pas? Je L’ai Rencontré. (2022, BE) & Dr. Paul Bosuma W'Okungu Bakili - Je M’en Souviens (2020, BE) – in conversation (FR) with François Makanga
+• 19:30-20:30: Amzat Boukari-Yabara - L'Empire qui ne veut pas mourir, Une histoire de la Françafrique (2021, FR) – in conversation (FR) with Egide Izere
 
 𝐏𝐮𝐛𝐥𝐢𝐬𝐡𝐞𝐫𝐬 & 𝐁𝐨𝐨𝐤𝐬𝐭𝐨𝐫𝐞𝐬
 
@@ -52,11 +62,3 @@ FREE Admission
 • Le Monde de Jahi (BE)
 
 • Little Africans/Ayo Editions (BE)
-
-𝐏𝐚𝐧𝐞𝐥 𝐂𝐨𝐧𝐯𝐞𝐫𝐬𝐚𝐭𝐢𝐨𝐧
-
-Black Women in the Belgian Literature Sector (in FR)
-
-\- Moderator: Celestina Jorge Vindes (Pépite Blues)
-
-\- Guest speakers: Médiatrice Mujawamariya (Little Africans/ Ayo Editions), Emilie Kasongo (Empaj Editions), Christelle Pandanzyla (Le Monde de Jahi)
