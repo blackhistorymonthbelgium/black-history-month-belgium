@@ -15,7 +15,7 @@ artists:
   - Pépite Blues
 location: Brussels
 datestart: 2022-03-26T09:30:00.000Z
-dateend: 2022-03-26T21:00:00.000Z
+dateend: 2022-03-26T20:00:00.000Z
 ---
 Location: Muntpunt
 
