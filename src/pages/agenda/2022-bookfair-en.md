@@ -19,7 +19,7 @@ dateend: 2022-03-26T20:00:00.000Z
 ---
 Location: Muntpunt
 
-Time: 10:30-19:00
+Time: 10:30-21:00
 
 Language: EN/FR/NL
 
