@@ -1,11 +1,13 @@
 ---
 templateKey: agenda-post
 language: fr
-title: IKRAAAN and David Numwami - Are We Urban - Culture Crossing x Black History
+title: >-
+  IKRAAAN and David Numwami - Are We Urban - Culture Crossing x Black History
   Month Belgium
 slug: AreWeUrban
 date: 2022-03-07T21:18:34.730Z
-description: Cultuurcentrum Brugge, Black History Month en Culture Crossing slaan de handen
+description: >-
+  Cultuurcentrum Brugge, Black History Month en Culture Crossing slaan de handen
   in elkaar voor het event Are We Urban
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
@@ -20,9 +22,7 @@ dateend: 2022-03-28T10:00:00.000Z
 ---
 Tickets: [here](https://www.ccbrugge.be/agenda/2564/Culture_Crossing_Are_We_Urban)
 
-Location: Vlamingstraat 29, 8000 Brugge, België
-
-
+Location: **Biekorf Theaterzaal - Sint-Jakobsstraat 8, 8000 Brugge**
 
 Cultuurcentrum Brugge, Black History Month en Culture Crossing slaan de handen in elkaar voor het event ‘Are We Urban?’.
 
