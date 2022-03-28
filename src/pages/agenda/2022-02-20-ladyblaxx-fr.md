@@ -1,12 +1,12 @@
 ---
 templateKey: agenda-post
 language: fr
-title: 'Gent: Lady Blaxx Invites'
+title: Gent - Lady Blaxx Invites
 slug: ladyblaxx
 date: 2022-02-20T21:14:05.637Z
 description: >-
   Music adds vibrancy to communities, strengthens the sense of belonging and
-  connection while boosting overall emotional health 
+  connection while boosting overall emotional health
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:

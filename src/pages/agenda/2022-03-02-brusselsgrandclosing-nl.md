@@ -4,8 +4,7 @@ language: nl
 title: Brussels Grand Closing
 slug: BrusselsGrandClosing
 date: 2022-03-01T23:22:17.067Z
-description: |
-  Brussels Grand Closing
+description: Brussels Grand Closing
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:

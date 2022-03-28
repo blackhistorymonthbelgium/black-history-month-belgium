@@ -2,7 +2,7 @@
 templateKey: agenda-post
 language: en
 title: Screening - De Patrice à Lumumba - Afrika FilmFestival x BHM Belgium
-slug: ScreeningDePatriceàLumumba
+slug: ScreeningDePatriceaLumumba
 date: 2022-03-17T02:43:59.229Z
 description: >-
   Black History Month Belgium and Afrika FilmFestival Leuven invite you to a

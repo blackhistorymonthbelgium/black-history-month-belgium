@@ -1,12 +1,12 @@
 ---
 templateKey: agenda-post
-language: nl
-title: ' Les Santés Mentales des Afros - Kilimandjaro Saint-Louis x BHM Belgium'
-slug: ' LesSantésMentalesdesAfros'
+language: en
+title: Les Santés Mentales des Afros - Kilimandjaro Saint-Louis x BHM Belgium
+slug: LesSantesMentalesdesAfros
 date: 2022-03-21T20:18:19.396Z
 description: >-
   Il y a deux ans, le Black History Month Belgium devait explorer "Les Racines
-  de Notre Santé". 
+  de Notre Santé".
 featuredpost: true
 featuredimage: /img/templateevent.jpeg
 tags:
@@ -15,7 +15,7 @@ year: '2022'
 artists:
   - Kilimandjaro Saint-Louis
 location: Brussels
-datestart: 2022-03-28T18:00:56.409Z
+datestart: 2022-03-28T18:00:45.781Z
 dateend: 2022-03-28T20:30:00.000Z
 ---
 Location:  Capital vzw – Boulevard d’Anvers 40
