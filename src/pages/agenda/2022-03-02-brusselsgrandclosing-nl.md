@@ -35,3 +35,35 @@ GRATIS TOEGANG
 Dress code: zoals altijd, kleed je zoals je van jezelf houdt.
 
 𝗕𝗘𝗟𝗔𝗡𝗚𝗥𝗜𝗝𝗞: de ruimte is beperkt, daarom moeten mensen er rekening mee houden dat BHM Belgium een viering van Blackness en zwarte gemeenschappen is, en van wie ze een plek zouden kunnen afnemen door ervoor te kiezen deze ruimte te komen bezetten.
+
+
+
+☀️️ 𝐂𝐨𝐧𝐜𝐞𝐫𝐭𝐬
+
+LIVE ARTISTS
+
+\- MAHINA
+
+\- nanaKILL
+
+\- Suka Ntima
+
+\- KreepThaGod x Juggboi Fleur
+
+☀️ 𝐀𝐟𝐭𝐞𝐫-𝐩𝐚𝐫𝐭𝐲 (𝐫𝐨𝐨𝐟𝐭𝐨𝐩 𝐬𝐩𝐚𝐜𝐞)
+
+DJ's
+
+\- K4
+
+\- NDUNGU
+
+\- Bo Meng
+
+\- Saidou
+
+☀️ 𝐇𝐨𝐬𝐭: BHM BE Brussels Team
+
+☀️ 𝐅𝐨𝐨𝐝 by Sherry's Kitchen
+
+☀️ 𝐃𝐞𝐬𝐬𝐞𝐫𝐭 by Angel's Kitchen
