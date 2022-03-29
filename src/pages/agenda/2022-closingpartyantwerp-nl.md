@@ -15,11 +15,8 @@ artists:
 location: Antwerpen
 datestart: 2022-04-01T19:00:00.000Z
 dateend: 2022-04-01T21:30:00.000Z
-fblink: /
 ---
-CLOSING PARTY ANTWERP  - Friday 01/04
-
-•	Location: Kavka Oudaan – Oudaan 14, 2000 Antwerpen
+Location: Kavka Oudaan – Oudaan 14, 2000 Antwerpen
 
 •	Time: 20:00 – 0:00
 
@@ -27,8 +24,22 @@ CLOSING PARTY ANTWERP  - Friday 01/04
 
 •	CST: Yes
 
-•	Tickets: Via Eventbrite (TBA)
+•	Tickets: [link](https://www.eventbrite.be/e/bhm-x-alaiz-closing-party-tracksuit-party-tickets-306283270507)
 
 •	Partners: ALAIZ
 
-Let’s finish the month in style!
+In the spirit of yet another successful Black History Month, we’re assembling for the very last time in Kavka Oudaan for the BHM closing party.
+
+To celebrate 5 years of Black History Month, BHM is partnering up with Alaiz to organise the fifth edition of TRACKSUIT PARTY.
+
+Leave your levi jeans at home and come with your best tracksuit, hoodie, joggers…
+
+Be ready to dance!
+
+DJ’s
+
+⭐️JIEM
+
+⭐️DJ SAHЯA
+
+⭐️DJ OHMAK
