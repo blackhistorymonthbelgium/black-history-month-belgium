@@ -22,7 +22,7 @@ Time: 18:00-03:00
 
 Language: EN/NL/FR
 
-Tickets: FREE with admission
+Tickets: FREE admission
 
 Come and join us for the celebration of the official closing of Brussels activities of Black History Month Belgium 2022 – #BHMAssembly. Be there for the epic closer of a month full of more than 30 events in the capital city alone.
 
