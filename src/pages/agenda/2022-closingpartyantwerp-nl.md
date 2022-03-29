@@ -13,8 +13,8 @@ year: '2022'
 artists:
   - ALAIZ
 location: Antwerpen
-datestart: 2022-04-01T19:00:00.000Z
-dateend: 2022-04-01T21:30:00.000Z
+datestart: 2022-04-01T18:00:00.000Z
+dateend: 2022-03-31T22:00:00.000Z
 ---
 Location: Kavka Oudaan – Oudaan 14, 2000 Antwerpen
 
