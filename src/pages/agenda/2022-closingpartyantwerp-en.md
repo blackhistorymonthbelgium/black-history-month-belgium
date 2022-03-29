@@ -16,8 +16,6 @@ location: Antwerp
 datestart: 2022-04-01T18:00:00.000Z
 dateend: 2022-03-31T22:00:00.000Z
 ---
-CLOSING PARTY ANTWERP  - Friday 01/04
-
 •	Location: Kavka Oudaan – Oudaan 14, 2000 Antwerpen
 
 •	Time: 20:00 – 0:00
