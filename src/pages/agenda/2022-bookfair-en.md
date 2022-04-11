@@ -1,7 +1,7 @@
 ---
 templateKey: agenda-post
 language: en
-title: BHM Bru•x•ss•el•le•s Book Fair / Foire Littéraire / Boekenbeurs
+title: BHM Book Fair / Foire Littéraire / Boekenbeurs
 slug: bookfair
 date: 2022-02-15T16:35:39.507Z
 description: BHM Book Fair
