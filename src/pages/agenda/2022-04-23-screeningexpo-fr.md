@@ -16,7 +16,7 @@ artists:
   - Rainbow Nation Brussels
 location: Brussels
 datestart: 2022-04-23T17:30:25.891Z
-dateend: 2022-04-23T22:00:00.000Z
+dateend: 2022-04-23T17:30:25.891Z
 ---
 April 23rd – Screening + Exhibition – Black and Queer, Trans  in Belgium and The Netherlands
 
