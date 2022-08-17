@@ -14,7 +14,7 @@ author: BHMB
 tags:
   - public statement
 ---
-Subject: sexual misconduct 
+**Subject: sexual misconduct** 
 
 One of the most important tenants of Black History Month Belgium is to create and hold space for Black people in Belgium. Celebrating the resilience of Black communities and building upon existing networks in order to fortify said communities. Through the dedication and hard work of our volunteers we have been able to reach many of you across various cities. So much so, that you have trusted us with your experiences, came to our events, shared yourselves with us and each other, supported the work we do in infinite ways, and dreamt out loud with us on future editions. You created community with us, made the theoretical practical and taught us so much in the process. A blessing for which we are infinitely grateful. It is for this reason that we would like to share an important message. 
 
